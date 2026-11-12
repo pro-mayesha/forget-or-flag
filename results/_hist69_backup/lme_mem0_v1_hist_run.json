@@ -1,0 +1,19 @@
+{
+ "build_usage": {
+  "input_tokens": 20202147,
+  "output_tokens": 5482829,
+  "calls": 4974
+ },
+ "read": {
+  "input_tokens": 140821,
+  "output_tokens": 23435,
+  "calls": 112,
+  "refusals": 0
+ },
+ "judge": {
+  "input_tokens": 42316,
+  "output_tokens": 1264,
+  "calls": 106,
+  "refusals": 0
+ }
+}

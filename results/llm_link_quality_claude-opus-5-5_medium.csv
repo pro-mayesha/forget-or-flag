@@ -1,0 +1,13 @@
+detector,precision,recall,f1,n_pred,n_gold,kind
+heuristic@0.80,1.0,0.4117647058823529,0.5833333333333334,8.0,17.0,
+llm:claude-opus-5-5_medium,1.0,1.0,1.0,20.0,17.0,
+heuristic@0.80,,1.0,,,,chain
+heuristic@0.80,,0.0,,,,correction
+heuristic@0.80,,0.0,,,,implicit
+heuristic@0.80,,0.5,,,,policy_update
+heuristic@0.80,,0.0,,,,reversal
+llm:claude-opus-5-5_medium,,1.0,,,,chain
+llm:claude-opus-5-5_medium,,1.0,,,,correction
+llm:claude-opus-5-5_medium,,1.0,,,,implicit
+llm:claude-opus-5-5_medium,,1.0,,,,policy_update
+llm:claude-opus-5-5_medium,,1.0,,,,reversal

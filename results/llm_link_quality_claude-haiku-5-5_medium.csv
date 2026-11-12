@@ -1,0 +1,15 @@
+detector,precision,recall,f1,n_pred,n_gold,kind
+heuristic@0.80,1.0,0.2860696517412935,0.4448742746615087,326.0,804.0,
+llm:claude-haiku-5-5_medium,0.9944444444444445,0.9987562189054726,0.9965956679701583,900.0,804.0,
+heuristic@0.80,,0.64,,,,chain
+heuristic@0.80,,0.0,,,,correction
+heuristic@0.80,,0.4380952380952381,,,,deadline_shift
+heuristic@0.80,,0.0,,,,implicit
+heuristic@0.80,,0.4628099173553719,,,,policy_update
+heuristic@0.80,,0.0,,,,reversal
+llm:claude-haiku-5-5_medium,,0.995,,,,chain
+llm:claude-haiku-5-5_medium,,1.0,,,,correction
+llm:claude-haiku-5-5_medium,,1.0,,,,deadline_shift
+llm:claude-haiku-5-5_medium,,1.0,,,,implicit
+llm:claude-haiku-5-5_medium,,1.0,,,,policy_update
+llm:claude-haiku-5-5_medium,,1.0,,,,reversal

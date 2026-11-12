@@ -1,0 +1,157 @@
+question_id,abstention,condition,budget,context_tokens,answer,correct
+6a1eabeb,False,mem0_v1,300,295,Your personal best time in the charity 5K run was 25:50.,True
+6a1eabeb,False,mem0_v1,1000,622,Your personal best time in the charity 5K run is 25:50.,True
+6aeb4375,False,mem0_v1,300,298,You have tried four different Korean restaurants in your city.,True
+6aeb4375,False,mem0_v1,1000,599,You've tried four different Korean restaurants in your city.,True
+830ce83f,False,mem0_v1,300,297,"According to your memory, your friend Rachel recently moved back to the suburbs, and you plan to visit her in Chicago. The memory doesn't name the specific suburb, so I don't know exactly where she lives.",True
+830ce83f,False,mem0_v1,1000,625,"According to memory, your friend Rachel recently moved back to the suburbs, but it doesn't say where she moved to specifically. You plan to visit her in Chicago and ask her which neighborhood she lives in.",True
+852ce960,False,mem0_v1,300,300,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True
+852ce960,False,mem0_v1,1000,733,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True
+945e3d21,False,mem0_v1,300,298,"You attend yoga classes three times a week, which helps you relax and focus and feels grounding on anxious days.",True
+945e3d21,False,mem0_v1,1000,672,"You attend yoga classes three times a week, which helps you relax and focus and feels grounding on anxious days.",True
+d7c942c3,False,mem0_v1,300,299,"No, your mom still uses a paper grocery list, while you use a grocery list app that you downloaded recently and that is shared with her.",False
+d7c942c3,False,mem0_v1,1000,751,"No, your mom still uses a paper grocery list, while you use a grocery list app that you downloaded recently and find helpful. You have been encouraging her to switch to the app.",False
+71315a70,False,mem0_v1,300,298,You have spent 10-12 hours on your abstract ocean sculpture so far.,True
+71315a70,False,mem0_v1,1000,605,"You have spent 10-12 hours on your abstract ocean sculpture, according to your most recent memory.",True
+89941a93,False,mem0_v1,300,297,"You currently own four bikes: a road bike, a mountain bike used for trail rides, a commuter bike used for daily commutes, and a recently purchased hybrid bike.",True
+89941a93,False,mem0_v1,1000,622,"You currently own four bikes: a road bike, a mountain bike used for trail rides, a commuter bike used for daily commutes, and a recently purchased hybrid bike.",True
+ce6d2d27,False,mem0_v1,300,298,You take your cocktail-making class on Fridays.,True
+ce6d2d27,False,mem0_v1,1000,619,You take a cocktail-making class on Fridays.,True
+9ea5eabc,False,mem0_v1,300,298,"Your most recent family trip was to Paris, which you took with your family last month and which the kids loved. Before that, you took a family trip to Hawaii.",True
+9ea5eabc,False,mem0_v1,1000,625,"Your most recent family trip was to Paris, which you took with your family last month, and your kids loved it.",True
+07741c44,False,mem0_v1,300,299,"You initially keep your old sneakers under the bed, where they are starting to smell.",True
+07741c44,False,mem0_v1,1000,633,"You initially keep your old sneakers under the bed, where they have started to smell.",True
+a1eacc2a,False,mem0_v1,300,295,"According to your memory, you have completed 7 short stories since you started writing.",True
+a1eacc2a,False,mem0_v1,1000,635,"According to your memory, you have completed 7 short stories since you started writing.",True
+184da446,False,mem0_v1,300,300,"You are on page 220 of 'A Short History of Nearly Everything', according to your memory, so you have read about 220 pages so far.",True
+184da446,False,mem0_v1,1000,742,"You are on page 220 of 'A Short History of Nearly Everything', according to your most recent update in memory.",True
+031748ae,False,mem0_v1,300,300,"The memory says you lead a team of 5 engineers, and it does not mention any change in that number, so you currently lead 5 engineers; it doesn't record how many you led when you started as Senior Software Engineer, so I don't know that figure.",False
+031748ae,False,mem0_v1,1000,625,"The memory doesn't mention starting a new role as Senior Software Engineer, so I don't know how many engineers you led then. The only team size recorded is that you lead a team of 5 engineers, which is the most recent figure I have for how many you lead now.",False
+4d6b87c8,False,mem0_v1,300,300,"Your to-watch list currently has 25 titles, though you've mentioned wanting to add more, such as Amistad, Hotel Rwanda, The OA, Victoria, and The Last Kingdom, so the count may be higher now. The memory doesn't record an exact updated total.",True
+4d6b87c8,False,mem0_v1,1000,694,"Your to-watch list currently has 25 titles, though you've mentioned planning to add several more since then (such as The OA, Amistad, Hotel Rwanda, and The Good Place), so the count may be higher now, but the memory doesn't record an updated total.",True
+0f05491a,False,mem0_v1,300,300,"Based on your memory, you believe 120 stars are needed to reach Gold level on the Starbucks Rewards app, though I don't have a confirmed official figure to verify that.",True
+0f05491a,False,mem0_v1,1000,698,"Based on your memory, you believe 120 stars are needed to reach Gold level on the Starbucks Rewards app, though I don't have confirmed information from Starbucks itself to verify that figure.",True
+08e075c7,False,mem0_v1,300,298,You have been using your Fitbit Charge 3 for 9 months.,True
+08e075c7,False,mem0_v1,1000,608,You have been using your Fitbit Charge 3 for 9 months.,True
+f9e8c073,False,mem0_v1,300,299,"You attended five sessions of the bereavement support group last year, which helped you process your emotions.",True
+f9e8c073,False,mem0_v1,1000,745,You attended five sessions of the bereavement support group last year.,True
+41698283,False,mem0_v1,300,297,"Your most recent lens purchase in memory is a new Canon EF lens, but the memory doesn't specify its focal length or type. The most recently described lens type you bought is a 50mm prime lens, which you said has been working out great.",False
+41698283,False,mem0_v1,1000,737,"Your most recently mentioned lens purchase is the Canon EF 70-200mm f/2.8L IS III USM, a telephoto zoom lens that you use for portrait and general photography. Before that, you had bought a 50mm prime lens.",True
+2698e78f,False,mem0_v1,300,300,"You see Dr. Smith once a week, for therapy sessions focused on setting boundaries.",True
+2698e78f,False,mem0_v1,1000,663,"You see Dr. Smith every week for therapy sessions, which focus on setting boundaries.",True
+b6019101,False,mem0_v1,300,295,"You watched 5 MCU films in the last 3 months, out of 12 films total.",True
+b6019101,False,mem0_v1,1000,683,"You watched 5 MCU films in the last 3 months, out of 12 films total.",True
+45dc21b6,False,mem0_v1,300,299,"You have tried three of Emma's recipes from her YouTube channel, and you found them amazing.",True
+45dc21b6,False,mem0_v1,1000,689,"You have tried three of Emma's recipes from her YouTube channel, and you found them amazing.",True
+5a4f22c0,False,mem0_v1,300,300,"Rachel, the old colleague from your previous company, is currently working at TechCorp.",True
+5a4f22c0,False,mem0_v1,1000,741,"Rachel, an old colleague from your previous company, is currently working at TechCorp.",True
+6071bd76,False,mem0_v1,300,299,"Your memory doesn't show you changing the ratio. The only recorded ratio for your French press is 1 tablespoon of coffee to 5 ounces of water, so I don't know whether you switched to more or less water per tablespoon.",False
+6071bd76,False,mem0_v1,1000,554,"My memory doesn't show a change: the only French press ratio I have on record is 1 tablespoon of coffee to 5 ounces of water, with no earlier ratio to compare it against, so I don't know whether you switched to more or less water.",False
+e493bb7c,False,mem0_v1,300,300,"The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above your bed, since you moved it there.",True
+e493bb7c,False,mem0_v1,1000,627,The painting 'Ethereal Dreams' by Emma Taylor was most recently moved above the user's bed.,False
+618f13b2,False,mem0_v1,300,300,You have worn your new black Converse Chuck Taylor All Star sneakers four times.,False
+618f13b2,False,mem0_v1,1000,748,You have worn your new black Converse Chuck Taylor All Star sneakers four times.,False
+72e3ee87,False,mem0_v1,300,299,"You have completed 50 episodes of Crash Course's Science series, according to your memory.",True
+72e3ee87,False,mem0_v1,1000,630,You have completed 50 episodes of Crash Course's Science series.,True
+c4ea545c,False,mem0_v1,300,297,"The memory doesn't say how often you went to the gym before, so I can't tell whether you're going more frequently now. It only states that you currently work out four times a week and have been consistent with that routine.",False
+c4ea545c,False,mem0_v1,1000,624,"I don't know for certain. Your memory says you work out at the gym four times a week and have been consistent with it, but it doesn't record how often you went before, so I can't compare.",False
+01493427,False,mem0_v1,300,297,You have added 25 new postcards to your collection since you restarted collecting.,True
+01493427,False,mem0_v1,1000,769,You have added 25 new postcards to your collection since you restarted collecting.,True
+6a27ffc2,False,mem0_v1,300,298,"You have completed 30 videos of Corey Schafer's Python programming series, according to your memory.",True
+6a27ffc2,False,mem0_v1,1000,606,You have completed 30 videos of Corey Schafer's Python programming series so far.,True
+2133c1b5,False,mem0_v1,300,298,"According to your memory, you have been living in your studio apartment in Harajuku, Tokyo for 3 months.",True
+2133c1b5,False,mem0_v1,1000,696,"You have been living in your studio apartment in Harajuku, Tokyo for 3 months.",True
+18bc8abd,False,mem0_v1,300,300,"You're currently using Kansas City Masterpiece, which is your favorite BBQ sauce and is what you've been putting on your ribs, though you've said you're open to trying other options.",True
+18bc8abd,False,mem0_v1,1000,603,"You are currently into Kansas City Masterpiece, your favorite BBQ sauce, which you've been using on ribs. You're also open to trying other BBQ sauce options.",True
+db467c8c,False,mem0_v1,300,300,Your parents have been staying with you in the US for the past nine months.,True
+db467c8c,False,mem0_v1,1000,630,Your parents have been living with you in the US for the past nine months.,True
+7a87bd0c,False,mem0_v1,300,299,"You've been sticking to your daily tidying routine for 4 weeks, and you feel proud of keeping it up.",True
+7a87bd0c,False,mem0_v1,1000,697,"You've been sticking to your daily tidying routine for 4 weeks, and you said you feel proud of keeping it up.",True
+e61a7584,False,mem0_v1,300,298,"You've had Luna for about 9 months, according to your memory.",True
+e61a7584,False,mem0_v1,1000,642,You've had Luna for about 9 months.,True
+1cea1afa,False,mem0_v1,300,297,"You currently have 600 Instagram followers, according to your most recent memory of your follower count.",True
+1cea1afa,False,mem0_v1,1000,715,"You currently have 600 Instagram followers, according to your memory, and you want to maintain that momentum.",True
+ed4ddc30,False,mem0_v1,300,295,You currently have about 20 dozen fresh eggs from the coop stocked in the fridge.,True
+ed4ddc30,False,mem0_v1,1000,666,You currently have about 20 dozen fresh eggs from the coop stocked in the fridge.,True
+8fb83627,False,mem0_v1,300,298,You have finished five issues of National Geographic so far.,True
+8fb83627,False,mem0_v1,1000,667,You have finished five issues of National Geographic so far.,True
+b01defab,False,mem0_v1,300,299,"Yes, according to your memory, you recently finished reading ""The Nightingale"" by Kristin Hannah and found it amazing.",True
+b01defab,False,mem0_v1,1000,627,"Yes, you recently finished reading ""The Nightingale"" by Kristin Hannah and found it amazing.",True
+22d2cb42,False,mem0_v1,300,297,"You got your guitar serviced at Rhythm Central on Main St, which you found really good with guitar maintenance.",True
+22d2cb42,False,mem0_v1,1000,692,"You got your guitar serviced at Rhythm Central on Main St, which you found really good for guitar maintenance.",False
+0e4e4c46,False,mem0_v1,300,298,"Your current highest score in Ticket to Ride is 132 points, which is the most recent score you mentioned.",True
+0e4e4c46,False,mem0_v1,1000,681,Your current highest score in Ticket to Ride is 132 points.,True
+4b24c848,False,mem0_v1,300,298,"Based on your memory, you already have five tops from H&M, though the memory doesn't say whether you've bought all of them as separate purchases, so that's the count I can confirm.",True
+4b24c848,False,mem0_v1,1000,659,"You already have five tops from H&M, according to your memory, and you're thinking of buying a few more this weekend.",True
+7e974930,False,mem0_v1,300,300,You earned $420 at the Downtown Farmers Market on your most recent visit.,True
+7e974930,False,mem0_v1,1000,753,You earned $420 at the Downtown Farmers Market on your most recent visit.,True
+603deb26,False,mem0_v1,300,300,You have made a Negroni at home 10 times since Emma taught you how to make it.,True
+603deb26,False,mem0_v1,1000,645,You have made a Negroni at home 10 times since Emma taught you how to make it.,True
+59524333,False,mem0_v1,300,299,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True
+59524333,False,mem0_v1,1000,640,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True
+5831f84d,False,mem0_v1,300,297,"You have watched 15 Crash Course videos in the past few weeks, including one on computer science.",True
+5831f84d,False,mem0_v1,1000,626,"You have watched 15 Crash Course videos in the past few weeks, including one on computer science.",True
+eace081b,False,mem0_v1,300,299,"You're planning to stay on Oahu for your birthday trip to Hawaii in October, and you also mentioned interest in visiting Kauai.",True
+eace081b,False,mem0_v1,1000,605,"The memory says you are planning to stay on Oahu for your birthday trip to Hawaii, though it doesn't mention a specific hotel or accommodation.",True
+affe2881,False,mem0_v1,300,300,"You have spotted 32 different bird species in your local park, according to your memory.",True
+affe2881,False,mem0_v1,1000,601,"You have spotted 32 different bird species in your local park, according to your memory.",True
+50635ada,False,mem0_v1,300,297,"The memory does not state a previous United Airlines frequent flyer status before your current Premier Gold status, so I don't know what it was.",False
+50635ada,False,mem0_v1,1000,677,"I don't know. Your memory mentions that you have reached Premier Gold status with United Airlines and that you want to reach Premier Platinum, but it doesn't record any earlier frequent flyer status before Premier Gold.",False
+e66b632c,False,mem0_v1,300,299,"Your memory doesn't include a previous personal best for the charity 5K. The only time recorded is your most recent personal best of 26 minutes and 30 seconds, so I don't know what your earlier best was.",False
+e66b632c,False,mem0_v1,1000,708,"The memory only records one personal best for the charity 5K run, which is 26 minutes and 30 seconds, so I don't know of a previous personal best time.",False
+0ddfec37,False,mem0_v1,300,295,"I don't know. My memory shows you have 35 autographed baseballs now and started collecting them three months ago, but it doesn't say how many you added during that first three months.",False
+0ddfec37,False,mem0_v1,1000,688,"The memory doesn't say how many autographed baseballs were added during the first three months of collecting; it only states that you have 35 autographed baseballs in your collection now, and that you started collecting them three months ago.",False
+f685340e,False,mem0_v1,300,296,"Previously you played tennis with friends at the local park every other week, and your current memory still says every other week, since no later change was recorded; you also planned to play this Sunday.",False
+f685340e,False,mem0_v1,1000,615,"Previously you played tennis with friends at the local park every other week, and you now plan to play this Sunday, so your current routine appears to be the same schedule, though the memory doesn't specify a change in frequency beyond that plan.",False
+cc5ded98,False,mem0_v1,300,297,You dedicate about two hours each day to coding exercises.,True
+cc5ded98,False,mem0_v1,1000,678,You dedicate about two hours each day to coding exercises.,True
+dfde3500,False,mem0_v1,300,299,"You met with Juan on Wednesday evenings, according to your memory of his weekly sessions. Your memory doesn't say when those sessions ended, so I can't confirm he's your previous tutor.",True
+dfde3500,False,mem0_v1,1000,629,"You met with Juan on Wednesday evenings, according to your memory. Your memory doesn't say when you stopped meeting with him, though it mentions a newer language exchange session with a tutor named Maria on Thursdays.",True
+69fee5aa,False,mem0_v1,300,299,You have a collection of 37 pre-1920 American coins.,False
+69fee5aa,False,mem0_v1,1000,706,You have 37 pre-1920 American coins in your collection.,False
+7401057b,False,mem0_v1,300,300,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True
+7401057b,False,mem0_v1,1000,642,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True
+cf22b7bf,False,mem0_v1,300,297,"You have lost about 10 pounds since you started going to the gym consistently about 3 months ago, including about 5 pounds in the past month.",True
+cf22b7bf,False,mem0_v1,1000,656,"You have lost about 10 pounds over the past 3 months since starting regular gym visits, including about 5 pounds in the past month.",True
+a2f3aa27,False,mem0_v1,300,295,"You have a follower count close to 1300 on Instagram, according to your most recent memory.",False
+a2f3aa27,False,mem0_v1,1000,713,"You have a follower count close to 1300 on Instagram, according to your memory; I don't have a more precise or more recent figure than that.",False
+c7dc5443,False,mem0_v1,300,300,"Your volleyball team, the Net Ninjas, currently has a 5-2 record in the recreational volleyball league.",True
+c7dc5443,False,mem0_v1,1000,725,"Your current record in the recreational volleyball league is 5-2, as your team, the Net Ninjas, has won five games and lost two.",True
+06db6396,False,mem0_v1,300,300,You have completed 5 projects since starting painting classes.,True
+06db6396,False,mem0_v1,1000,639,You have completed 5 projects since starting painting classes.,True
+3ba21379,False,mem0_v1,300,298,"You are currently working on a Ford F-150 pickup truck model, a 1/25 scale model, since you just finished a previous model and switched to it.",True
+3ba21379,False,mem0_v1,1000,645,You are currently working on a 1/25 scale Ford F-150 pickup truck model.,True
+9bbe84a2,False,mem0_v1,300,297,My memory doesn't show a previous Apex Legends level goal or any update to one. The only level goal I have on record is a long-term goal of reaching level 150.,False
+9bbe84a2,False,mem0_v1,1000,675,"The memory doesn't show a previous Apex Legends level goal being updated; it only records a long-term goal of reaching level 150 in Apex Legends, so I don't know of an earlier goal.",False
+10e09553,False,mem0_v1,300,298,"You caught 7 largemouth bass with Alex on the earlier trip to Lake Michigan on 7/10, before the 9-bass trip on 7/22.",True
+10e09553,False,mem0_v1,1000,744,"You caught 7 largemouth bass with Alex on the earlier Lake Michigan trip on 7/10, before the 7/22 trip when you caught 9.",True
+dad224aa,False,mem0_v1,300,300,"You usually wake up at 7:30 am on Saturdays, according to your most recently stated habit, and you like to have a cup of coffee before going out.",True
+dad224aa,False,mem0_v1,1000,652,"You most recently said you wake up at 7:30 am on Saturdays, though you've also noted a desired weekend wake-up time of 8:00 am and that you like sleeping in a bit later on weekends.",True
+ba61f0b9,False,mem0_v1,300,298,"Your former manager Rachel leads a team of 10 people, 6 of whom are women.",True
+ba61f0b9,False,mem0_v1,1000,706,"Rachel's team has 10 people, and 6 of them are women.",True
+42ec0761,False,mem0_v1,300,299,"Yes, you have a spare screwdriver from organizing the computer desk, though you had misplaced the small screwdriver used for opening the laptop and planned to buy a new one.",True
+42ec0761,False,mem0_v1,1000,641,"Yes, you have a spare screwdriver from organizing the computer desk, though you previously misplaced the small screwdriver used for opening the laptop and planned to buy a new one.",True
+5c40ec5b,False,mem0_v1,300,297,"You have met up with Alex from Germany twice before, according to your memory.",True
+5c40ec5b,False,mem0_v1,1000,683,You have met up with Alex from Germany twice before.,True
+c6853660,False,mem0_v1,300,300,"You most recently increased your morning coffee limit, to two cups.",True
+c6853660,False,mem0_v1,1000,578,"You most recently increased your morning coffee limit, to two cups.",True
+26bdc477,False,mem0_v1,300,298,"You have taken your Canon EOS 80D camera on five trips, according to your most recent memory on that point.",True
+26bdc477,False,mem0_v1,1000,697,"You have taken your Canon EOS 80D on five trips, according to the most recent information in your memory. Earlier you mentioned three trips each to Yellowstone, Yosemite, and the Grand Canyon, but the later statement of five trips is the current one.",True
+0977f2af,False,mem0_v1,300,299,"Before the Air Fryer, you got a new Instant Pot, which you want to use for soups and stews.",True
+0977f2af,False,mem0_v1,1000,662,"You got a new Instant Pot before the Air Fryer, which you received yesterday.",True
+6aeb4375_abs,True,mem0_v1,300,298,"The memory doesn't mention any Italian restaurants you've tried in your city, so I don't know.",True
+6aeb4375_abs,True,mem0_v1,1000,660,I don't know. Your memory doesn't mention any Italian restaurants you've tried in your city; it only notes four Korean restaurants you've recently visited.,True
+031748ae_abs,True,mem0_v1,300,298,You lead a team of five engineers in your new role as Software Engineer Manager.,False
+031748ae_abs,True,mem0_v1,1000,622,"You lead a team of five engineers, and that is the current information in your memory, though it does not say you became a Software Engineer Manager; your memory lists you as a Senior Software Engineer in your new role.",False
+2698e78f_abs,True,mem0_v1,300,300,"I don't know. Your memory mentions regular sessions with Dr. Smith (weekly), but there is no record of Dr. Johnson.",True
+2698e78f_abs,True,mem0_v1,1000,630,"I don't know. Your memory mentions weekly sessions with Dr. Smith, but nothing about Dr. Johnson.",True
+2133c1b5_abs,True,mem0_v1,300,296,The memory doesn't say you live in Shinjuku; it states that you live in a studio apartment in Harajuku and have been there for 3 months.,True
+2133c1b5_abs,True,mem0_v1,1000,727,"The memory says you live in a studio apartment in Harajuku, not Shinjuku, and that you have been there for 3 months. I don't have any record of a Shinjuku apartment.",True
+0ddfec37_abs,True,mem0_v1,300,300,"The memory doesn't mention any autographed footballs; it only says you started collecting autographed baseballs three months ago and have 20 in your collection, so I don't know how many footballs you've added.",True
+0ddfec37_abs,True,mem0_v1,1000,640,"I don't know. My memory doesn't mention any autographed footballs. It only says you started collecting autographed baseballs three months ago and now have 20 of them, and it doesn't give a breakdown of how many were added in the first three months.",True
+f685340e_abs,True,mem0_v1,300,300,The memory doesn't mention table tennis. It says you play tennis with friends at the local park every other week.,True
+f685340e_abs,True,mem0_v1,1000,589,The memory doesn't mention table tennis; it says you play tennis with friends at the local park every other week.,True
+89941a94,False,mem0_v1,300,298,"I don't have any record of a gravel bike in your memory, so I can't confirm when you bought one. Your memory does show you owned a road bike and a hybrid bike in addition to your mountain and commuter bikes, though the hybrid was recently purchased.",True
+89941a94,False,mem0_v1,1000,621,"My memory doesn't mention a gravel bike at all. It lists four bikes you own: a road bike, a mountain bike, a commuter bike, and a hybrid bike (recently purchased), so besides the mountain and commuter bikes you have a road bike and a hybrid bike.",True
+07741c45,False,mem0_v1,300,300,"Your old sneakers are currently stored under the bed, though you've mentioned planning to store them in a shoe rack since they take up space.",False
+07741c45,False,mem0_v1,1000,683,"You currently keep your old sneakers under the bed, though you've also mentioned planning to store them in a shoe rack because they take up space.",False

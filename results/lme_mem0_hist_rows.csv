@@ -1,0 +1,133 @@
+question_id,abstention,condition,budget,context_tokens,answer,correct
+07741c44,False,mem0,300,294,"You initially keep your old sneakers under your bed, where they have been stored and are starting to smell.",True
+07741c44,False,mem0,1000,996,"You initially keep your old sneakers under your bed, where they have been kept for storage and are starting to smell.",True
+031748ae,False,mem0,300,294,"When you first started your new role as Senior Software Engineer, you led a team of 4 engineers. Your most recent memory says you now lead a team of 5 engineers, though the 4-engineer figure was the clarified count from November 4, 2026, so you may want to confirm the current number.",True
+031748ae,False,mem0,1000,997,"When you first started your new role, you mentioned leading a team of five engineers, but you later corrected that to 4 engineers, which is the current number you lead. I don't have any record of the team changing beyond that correction.",False
+5a4f22c0,False,mem0,300,292,"Rachel, your former colleague from your previous company, currently works at TechCorp, according to the most recent memory.",True
+5a4f22c0,False,mem0,1000,989,"Rachel, your old colleague from your previous company, now works at TechCorp.",True
+c4ea545c,False,mem0,300,283,"Yes, you now go to the gym four times a week, up from the earlier Tuesday, Thursday, and Saturday schedule of three times a week (which itself corrected an earlier assumed Monday, Wednesday, and Friday schedule).",True
+c4ea545c,False,mem0,1000,978,"Yes, the most recent memory says you now go to the gym four times a week, a correction to your earlier Tuesday, Thursday, and Saturday schedule, which had you going three times a week.",True
+50635ada,False,mem0,300,295,"Your previous United MileagePlus status was Premier Silver, which you became eligible for after reaching 20,000 miles around November 4, 2026, before reaching Premier Gold on the same date.",True
+50635ada,False,mem0,1000,984,"Your previous United MileagePlus status was Premier Silver, which you reached around November 4, 2026, before advancing to your current Premier Gold status as of that same date.",False
+e66b632c,False,mem0,300,281,"Your previous personal best time for the charity 5K run was 27 minutes and 45 seconds, which you beat with your later finish of 26 minutes 30 seconds.",True
+e66b632c,False,mem0,1000,994,"Your previous personal best time for the charity 5K run was 27 minutes and 45 seconds, which you later beat with a time of 26 minutes 30 seconds.",True
+0ddfec37,False,mem0,300,285,"You had 15 autographed baseballs in your collection when you received the signed Mike Trout ball around late October 2026, which was about three months after you started collecting.",True
+0ddfec37,False,mem0,1000,998,"According to your memory, the Mike Trout ball you received in late October 2026 was your 15th autographed baseball, collected over about the first three months. You later mentioned having 20 in total over the past few months, but that doesn't specify the first three months.",True
+f685340e,False,mem0,300,294,"Previously you played tennis with friends at the local park weekly, but as of November 4, 2026, you play every other week.",True
+f685340e,False,mem0,1000,976,"Previously, you played tennis with friends at the local park weekly, but as of November 4, 2026, you play every other week.",True
+dfde3500,False,mem0,300,297,"You met with your previous language exchange tutor Juan on Wednesday evenings, according to your memory. Your later sessions were with Maria, on Thursdays.",True
+dfde3500,False,mem0,1000,992,"You met with Juan on Wednesday evenings, as your language exchange class with him was held every Wednesday.",True
+9bbe84a2,False,mem0,300,300,"Your previous Apex Legends goal was to reach level 100 before the end of 2026. You later updated it to aiming for level 150, though you still prioritize having fun.",True
+9bbe84a2,False,mem0,1000,986,Your previous Apex Legends goal was to reach level 100 before the end of 2026. You later said you still aim to eventually reach level 150.,True
+10e09553,False,mem0,300,291,"You caught 7 largemouth bass with Alex on the earlier Lake Michigan trip on July 10, 2026, before the 9-bass trip on July 22.",True
+10e09553,False,mem0,1000,994,"You caught 7 largemouth bass with Alex on the earlier fishing trip to Lake Michigan, on July 10, 2026, before the 9-bass trip on July 22.",True
+0977f2af,False,mem0,300,298,"You invested in a new Instant Pot before getting the Air Fryer on November 3, 2026. Your memory doesn't give an exact date for the Instant Pot, but it is recorded earlier than the Air Fryer.",True
+0977f2af,False,mem0,1000,995,"You invested in a new Instant Pot before getting the Air Fryer on November 3, 2026. Your memory doesn't give an exact purchase date for the Instant Pot, so this is based on when it was mentioned.",True
+89941a94,False,mem0,300,300,"My memory doesn't mention a gravel bike. Before buying the recently purchased hybrid bike, you had a road bike in addition to your mountain bike and commuter bike, so if you meant the hybrid, the answer is yes, a road bike.",True
+89941a94,False,mem0,1000,987,"My memory doesn't mention a gravel bike at all. It does show that before the hybrid bike purchase you owned three bikes: a road bike, a mountain bike, and a commuter bike, so yes, you had a road bike in addition to the mountain and commuter bikes.",True
+6a1eabeb_hist,False,mem0,300,299,"Your personal best in the charity 5K before the one you later said you hoped to beat was 27:12, which you set around early November 2026. That later target was to beat your 25:50 personal best.",True
+6a1eabeb_hist,False,mem0,1000,990,"Based on my memory, your personal best before the 5K you later said you were hoping to beat was 27:12, set in a charity 5K around early November 2026. Your later goal was to beat a personal best of 25:50, which conflicts with that, so I can't fully confirm which time was your most recent best.",True
+6aeb4375_hist,False,mem0,300,297,"Before you updated the count to four, you had said you'd tried three different Korean restaurants in your city.",True
+6aeb4375_hist,False,mem0,1000,988,"Before you updated the count to four, you had said you'd tried three different Korean restaurants in your city.",True
+852ce960_hist,False,mem0,300,290,"Before the $400,000 figure you later recalled, your Wells Fargo pre-approval was recorded as $350,000.",True
+852ce960_hist,False,mem0,1000,982,"You were pre-approved for $350,000 from Wells Fargo, which was the figure captured before you later recalled being pre-approved for $400,000, a conflict in your records.",True
+945e3d21_hist,False,mem0,300,300,"Before you increased your yoga practice, you were doing it twice a week.",True
+945e3d21_hist,False,mem0,1000,994,"Before you increased your yoga, you were practicing twice a week. You now attend three times a week.",True
+71315a70_hist,False,mem0,300,300,"Before your update, you had said you'd spent around 5-6 hours on your abstract ocean sculpture.",True
+71315a70_hist,False,mem0,1000,996,"Before your update, you had said you'd spent around 5-6 hours on your abstract ocean sculpture, which you later updated to 10-12 hours.",True
+ce6d2d27_hist,False,mem0,300,289,"Before it moved, your cocktail-making class was on Thursdays, around November 5, 2026, as you had noted earlier.",True
+ce6d2d27_hist,False,mem0,1000,996,"Before it moved, your cocktail-making class was on Thursdays, since the memory first noted a Thursday class around November 5, 2026, before you corrected it to Fridays.",True
+9ea5eabc_hist,False,mem0,300,294,"Before your most recent family trip to Paris, you were planning a family trip to Europe, and you asked for tips on building a family-friendly itinerary for it. Your earlier family trips were to Hawaii and Japan.",False
+9ea5eabc_hist,False,mem0,1000,986,"My memory doesn't clearly say which family trip you were considering before the October 2026 Paris trip. It records past family trips to Hawaii and Japan, and a Europe family trip you planned only after Paris, so I don't know.",False
+a1eacc2a_hist,False,mem0,300,296,"Before your updated count, you had said you'd completed four short stories since you started writing regularly, as of November 4, 2026. You later updated that to seven.",True
+a1eacc2a_hist,False,mem0,1000,987,"Before your updated count, you had said you'd completed four short stories since you started writing regularly.",True
+184da446_hist,False,mem0,300,286,"Before your most recent update, you said you were on page 200 of 'A Short History of Nearly Everything,' before moving on to page 220.",True
+184da446_hist,False,mem0,1000,988,"Before your most recent update, you said you were on page 200 of 'A Short History of Nearly Everything' (as of November 4, 2026), before moving on to page 220.",True
+4d6b87c8_hist,False,mem0,300,295,"Before your to-watch list grew to its current 25 titles, it had about 20 titles, as of November 4, 2026.",True
+4d6b87c8_hist,False,mem0,1000,1000,"Before it grew to 25 titles, the user's to-watch list had about 20 titles (as of November 4, 2026).",True
+0f05491a_hist,False,mem0,300,294,You had said you needed 125 stars to reach Gold before correcting it to 120 stars.,True
+0f05491a_hist,False,mem0,1000,982,"Before correcting it to 120, you had said you needed 125 stars to reach Gold on the Starbucks Rewards app, correcting the assistant's earlier figure of 400.",True
+08e075c7_hist,False,mem0,300,287,"Before your most recent mention of about 9 months, you had said you'd been using your Fitbit Charge 3 for 6 months.",True
+08e075c7_hist,False,mem0,1000,1000,"Before your most recent mention of about 9 months, you had said you'd been using your Fitbit Charge 3 for 6 months.",True
+f9e8c073_hist,False,mem0,300,287,"You originally said you attended three bereavement support group sessions, before later stating it was five sessions in 2025.",True
+f9e8c073_hist,False,mem0,1000,984,"You originally said you attended three sessions of the bereavement support group, and you later corrected that to five.",True
+41698283_hist,False,mem0,300,298,"Based on your memory, the lens you got before the 70-200mm zoom was a new 50mm prime lens for your Nikon D5600, which you said was working out great. Your memory doesn't clearly say whether the separate Canon EF lens you mentioned is a different lens or the 70-200mm itself.",True
+41698283_hist,False,mem0,1000,990,"The memory doesn't name the model, but right before the 70-200mm you mentioned using a new Canon EF lens for portrait and general photography, which you enjoyed for its bokeh and image stabilization. Earlier, you had also gotten a 50mm prime lens for your Nikon D5600.",True
+2698e78f_hist,False,mem0,300,284,Your therapy sessions with Dr. Smith were every two weeks (biweekly) before you started seeing her weekly.,True
+2698e78f_hist,False,mem0,1000,992,"Before you started seeing Dr. Smith every week, your therapy sessions with her were every two weeks (biweekly).",True
+b6019101_hist,False,mem0,300,291,"Before you updated it to 5, you had said you'd watched 4 MCU films in the last 3 months.",True
+b6019101_hist,False,mem0,1000,998,"Before you updated the count to 5, you had said you'd watched 4 MCU films in the last 3 months.",True
+45dc21b6_hist,False,mem0,300,286,You had said you'd tried two of Emma's recipes before you updated the count to three.,True
+45dc21b6_hist,False,mem0,1000,988,"Before you updated the count, you had said you'd tried two of Emma's recipes, and you later updated that to three.",True
+6071bd76_hist,False,mem0,300,298,"Before the change, you used 6 ounces of water per tablespoon of coffee in your French press (1 tablespoon per 6 ounces), which you later updated to 1 tablespoon per 5 ounces.",True
+6071bd76_hist,False,mem0,1000,992,"Before you changed it, you used 6 ounces of water per tablespoon of coffee (1 tablespoon per 6 ounces), which you later updated to 1 tablespoon per 5 ounces.",True
+e493bb7c_hist,False,mem0,300,294,"Before you moved it to your bedroom, your 'Ethereal Dreams' painting by Emma Taylor was hanging above the living room sofa.",True
+e493bb7c_hist,False,mem0,1000,990,"Before you moved it to your bedroom, the 'Ethereal Dreams' painting by Emma Taylor was hanging above the living room sofa.",True
+618f13b2_hist,False,mem0,300,292,"You had said you'd worn your new black Converse Chuck Taylor All Star sneakers four times, as of November 4, 2026, before you updated the count to six on November 3, 2026.",True
+618f13b2_hist,False,mem0,1000,985,"Before you updated the count to six, you had said you'd worn the black Converse Chuck Taylor All Star sneakers four times, as of November 4, 2026.",True
+72e3ee87_hist,False,mem0,300,294,"Before you mentioned completing 50 episodes, you were on episode 10 of the Crash Course Science series, as noted in your memory from November 2026.",True
+72e3ee87_hist,False,mem0,1000,998,"Before you told me you had completed 50 episodes, you were on episode 10 of the Crash Course Science series, as of November 2026.",True
+01493427_hist,False,mem0,300,297,"Before updating to your current count, you had said you'd added 17 new postcards to your collection since restarting collecting. Your count later went up to 25.",True
+01493427_hist,False,mem0,1000,1000,"Before you updated the count, you had said you'd added 17 new postcards to your collection since restarting, and you later updated that to 25.",True
+6a27ffc2_hist,False,mem0,300,300,"Before your most recent update, you had said you'd completed 20 videos of Corey Schafer's Python programming series. You later updated that to 30.",True
+6a27ffc2_hist,False,mem0,1000,994,"Before your most recent update, you had said you'd completed 20 videos of Corey Schafer's Python programming series, before updating it to 30.",True
+2133c1b5_hist,False,mem0,300,298,"Before you said you'd been living in Harajuku for 3 months, you said you had moved into your studio apartment about a month earlier, around early October 2026.",True
+2133c1b5_hist,False,mem0,1000,992,"Before your most recent mention of 3 months, you had said you moved into your Harajuku studio apartment about a month before November 4, 2026 (around early October 2026).",True
+18bc8abd_hist,False,mem0,300,294,Your favorite BBQ sauce before Kansas City Masterpiece was Sweet Baby Ray's.,True
+18bc8abd_hist,False,mem0,1000,995,Your favorite BBQ sauce before Kansas City Masterpiece was Sweet Baby Ray's.,True
+db467c8c_hist,False,mem0,300,295,"Before mentioning nine months, you said your parents had been staying with you in the US for about six months, since roughly May 2026.",True
+db467c8c_hist,False,mem0,1000,994,"Before you mentioned nine months, you had said your parents had been staying with you in the US for about six months, since roughly May 2026.",True
+7a87bd0c_hist,False,mem0,300,298,"Before you mentioned 4 weeks, you had said you'd been sticking to your daily tidying routine for 3 weeks, as of November 4, 2026.",True
+7a87bd0c_hist,False,mem0,1000,989,"Before the 4-week update, you had said you'd been sticking to your daily tidying routine for 3 weeks (as of November 4, 2026).",True
+e61a7584_hist,False,mem0,300,294,"Before your last update, you had said you'd had Luna for about 6 months as of November 4, 2026 (since roughly May 2026).",True
+e61a7584_hist,False,mem0,1000,991,"Before your most recent update, you said you'd had Luna for about 6 months (as of November 4, 2026), which you later updated to about 9 months.",True
+1cea1afa_hist,False,mem0,300,289,"Before reaching your current count of 600 followers on November 4, 2026, you had 500 followers in the week before that.",True
+1cea1afa_hist,False,mem0,1000,987,"Before reaching your current count of 600 followers on November 4, 2026, you had 500 followers, as noted the week before that date.",True
+ed4ddc30_hist,False,mem0,300,283,"Before the most recent update, you said you had 30 dozen fresh eggs stocked in the fridge, as of November 4, 2026. Your latest update was 20 dozen fresh eggs from your own chicken coop, also as of November 4, 2026.",True
+ed4ddc30_hist,False,mem0,1000,985,"Before the most recent update, you said you had 30 dozen fresh eggs stocked in the fridge, as of November 4, 2026. Your most recent update was 20 dozen.",True
+8fb83627_hist,False,mem0,300,299,"Before finishing your fifth issue, you had said you'd finished three National Geographic issues, and you were reading the fourth at that point.",True
+8fb83627_hist,False,mem0,1000,987,"You had said you'd finished three National Geographic issues before you later reported finishing five, with the fourth issue being the one you were reading at the time.",True
+b01defab_hist,False,mem0,300,284,"Before you finished it, you had put 'The Nightingale' down temporarily because it had become too emotional for you, and you intended to resume it during your daily commutes and finish it before your next book club discussion.",True
+b01defab_hist,False,mem0,1000,985,"Before you finished it, you had set 'The Nightingale' aside temporarily because it had become too emotional for you, and you intended to resume it during your daily commutes.",True
+0e4e4c46_hist,False,mem0,300,295,"Your highest score in Ticket to Ride before your current record was 124 points, which you then surpassed with a new personal best of 132 points.",True
+0e4e4c46_hist,False,mem0,1000,986,"Your highest score in Ticket to Ride before your current record was 124 points, which you later surpassed with a new personal high of 132 points.",True
+4b24c848_hist,False,mem0,300,290,"You had said you'd bought three tops from H&M so far, before you updated the count to five.",True
+4b24c848_hist,False,mem0,1000,1000,"Before you updated the count to five, you had said you'd bought three tops from H&M's summer collection.",True
+7e974930_hist,False,mem0,300,300,"You earned $350 at the Downtown Farmers Market on May 6, 2026, the visit before your most recent one, which earned $420.",True
+7e974930_hist,False,mem0,1000,989,"You earned $350 at the Downtown Farmers Market on May 6, 2026, which was the visit before your most recent one, where you earned $420.",True
+603deb26_hist,False,mem0,300,300,"Before your most recent count of 10 times, you had said you'd made the Negroni at home 5 times since Emma taught you.",True
+603deb26_hist,False,mem0,1000,997,"Before your most recent count of 10 times, you had said you'd made the Negroni at home 5 times since Emma showed you how to make it.",True
+59524333_hist,False,mem0,300,290,"Your memory says you usually went to the gym at 7:00 pm on Mondays, Wednesdays, and Fridays. I have no record of you changing that gym time to 6:00 pm; 6:00 pm appears only as a suggested reminder time and as a mention of a Tuesday session.",True
+59524333_hist,False,mem0,1000,996,"You usually went to the gym at 7:00 pm on Mondays, Wednesdays, and Fridays. The memory doesn't show any change to a different gym time, though it mentions the 6:00 pm reminder idea and a Tuesday 6:00 pm gym session planned around November 10, 2026.",True
+5831f84d_hist,False,mem0,300,287,"Before your most recent update, you had said you'd finished 10 Crash Course videos in the few weeks before November 4, 2026. That count later grew to 12.",True
+5831f84d_hist,False,mem0,1000,1000,"Before your most recent update, you had said you'd finished 10 Crash Course videos in the few weeks before November 4, 2026, before it grew to 12.",True
+affe2881_hist,False,mem0,300,300,"Before you spotted the Northern Flicker, you had seen 27 different bird species in your local park. The Northern Flicker brought your total to 32.",True
+affe2881_hist,False,mem0,1000,990,"Before you spotted the Northern Flicker, you had seen 31 different bird species in your local park, since the flicker brought your total up to 32.",False
+cc5ded98_hist,False,mem0,300,296,"Before you increased it, you were dedicating about one hour per day to coding exercises, and you later raised that to about two hours per day as of November 4, 2026.",True
+cc5ded98_hist,False,mem0,1000,1000,"Before increasing it, you were dedicating about one hour per day to coding exercises, and you later increased that to about two hours per day.",True
+69fee5aa_hist,False,mem0,300,297,"You had 36 pre-1920 American coins before you added the 1915-S Barber quarter, since your collection totaled 37 after that addition.",False
+69fee5aa_hist,False,mem0,1000,990,"You had 36 pre-1920 American coins before you added the 1915-S Barber quarter, since your collection totals 37 after the addition.",False
+7401057b_hist,False,mem0,300,286,"Before your update, you had said you could redeem enough Hilton Honors points for one free night at any Hilton property. Your later update changed that to two free night stays.",True
+7401057b_hist,False,mem0,1000,998,"Before the update, you said you had enough Hilton Honors points for one free night at any Hilton property. You later updated this to two free night stays.",True
+cf22b7bf_hist,False,mem0,300,300,"Before updating your total, you had said you'd lost about 5 pounds through workouts and diet, and you later updated that to 10 pounds as of November 4, 2026.",True
+cf22b7bf_hist,False,mem0,1000,998,"Before your later update, you said you had lost about 5 pounds in the past month (around October 2026) through workouts and diet. You later updated that to 10 pounds as of November 4, 2026.",True
+a2f3aa27_hist,False,mem0,300,292,"Before you mentioned being close to 1,300, you said you had 1,250 Instagram followers.",True
+a2f3aa27_hist,False,mem0,1000,995,"You said you had 1,250 Instagram followers before mentioning you were close to 1,300.",True
+c7dc5443_hist,False,mem0,300,295,"Before changing to the current 5-2 record, your Net Ninjas volleyball team was 3-2 in the league.",True
+c7dc5443_hist,False,mem0,1000,990,"Before changing to your current 5-2 record (as of November 4, 2026), your volleyball team was 3-2 in the league.",True
+06db6396_hist,False,mem0,300,299,"Before you finished your most recent painting project (your 5th), you had completed 4 projects since starting painting classes.",True
+06db6396_hist,False,mem0,1000,975,"Before you finished your most recent painting project, you had completed 4 projects since starting painting classes, and that most recent one was your 5th.",True
+3ba21379_hist,False,mem0,300,298,"Before switching to your current Ford F-150 pickup truck model, you were working on a Ford Mustang Shelby GT350R model, which you had finished.",True
+3ba21379_hist,False,mem0,1000,989,"Before switching to the Ford F-150 pickup truck, you were working on a Ford Mustang Shelby GT350R model, which you finished before starting the F-150.",True
+dad224aa_hist,False,mem0,300,289,"Before you woke at 7:30 am on the Saturday around October 31, 2026, you woke at 9:30 am on the Saturday around October 24, 2026. Your most recent note says you usually wake around 8:30 am on Saturdays, so 7:30 am appears to have been a one-time change.",False
+dad224aa_hist,False,mem0,1000,989,"Before you moved your Saturday wake-up time to 7:30 am, you most recently said you woke around 8:30 am on Saturdays, though you had also reported waking at 7:30 am and 9:30 am on earlier Saturdays.",True
+ba61f0b9_hist,False,mem0,300,299,"Before the update, you said half of Rachel's 10-person team were women, which would be 5 women.",True
+ba61f0b9_hist,False,mem0,1000,999,"Before the update, you said half of Rachel's 10-person team were women, which is 5 women. You later corrected this to 6 women out of 10.",True
+42ec0761_hist,False,mem0,300,286,"No, according to your memory you had misplaced the small screwdriver needed to open the laptop for the RAM upgrade, which is why you planned to buy one at the electronics store near your home. You later found a spare one from when you organized your computer desk, so you no longer need to buy a new one.",True
+42ec0761_hist,False,mem0,1000,672,"No. Before you found your spare, you had misplaced the small screwdriver needed for the RAM upgrade, so you didn't have one on hand and planned to buy one at the electronics store near your home.",True
+c6853660_hist,False,mem0,300,293,"Before you started considering a change, you were limiting yourself to one cup of coffee each morning, as you had cut back from your earlier habit to focus better. You later increased that limit to two cups.",True
+c6853660_hist,False,mem0,1000,994,"Before you started considering a change, you were limiting yourself to one cup of coffee each morning, after you cut back to one cup and switched to a darker roast. You later increased that limit to two cups.",True
+26bdc477_hist,False,mem0,300,288,"Before your most recent update, you had said you'd taken your Canon EOS 80D on three trips, to Yellowstone, Yosemite, and the Grand Canyon.",True
+26bdc477_hist,False,mem0,1000,984,"Before your most recent update, you had said you'd taken your Canon EOS 80D on three trips, to Yellowstone, Yosemite, and the Grand Canyon. You later updated that to five trips.",True
+07741c45_hist,False,mem0,300,283,You were keeping your old sneakers under your bed before moving them to their current spot.,True
+07741c45_hist,False,mem0,1000,995,You were keeping your old sneakers under your bed before they started to smell and you moved them elsewhere.,True

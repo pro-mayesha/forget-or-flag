@@ -1,0 +1,17 @@
+method,budget,chain,correction,implicit,policy_update,reversal
+method_full_gold,150,1.0,1.0,1.0,1.0,1.0
+method_full_gold,300,1.0,1.0,1.0,1.0,1.0
+method_full_gold,500,1.0,1.0,1.0,1.0,1.0
+method_full_gold,1000,1.0,1.0,1.0,1.0,1.0
+method_full_heuristic,150,1.0,0.2,1.0,0.5,0.0
+method_full_heuristic,300,1.0,0.0,0.0,0.5,0.0
+method_full_heuristic,500,1.0,0.0,0.0,0.5,0.0
+method_full_heuristic,1000,1.0,0.0,0.0,0.5,0.0
+method_full_llm,150,1.0,1.0,1.0,1.0,1.0
+method_full_llm,300,1.0,1.0,1.0,1.0,1.0
+method_full_llm,500,1.0,1.0,1.0,1.0,1.0
+method_full_llm,1000,1.0,1.0,1.0,1.0,1.0
+similarity_rag,150,0.0,0.0,0.0,0.0,0.0
+similarity_rag,300,0.0,0.0,0.0,0.0,0.0
+similarity_rag,500,0.0,0.0,0.0,0.0,0.0
+similarity_rag,1000,0.0,0.0,0.0,0.0,0.0

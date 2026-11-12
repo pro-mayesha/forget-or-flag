@@ -1,0 +1,46 @@
+{
+ "links": 214,
+ "links_per_question": 2.7435897435897436,
+ "label_counts": {
+  "replacement": 147,
+  "other": 29,
+  "different_thing": 16,
+  "addition": 15,
+  "same_value": 7
+ },
+ "precision": 0.6869158878504673,
+ "change_detected": 0.9027777777777778,
+ "questions_with_detection_info": 72,
+ "history_by_detection": {
+  "False|rag+annotate_llm": {
+   "mean": 1.0,
+   "size": 6
+  },
+  "False|rag+cr_llm": {
+   "mean": 1.0,
+   "size": 6
+  },
+  "False|similarity_rag": {
+   "mean": 1.0,
+   "size": 6
+  },
+  "True|rag+annotate_llm": {
+   "mean": 0.933,
+   "size": 60
+  },
+  "True|rag+cr_llm": {
+   "mean": 0.067,
+   "size": 60
+  },
+  "True|similarity_rag": {
+   "mean": 0.95,
+   "size": 60
+  }
+ },
+ "usage": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "calls": 0,
+  "refusals": 0
+ }
+}

@@ -1,0 +1,930 @@
+[
+ {
+  "id": "s01",
+  "domain": "study_abroad_paper",
+  "items": [
+   {
+    "id": "constraint1",
+    "type": "constraint",
+    "content": "Visa rule: show proof of funds of 11,200 EUR per year.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "constraint1",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "constraint2",
+    "type": "constraint",
+    "content": "My yearly budget is capped at $25,000.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "budget",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline1",
+    "type": "deadline",
+    "content": "Application deadline for University A.",
+    "session": 2,
+    "created": "2025-09-04",
+    "topic": "deadline:A",
+    "due_date": "2025-10-01",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline2",
+    "type": "deadline",
+    "content": "Scholarship deadline for the DAAD award.",
+    "session": 2,
+    "created": "2025-09-04",
+    "topic": "deadline:S",
+    "due_date": "2025-10-11",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline3",
+    "type": "deadline",
+    "content": "Application deadline for University B.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "deadline:B",
+    "due_date": "2025-12-10",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "decision1",
+    "type": "decision",
+    "content": "I've decided to apply mainly to the UK.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "country",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "decision2",
+    "type": "decision",
+    "content": "Change of plan: I'm targeting Canada instead of the UK.",
+    "session": 3,
+    "created": "2025-09-07",
+    "topic": "country",
+    "due_date": null,
+    "supersedes": [
+     "decision1"
+    ],
+    "update_kind": "correction"
+   },
+   {
+    "id": "decision3",
+    "type": "decision",
+    "content": "I'll commit to the MSc Computer Science program.",
+    "session": 5,
+    "created": "2025-09-13",
+    "topic": "program",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_0",
+    "type": "preference",
+    "content": "I watched a vlog about student life abroad.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_1",
+    "type": "preference",
+    "content": "My friend said winters can be long.",
+    "session": 2,
+    "created": "2025-09-04",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_2",
+    "type": "preference",
+    "content": "I bought a new laptop.",
+    "session": 3,
+    "created": "2025-09-07",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_3",
+    "type": "preference",
+    "content": "I read a forum thread about dorm food.",
+    "session": 4,
+    "created": "2025-09-10",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_4",
+    "type": "preference",
+    "content": "I joined an online group for international students.",
+    "session": 5,
+    "created": "2025-09-13",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_5",
+    "type": "preference",
+    "content": "I like quiet caf\u00e9s.",
+    "session": 6,
+    "created": "2025-09-16",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_6",
+    "type": "preference",
+    "content": "I'm curious about hiking trails.",
+    "session": 1,
+    "created": "2025-09-01",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f01_7",
+    "type": "preference",
+    "content": "I prefer trains over flights.",
+    "session": 2,
+    "created": "2025-09-04",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   }
+  ],
+  "sessions": [
+   {
+    "session_id": 1,
+    "now": "2025-09-01",
+    "query": "What should I prioritise this week?",
+    "query_topic": "constraint1"
+   },
+   {
+    "session_id": 2,
+    "now": "2025-09-04",
+    "query": "What deadlines are coming up?",
+    "query_topic": "deadline:A"
+   },
+   {
+    "session_id": 3,
+    "now": "2025-09-07",
+    "query": "What decisions do I need to make?",
+    "query_topic": "country"
+   },
+   {
+    "session_id": 4,
+    "now": "2025-09-10",
+    "query": "How much money do I need to show for the visa?",
+    "query_topic": "constraint1"
+   },
+   {
+    "session_id": 5,
+    "now": "2025-09-13",
+    "query": "Which program should I commit to?",
+    "query_topic": "program"
+   },
+   {
+    "session_id": 6,
+    "now": "2025-09-16",
+    "query": "Summarise my current plan.",
+    "query_topic": "country"
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "domain": "study_abroad_paper",
+  "items": [
+   {
+    "id": "deadline1",
+    "type": "deadline",
+    "content": "Application deadline for University of Toronto.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "deadline:toronto",
+    "due_date": "2025-11-07",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline2",
+    "type": "deadline",
+    "content": "Application deadline for TU Munich.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "deadline:munich",
+    "due_date": "2025-12-07",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline3",
+    "type": "deadline",
+    "content": "Submit the language test score to the scholarship office.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "deadline:lang",
+    "due_date": "2025-09-18",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "deadline4",
+    "type": "deadline",
+    "content": "Housing application closes.",
+    "session": 4,
+    "created": "2025-08-18",
+    "topic": "deadline:housing",
+    "due_date": "2025-10-28",
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_canada",
+    "type": "preference",
+    "content": "I like Canada for its post-study work options.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_germany",
+    "type": "preference",
+    "content": "Germany has low tuition for engineering.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_engineering",
+    "type": "preference",
+    "content": "I want an engineering master's with a lab focus.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_fit",
+    "type": "preference",
+    "content": "Program fit matters more to me than university ranking.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_program1",
+    "type": "preference",
+    "content": "Toronto's MEng program looks strong in robotics.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_program2",
+    "type": "preference",
+    "content": "TU Munich's MSc offers a thesis track.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_career1",
+    "type": "preference",
+    "content": "I want industry internships during my studies.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "career",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_career2",
+    "type": "preference",
+    "content": "Long term I want to work in robotics R&D.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "career",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_scholarship1",
+    "type": "preference",
+    "content": "I need scholarships that cover tuition.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "scholarship",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_cost1",
+    "type": "preference",
+    "content": "Living costs in Toronto are high.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "cost",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_cost2",
+    "type": "preference",
+    "content": "Munich rent is expensive but tuition is low.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "cost",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_requirements1",
+    "type": "preference",
+    "content": "Toronto requires IELTS 7.0.",
+    "session": 3,
+    "created": "2025-08-15",
+    "topic": "requirements",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_requirements2",
+    "type": "preference",
+    "content": "TU Munich requires a GRE score.",
+    "session": 3,
+    "created": "2025-08-15",
+    "topic": "requirements",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "item_location1",
+    "type": "preference",
+    "content": "I'd prefer a big city.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "program_fit",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_0",
+    "type": "preference",
+    "content": "I watched a vlog about student life abroad.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_1",
+    "type": "preference",
+    "content": "My friend said winters can be long.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_2",
+    "type": "preference",
+    "content": "I bought a new laptop.",
+    "session": 3,
+    "created": "2025-08-15",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_3",
+    "type": "preference",
+    "content": "I read a forum thread about dorm food.",
+    "session": 4,
+    "created": "2025-08-18",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_4",
+    "type": "preference",
+    "content": "I joined an online group for international students.",
+    "session": 5,
+    "created": "2025-08-21",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_5",
+    "type": "preference",
+    "content": "I like quiet caf\u00e9s.",
+    "session": 6,
+    "created": "2025-08-24",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_6",
+    "type": "preference",
+    "content": "I'm curious about hiking trails.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_7",
+    "type": "preference",
+    "content": "I prefer trains over flights.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_8",
+    "type": "preference",
+    "content": "I saw a documentary about the city.",
+    "session": 3,
+    "created": "2025-08-15",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_9",
+    "type": "preference",
+    "content": "I'm comparing phone plans for abroad.",
+    "session": 4,
+    "created": "2025-08-18",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_10",
+    "type": "preference",
+    "content": "I enjoy museums on weekends.",
+    "session": 5,
+    "created": "2025-08-21",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_11",
+    "type": "preference",
+    "content": "I'm learning a few local phrases.",
+    "session": 6,
+    "created": "2025-08-24",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_12",
+    "type": "preference",
+    "content": "I watched a vlog about student life abroad.",
+    "session": 1,
+    "created": "2025-08-09",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f02_13",
+    "type": "preference",
+    "content": "My friend said winters can be long.",
+    "session": 2,
+    "created": "2025-08-12",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   }
+  ],
+  "sessions": [
+   {
+    "session_id": 1,
+    "now": "2025-08-09",
+    "query": "Which programs fit my interests?",
+    "query_topic": "program_fit"
+   },
+   {
+    "session_id": 2,
+    "now": "2025-08-12",
+    "query": "What are the costs in Canada and Germany?",
+    "query_topic": "cost"
+   },
+   {
+    "session_id": 3,
+    "now": "2025-08-15",
+    "query": "Compare program fit between Canada and Germany for engineering",
+    "query_topic": "program_fit"
+   },
+   {
+    "session_id": 4,
+    "now": "2025-08-18",
+    "query": "What scholarships can I get?",
+    "query_topic": "scholarship"
+   },
+   {
+    "session_id": 5,
+    "now": "2025-08-21",
+    "query": "What are the admission requirements?",
+    "query_topic": "requirements"
+   },
+   {
+    "session_id": 6,
+    "now": "2025-08-24",
+    "query": "Which career paths are open after graduation?",
+    "query_topic": "career"
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "domain": "study_abroad_paper",
+  "items": [
+   {
+    "id": "visa_rule_old",
+    "type": "constraint",
+    "content": "Visa rule: apply at least 6 months before departure.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "visa_rule",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_rule_new",
+    "type": "constraint",
+    "content": "Visa guidance changed: apply at least 3 months before departure.",
+    "session": 6,
+    "created": "2025-06-16",
+    "topic": "visa_rule",
+    "due_date": null,
+    "supersedes": [
+     "visa_rule_old"
+    ],
+    "update_kind": "policy_update"
+   },
+   {
+    "id": "funds",
+    "type": "constraint",
+    "content": "Proof of funds: 20,635 CAD per year.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "funds",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc0",
+    "type": "progress",
+    "content": "I booked a biometrics appointment.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc1",
+    "type": "progress",
+    "content": "I need a police clearance certificate.",
+    "session": 2,
+    "created": "2025-06-04",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc2",
+    "type": "progress",
+    "content": "I scanned my passport for the visa form.",
+    "session": 3,
+    "created": "2025-06-07",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc3",
+    "type": "progress",
+    "content": "I need a medical exam for the visa.",
+    "session": 4,
+    "created": "2025-06-10",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc4",
+    "type": "progress",
+    "content": "My bank statement must cover six months.",
+    "session": 5,
+    "created": "2025-06-13",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc5",
+    "type": "progress",
+    "content": "I got a letter of acceptance for the visa file.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc6",
+    "type": "progress",
+    "content": "I need passport photos in visa format.",
+    "session": 2,
+    "created": "2025-06-04",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc7",
+    "type": "progress",
+    "content": "I translated my birth certificate for the visa.",
+    "session": 3,
+    "created": "2025-06-07",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc8",
+    "type": "progress",
+    "content": "I paid the visa application fee.",
+    "session": 4,
+    "created": "2025-06-10",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc9",
+    "type": "progress",
+    "content": "I need a study plan letter for the visa.",
+    "session": 5,
+    "created": "2025-06-13",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc10",
+    "type": "progress",
+    "content": "I created an account on the visa portal.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc11",
+    "type": "progress",
+    "content": "I checked visa processing times online.",
+    "session": 2,
+    "created": "2025-06-04",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc12",
+    "type": "progress",
+    "content": "I need travel insurance for the visa.",
+    "session": 3,
+    "created": "2025-06-07",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc13",
+    "type": "progress",
+    "content": "I asked the embassy about visa interviews.",
+    "session": 4,
+    "created": "2025-06-10",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "visa_doc14",
+    "type": "progress",
+    "content": "I saved copies of all visa documents.",
+    "session": 5,
+    "created": "2025-06-13",
+    "topic": "visa_docs",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_0",
+    "type": "preference",
+    "content": "I watched a vlog about student life abroad.",
+    "session": 1,
+    "created": "2025-06-01",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_1",
+    "type": "preference",
+    "content": "My friend said winters can be long.",
+    "session": 2,
+    "created": "2025-06-04",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_2",
+    "type": "preference",
+    "content": "I bought a new laptop.",
+    "session": 3,
+    "created": "2025-06-07",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_3",
+    "type": "preference",
+    "content": "I read a forum thread about dorm food.",
+    "session": 4,
+    "created": "2025-06-10",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_4",
+    "type": "preference",
+    "content": "I joined an online group for international students.",
+    "session": 5,
+    "created": "2025-06-13",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   },
+   {
+    "id": "f03_5",
+    "type": "preference",
+    "content": "I like quiet caf\u00e9s.",
+    "session": 6,
+    "created": "2025-06-16",
+    "topic": "misc",
+    "due_date": null,
+    "supersedes": [],
+    "update_kind": null
+   }
+  ],
+  "sessions": [
+   {
+    "session_id": 1,
+    "now": "2025-06-01",
+    "query": "What do I need for the visa?",
+    "query_topic": "visa_rule"
+   },
+   {
+    "session_id": 2,
+    "now": "2025-06-04",
+    "query": "When should I start the visa process?",
+    "query_topic": "visa_rule"
+   },
+   {
+    "session_id": 3,
+    "now": "2025-06-07",
+    "query": "Make me a visa timeline.",
+    "query_topic": "visa_rule"
+   },
+   {
+    "session_id": 4,
+    "now": "2025-06-10",
+    "query": "What documents do I need?",
+    "query_topic": "visa_docs"
+   },
+   {
+    "session_id": 5,
+    "now": "2025-06-13",
+    "query": "How much money do I need to show?",
+    "query_topic": "funds"
+   },
+   {
+    "session_id": 6,
+    "now": "2025-06-16",
+    "query": "When should I apply for the visa before departure?",
+    "query_topic": "visa_rule"
+   }
+  ]
+ }
+]

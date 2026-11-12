@@ -1,0 +1,83 @@
+266 questions of type temporal-reasoning, multi-session (18 abstention)
+extract: {'input_tokens': 0, 'output_tokens': 0, 'calls': 0, 'refusals': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7607.07it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+link: {'input_tokens': 0, 'output_tokens': 0, 'calls': 0, 'refusals': 0}
+read: {'input_tokens': 166499, 'output_tokens': 27551, 'calls': 128, 'refusals': 0}
+judge: {'input_tokens': 46506, 'output_tokens': 1481, 'calls': 105, 'refusals': 0}
+{
+ "questions": 266,
+ "sessions_extracted": 12587,
+ "items_per_question": 134.95488721804512,
+ "llm_links_per_question": 1.6541353383458646,
+ "heuristic_links_per_question": 0.7819548872180451,
+ "usage": {
+  "extract": {
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "calls": 0,
+   "refusals": 0
+  },
+  "link": {
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "calls": 0,
+   "refusals": 0
+  },
+  "read": {
+   "input_tokens": 166499,
+   "output_tokens": 27551,
+   "calls": 128,
+   "refusals": 0
+  },
+  "judge": {
+   "input_tokens": 46506,
+   "output_tokens": 1481,
+   "calls": 105,
+   "refusals": 0
+  }
+ },
+ "usd_this_run": 0.04
+}
+               condition  budget   n  accuracy  ci_lo  ci_hi  acc_answerable  acc_abstention  acc_history_q  acc_current_q  context_tokens  latest_evidence_in_ctx  older_evidence_in_ctx
+               no_memory       0 266     0.060  0.034  0.090           0.000           0.889          0.088          0.000           0.000                     NaN                    NaN
+          sliding_window     300 266     0.083  0.053  0.117           0.024           0.889          0.088          0.030         292.778                   0.190                  0.008
+          similarity_rag     300 266     0.763  0.711  0.816           0.746           1.000          0.912          0.706         293.154                   0.960                  0.911
+        rag+annotate_llm     300 266     0.759  0.707  0.812           0.742           1.000          0.912          0.701         293.154                   0.960                  0.911
+rag+annotate_llm_nodates     300 266     0.669  0.609  0.729           0.645           1.000          0.842          0.599         293.154                   0.960                  0.911
+  similarity_rag_nodates     300 266     0.673  0.613  0.729           0.653           0.944          0.825          0.609         293.154                   0.960                  0.911
+        rag+cr_heuristic     300 266     0.748  0.692  0.801           0.730           1.000          0.912          0.685         293.274                   0.964                  0.899
+              rag+cr_llm     300 266     0.744  0.692  0.793           0.730           0.944          0.912          0.685         293.060                   0.964                  0.907
+      rag+cr_llm_nodates     300 266     0.658  0.598  0.718           0.633           1.000          0.842          0.584         293.060                   0.964                  0.907
+         method_full_llm     300 266     0.060  0.034  0.090           0.000           0.889          0.105          0.000         293.568                   0.379                  0.173
+          sliding_window    1000 266     0.162  0.120  0.203           0.105           0.944          0.123          0.127         993.075                   0.508                  0.069
+          similarity_rag    1000 266     0.801  0.752  0.846           0.798           0.833          0.877          0.777         993.703                   0.996                  0.919
+        rag+annotate_llm    1000 266     0.805  0.756  0.853           0.794           0.944          0.895          0.772         993.703                   0.996                  0.919
+rag+annotate_llm_nodates    1000 266     0.722  0.669  0.774           0.702           1.000          0.737          0.701         993.703                   0.996                  0.919
+  similarity_rag_nodates    1000 266     0.733  0.680  0.786           0.714           1.000          0.789          0.701         993.703                   0.996                  0.919
+        rag+cr_heuristic    1000 266     0.767  0.714  0.816           0.758           0.889          0.860          0.736         993.820                   0.996                  0.919
+              rag+cr_llm    1000 266     0.756  0.703  0.805           0.742           0.944          0.860          0.716         993.391                   0.996                  0.919
+      rag+cr_llm_nodates    1000 266     0.688  0.632  0.744           0.669           0.944          0.737          0.660         993.391                   0.996                  0.919
+         method_full_llm    1000 266     0.098  0.064  0.135           0.032           1.000          0.123          0.036         992.914                   0.782                  0.544
+     oracle_sessions_raw       0 266     0.865  0.823  0.906           0.867           0.833          0.912          0.853        7539.432                   1.000                  0.919
+ budget                        a                      b  a_only_correct  b_only_correct  p_mcnemar
+    300               rag+cr_llm         similarity_rag               2               7     0.1797
+    300          method_full_llm             rag+cr_llm               0             182     0.0000
+    300               rag+cr_llm       rag+cr_heuristic               6               7     1.0000
+    300         rag+annotate_llm         similarity_rag               1               2     1.0000
+    300       rag+cr_llm_nodates similarity_rag_nodates               2               6     0.2891
+    300 rag+annotate_llm_nodates similarity_rag_nodates               2               3     1.0000
+    300 rag+annotate_llm_nodates     rag+cr_llm_nodates               4               1     0.3750
+   1000               rag+cr_llm         similarity_rag               3              15     0.0075
+   1000          method_full_llm             rag+cr_llm               1             176     0.0000
+   1000               rag+cr_llm       rag+cr_heuristic              11              14     0.6900
+   1000         rag+annotate_llm         similarity_rag               6               5     1.0000
+   1000       rag+cr_llm_nodates similarity_rag_nodates               2              14     0.0042
+   1000 rag+annotate_llm_nodates similarity_rag_nodates               3               6     0.5078
+   1000 rag+annotate_llm_nodates     rag+cr_llm_nodates              10               1     0.0117

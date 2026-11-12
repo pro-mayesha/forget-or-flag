@@ -1,0 +1,1015 @@
+question_id,abstention,condition,budget,context_tokens,latest_evidence_in_ctx,older_evidence_in_ctx,answer,correct,asks_history
+6a1eabeb,False,no_memory,0,0,,,I don't know your personal best time in the charity 5K run as there is no memory of this information.,False,False
+6a1eabeb,False,sliding_window,300,298,False,False,I don't know your personal best time in the charity 5K run.,False,False
+6a1eabeb,False,similarity_rag,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, set recently.",True,False
+6a1eabeb,False,rag+annotate_llm,300,300,True,True,"Your current personal best time in the charity 5K run is 25:50, set recently.",True,False
+6a1eabeb,False,rag+annotate_llm_nodates,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, and you are training for another charity 5K with the goal of beating it.",True,False
+6a1eabeb,False,rag+annotate_rich_llm,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, and you are training for another charity 5K with the goal of beating it.",True,False
+6a1eabeb,False,rag+annotate_rich_llm_nodates,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, and you are training for another charity 5K with the goal of beating it.",True,False
+6a1eabeb,False,similarity_rag_nodates,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, and you are training for another charity 5K with the goal of beating it.",True,False
+6a1eabeb,False,rag+cr_heuristic,300,300,True,True,"Your personal best time in the charity 5K run is 25:50, set recently.",True,False
+6a1eabeb,False,rag+cr_llm,300,281,True,False,Your personal best time in the charity 5K run is 25:50.,True,False
+6a1eabeb,False,rag+cr_llm_nodates,300,281,True,False,Your personal best time in the charity 5K run is 25:50.,True,False
+6a1eabeb,False,method_full_llm,300,287,False,False,I don't know your personal best time in the charity 5K run.,False,False
+6a1eabeb,False,oracle_sessions_raw,0,7510,True,True,"Your personal best time in the charity 5K run is 27:12, which you set recently.",False,False
+6aeb4375,False,no_memory,0,0,,,I don't know how many Korean restaurants you have tried in your city.,False,False
+6aeb4375,False,sliding_window,300,297,True,False,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,similarity_rag,300,299,True,True,You have tried four different Korean restaurants in your city.,True,False
+6aeb4375,False,rag+annotate_llm,300,299,True,True,You have tried four different Korean restaurants in your city.,True,False
+6aeb4375,False,rag+annotate_llm_nodates,300,299,True,True,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,rag+annotate_rich_llm,300,299,True,True,You have tried four different Korean restaurants in your city.,True,False
+6aeb4375,False,rag+annotate_rich_llm_nodates,300,299,True,True,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,similarity_rag_nodates,300,299,True,True,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,rag+cr_heuristic,300,299,True,True,You have tried four different Korean restaurants in your city.,True,False
+6aeb4375,False,rag+cr_llm,300,286,True,True,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,rag+cr_llm_nodates,300,286,True,True,You have tried four different Korean restaurants in your city and are looking for new recommendations.,True,False
+6aeb4375,False,method_full_llm,300,281,True,False,I don't know.,False,False
+6aeb4375,False,oracle_sessions_raw,0,5182,True,True,You mentioned trying four different Korean restaurants in your city recently.,True,False
+830ce83f,False,no_memory,0,0,,,I don't know where Rachel moved to after her recent relocation.,False,False
+830ce83f,False,sliding_window,300,295,True,False,User's friend Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,similarity_rag,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,rag+annotate_llm,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,rag+annotate_llm_nodates,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,rag+annotate_rich_llm,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,rag+annotate_rich_llm_nodates,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,similarity_rag_nodates,300,300,True,True,Rachel recently moved to a new apartment in Chicago.,False,False
+830ce83f,False,rag+cr_heuristic,300,300,True,True,Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,rag+cr_llm,300,297,True,False,Rachel moved back to the suburbs.,True,False
+830ce83f,False,rag+cr_llm_nodates,300,297,True,False,User's friend Rachel recently moved back to the suburbs.,True,False
+830ce83f,False,method_full_llm,300,297,True,False,Rachel moved back to the suburbs.,True,False
+830ce83f,False,oracle_sessions_raw,0,5153,True,True,"Rachel recently moved back to the suburbs. Specifically, she lives in Fort Myers Beach, Florida.",False,False
+852ce960,False,no_memory,0,0,,,I don't know the specific amount you were pre-approved for when you got your mortgage from Wells Fargo.,False,False
+852ce960,False,sliding_window,300,290,True,False,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,similarity_rag,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+annotate_llm,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+annotate_llm_nodates,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+annotate_rich_llm,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+annotate_rich_llm_nodates,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,similarity_rag_nodates,300,296,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+cr_heuristic,300,294,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+cr_llm,300,294,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,rag+cr_llm_nodates,300,294,True,True,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,method_full_llm,300,298,True,False,"You were pre-approved for a $400,000 mortgage from Wells Fargo.",True,False
+852ce960,False,oracle_sessions_raw,0,5853,True,True,"You were pre-approved for $400,000 from Wells Fargo.",True,False
+945e3d21,False,no_memory,0,0,,,I don't know how often you currently attend yoga classes. Could you provide more information or set a routine?,False,False
+945e3d21,False,sliding_window,300,291,False,False,"I don't know how often you attend yoga classes to help with your anxiety, as there is no information in the provided memory about your yoga class attendance.",False,False
+945e3d21,False,similarity_rag,300,289,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on days you attend.",True,False
+945e3d21,False,rag+annotate_llm,300,289,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on days you participate in yoga.",True,False
+945e3d21,False,rag+annotate_llm_nodates,300,289,True,True,"You attend yoga classes three times a week, which helps you clear your head and feel more focused, especially on days you experience anxiety.",True,False
+945e3d21,False,rag+annotate_rich_llm,300,289,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on days you participate in yoga.",True,False
+945e3d21,False,rag+annotate_rich_llm_nodates,300,289,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on days you practice.",True,False
+945e3d21,False,similarity_rag_nodates,300,289,True,True,"You attend yoga classes three times a week, which helps you clear your head and feel more focused, especially on days when you're feeling anxious.",True,False
+945e3d21,False,rag+cr_heuristic,300,292,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on the days you go.",True,False
+945e3d21,False,rag+cr_llm,300,292,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused on the days you go.",True,False
+945e3d21,False,rag+cr_llm_nodates,300,292,True,True,"You attend yoga classes three times a week, which helps clear your head and makes you feel more focused.",True,False
+945e3d21,False,method_full_llm,300,288,True,False,I don't know how often you attend yoga classes.,False,False
+945e3d21,False,oracle_sessions_raw,0,6230,True,True,You attend yoga classes three times a week to help with your anxiety.,True,False
+d7c942c3,False,no_memory,0,0,,,I don't know. There's no information in my memory about your mom's grocery list method.,False,False
+d7c942c3,False,sliding_window,300,290,False,False,I don't know.,False,False
+d7c942c3,False,similarity_rag,300,294,True,True,"Yes, your mom is now using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+annotate_llm,300,294,True,True,"Yes, your mom is now using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+annotate_llm_nodates,300,294,True,True,"Yes, your mom is now using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+annotate_rich_llm,300,294,True,True,"Yes, your mom uses the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+annotate_rich_llm_nodates,300,294,True,True,"Yes, your mom uses the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,similarity_rag_nodates,300,294,True,True,"Yes, your mom is now using the same grocery list app as you, so you can share grocery lists. ",True,False
+d7c942c3,False,rag+cr_heuristic,300,300,True,True,"Yes, your mom is using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+cr_llm,300,300,True,True,"Yes, your mom is using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,rag+cr_llm_nodates,300,300,True,True,"Yes, your mom is using the same grocery list app as you, so you can share grocery lists.",True,False
+d7c942c3,False,method_full_llm,300,280,True,False,I don't know. The information about your mom's grocery list method was not provided in our previous conversation.,False,False
+d7c942c3,False,oracle_sessions_raw,0,5132,True,True,"Yes, your mom is now using the same grocery list app as you. You mentioned that she's started using it too, so you can easily share lists and keep track of what needs to be bought together.",True,False
+71315a70,False,no_memory,0,0,,,"I don't know how many hours you have spent on your abstract ocean sculpture, as there is no information in my memory about this activity.",False,False
+71315a70,False,sliding_window,300,289,False,False,I don't know how many hours you have spent on your abstract ocean sculpture.,False,False
+71315a70,False,similarity_rag,300,298,True,True,You have spent around 10-12 hours on your abstract ocean sculpture so far.,True,False
+71315a70,False,rag+annotate_llm,300,298,True,True,You have spent around 10-12 hours on your abstract ocean sculpture so far.,True,False
+71315a70,False,rag+annotate_llm_nodates,300,298,True,True,"You have spent around 10-12 hours on your abstract ocean sculpture, which is the most recent estimate.",True,False
+71315a70,False,rag+annotate_rich_llm,300,298,True,True,You have spent around 10-12 hours on your abstract ocean sculpture so far.,True,False
+71315a70,False,rag+annotate_rich_llm_nodates,300,298,True,True,"You have already spent 10-12 hours on your abstract ocean sculpture, which is still a work in progress.",True,False
+71315a70,False,similarity_rag_nodates,300,298,True,True,"You have spent around 10-12 hours on your abstract ocean sculpture, which is the most recent estimate.",True,False
+71315a70,False,rag+cr_heuristic,300,298,True,True,You have spent around 10-12 hours on your abstract ocean sculpture so far.,True,False
+71315a70,False,rag+cr_llm,300,293,True,True,"You have already spent 10-12 hours on your abstract ocean sculpture, and it is still a work in progress.",True,False
+71315a70,False,rag+cr_llm_nodates,300,293,True,True,"You have already spent 10-12 hours on your abstract ocean sculpture, and it is still a work in progress.",True,False
+71315a70,False,method_full_llm,300,299,False,False,"I don't know how many hours you have spent on your abstract ocean sculpture, as there is no information in the provided memory about this activity.",False,False
+71315a70,False,oracle_sessions_raw,0,7583,True,True,You've already spent around 10-12 hours on your abstract ocean sculpture.,True,False
+89941a93,False,no_memory,0,0,,,I don't know.,False,False
+89941a93,False,sliding_window,300,299,False,False,I don't know.,False,False
+89941a93,False,similarity_rag,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",True,False
+89941a93,False,rag+annotate_llm,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",True,False
+89941a93,False,rag+annotate_llm_nodates,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike recently purchased.",True,False
+89941a93,False,rag+annotate_rich_llm,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike recently purchased.",True,False
+89941a93,False,rag+annotate_rich_llm_nodates,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike recently purchased.",True,False
+89941a93,False,similarity_rag_nodates,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike recently purchased.",True,False
+89941a93,False,rag+cr_heuristic,300,283,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",True,False
+89941a93,False,rag+cr_llm,300,294,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",True,False
+89941a93,False,rag+cr_llm_nodates,300,294,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike recently purchased.",True,False
+89941a93,False,method_full_llm,300,293,True,True,"You didn't provide the number of bikes you currently own, but based on your recent constraint, you need accommodations that can hold four bikes.",False,False
+89941a93,False,oracle_sessions_raw,0,7030,True,True,"You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",True,False
+ce6d2d27,False,no_memory,0,0,,,"I don't know when you have your cocktail-making class, so I can't tell you which day of the week it is.",False,False
+ce6d2d27,False,sliding_window,300,300,False,False,I don't know.,False,False
+ce6d2d27,False,similarity_rag,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+annotate_llm,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+annotate_llm_nodates,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+annotate_rich_llm,300,298,True,True,You attend a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+annotate_rich_llm_nodates,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,similarity_rag_nodates,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+cr_heuristic,300,298,True,True,You take a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+cr_llm,300,295,True,False,You attend a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,rag+cr_llm_nodates,300,295,True,False,You attend a cocktail-making class on Fridays.,True,False
+ce6d2d27,False,method_full_llm,300,298,False,False,I don't know when you have a cocktail-making class based on the information provided.,False,False
+ce6d2d27,False,oracle_sessions_raw,0,5599,True,True,You have a cocktail-making class on Fridays.,True,False
+9ea5eabc,False,no_memory,0,0,,,"I don't know where you went on your most recent family trip, as there is no memory of it in my records.",False,False
+9ea5eabc,False,sliding_window,300,298,False,False,I don't know where you went on your most recent family trip.,False,False
+9ea5eabc,False,similarity_rag,300,299,True,True,"You went on a family trip to Paris in April 2023, which your kids loved.",True,False
+9ea5eabc,False,rag+annotate_llm,300,299,True,True,"You went on a family trip to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,rag+annotate_llm_nodates,300,299,True,True,"You went on a family trip to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,rag+annotate_rich_llm,300,299,True,True,"You went on a family trip to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,rag+annotate_rich_llm_nodates,300,299,True,True,"You went on a family trip to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,similarity_rag_nodates,300,299,True,True,"You went on a family trip to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,rag+cr_heuristic,300,299,True,True,"You went on a family trip to Paris in April 2023, which your kids loved.",True,False
+9ea5eabc,False,rag+cr_llm,300,299,True,True,"You went on a family trip to Tokyo in April 2023, which was your first visit to the city. It came right after a chaotic family trip to Japan and before planning a solo trip there later this year.",False,False
+9ea5eabc,False,rag+cr_llm_nodates,300,299,True,True,"Your most recent family trip was to Paris in April 2023, and your kids loved it.",True,False
+9ea5eabc,False,method_full_llm,300,297,True,False,"I don't know where you went on your most recent family trip, as there is no information in the provided memory about a specific family trip.",False,False
+9ea5eabc,False,oracle_sessions_raw,0,7263,True,True,"You went on a family trip to Paris, France, which was amazing according to your previous conversation.",True,False
+07741c44,False,no_memory,0,0,,,"I don't know where you initially keep your old sneakers, as there's no prior information in my memory.",False,True
+07741c44,False,sliding_window,300,298,False,False,I don't know where you initially keep your old sneakers based on the provided information.,False,True
+07741c44,False,similarity_rag,300,285,True,True,The information about where the user initially keeps their old sneakers is not provided in the given memory.,False,True
+07741c44,False,rag+annotate_llm,300,285,True,True,The information about where the user initially keeps their old sneakers is not provided in the given memory.,False,True
+07741c44,False,rag+annotate_llm_nodates,300,285,True,True,The user initially keeps their old sneakers under the bed.,True,True
+07741c44,False,rag+annotate_rich_llm,300,285,True,True,The information about where the user initially keeps their old sneakers is not provided in the given memory.,False,True
+07741c44,False,rag+annotate_rich_llm_nodates,300,285,True,True,The user initially keeps their old sneakers under the bed.,True,True
+07741c44,False,similarity_rag_nodates,300,285,True,True,The user initially keeps their old sneakers under the bed.,True,True
+07741c44,False,rag+cr_heuristic,300,299,True,True,"The information provided does not specify where you initially keep your old sneakers. However, it mentions that the sneakers have been stored under the bed and are starting to smell.",True,True
+07741c44,False,rag+cr_llm,300,285,True,True,The information about where the user initially keeps their old sneakers is not provided in the given memory.,False,True
+07741c44,False,rag+cr_llm_nodates,300,285,True,True,The user initially keeps their old sneakers under the bed.,True,True
+07741c44,False,method_full_llm,300,294,True,False,"The user plans to clear out old sneakers from the shoe rack, so it's likely initially kept in the shoe rack or a similar storage area in the closet.",False,True
+07741c44,False,oracle_sessions_raw,0,5668,True,True,"You can initially keep your old sneakers in a shoe rack or another designated storage area in your closet. This will help free up space and organize your shoes, making it easier to find the ones you need.",False,True
+a1eacc2a,False,no_memory,0,0,,,"I don't know how many short stories you have written since you started writing regularly, as I don't have that information in my memory.",False,False
+a1eacc2a,False,sliding_window,300,298,False,False,"I don't know the exact number of short stories you've written since you started writing regularly, as that specific information wasn't provided in our previous conversation.",False,False
+a1eacc2a,False,similarity_rag,300,292,True,True,"As of June 20, 2023, you have completed 7 short stories since starting to write regularly.",True,False
+a1eacc2a,False,rag+annotate_llm,300,292,True,True,"As of June 16, 2023, you had completed 7 short stories. Since then, the information is not updated, but you were actively working on a new one as of June 20, 2023.",True,False
+a1eacc2a,False,rag+annotate_llm_nodates,300,292,True,True,"As of June 20, 2023, you have completed 7 short stories since starting to write regularly.",True,False
+a1eacc2a,False,rag+annotate_rich_llm,300,292,True,True,"As of June 16, 2023, you had completed 7 short stories since starting to write regularly. Since then, there's no mention of additional short stories, so it's likely you've still written 7 short stories.",True,False
+a1eacc2a,False,rag+annotate_rich_llm_nodates,300,292,True,True,"As of June 20, 2023, you have completed 7 short stories since starting to write regularly.",True,False
+a1eacc2a,False,similarity_rag_nodates,300,292,True,True,"As of June 20, 2023, you have completed 8 short stories since starting to write regularly.",False,False
+a1eacc2a,False,rag+cr_heuristic,300,292,True,True,"As of June 20, 2023, you have completed 7 short stories since starting to write regularly.",True,False
+a1eacc2a,False,rag+cr_llm,300,299,True,True,"Since starting to write regularly, you have completed 7 short stories.",True,False
+a1eacc2a,False,rag+cr_llm_nodates,300,299,True,True,"Since starting to write regularly three months ago, you have completed 7 short stories.",True,False
+a1eacc2a,False,method_full_llm,300,297,True,False,"I don't know the number of short stories you've written since you started writing regularly, as that specific information is not included in my memory.",False,False
+a1eacc2a,False,oracle_sessions_raw,0,6990,True,True,"Since you mentioned in our previous conversation that you've completed seven short stories in three months, it seems you have written seven short stories since starting your regular writing routine.",True,False
+184da446,False,no_memory,0,0,,,I don't know. There's no information in my memory about how many pages you've read of 'A Short History of Nearly Everything'.,False,False
+184da446,False,sliding_window,300,287,False,False,I don't know.,False,False
+184da446,False,similarity_rag,300,284,True,True,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,rag+annotate_llm,300,284,True,True,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,rag+annotate_llm_nodates,300,284,True,True,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,rag+annotate_rich_llm,300,284,True,True,"You have read up to page 220 of 'A Short History of Nearly Everything', having finished the chapter on the discovery of the DNA structure.",True,False
+184da446,False,rag+annotate_rich_llm_nodates,300,284,True,True,"You have read up to page 220 of 'A Short History of Nearly Everything', having just finished the chapter on the discovery of the DNA structure.",True,False
+184da446,False,similarity_rag_nodates,300,284,True,True,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,rag+cr_heuristic,300,284,True,True,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,rag+cr_llm,300,284,True,False,"You have read up to page 220 of 'A Short History of Nearly Everything', as of June 17, 2023.",True,False
+184da446,False,rag+cr_llm_nodates,300,284,True,False,You have read up to page 220 of 'A Short History of Nearly Everything'.,True,False
+184da446,False,method_full_llm,300,294,False,False,I don't know.,False,False
+184da446,False,oracle_sessions_raw,0,8345,True,True,You have read up to page 220 of 'A Short History of Nearly Everything' so far. ,True,False
+031748ae,False,no_memory,0,0,,,"I don't know how many engineers you lead, as there is no information in my memory about your current team structure.",False,True
+031748ae,False,sliding_window,300,300,False,False,"I don't know the number of engineers you are leading, as that information was not provided in the memory.",False,True
+031748ae,False,similarity_rag,300,288,True,True,"When you just started your new role, you led a team of 4 engineers. Now, you lead a team of five engineers.",True,True
+031748ae,False,rag+annotate_llm,300,288,True,True,"When you just started your new role, you led a team of 4 engineers. Now, you lead a team of five engineers.",True,True
+031748ae,False,rag+annotate_llm_nodates,300,288,True,True,"When you just started your new role, you led a team of 4 engineers. Now, you lead a team of five engineers.",True,True
+031748ae,False,rag+annotate_rich_llm,300,288,True,True,"When you first started your new role, you led a team of 4 engineers. Now, you lead a team of five engineers.",True,True
+031748ae,False,rag+annotate_rich_llm_nodates,300,288,True,True,"When you just started your new role, you led a team of 4 engineers. Now, you lead a team of five engineers.",True,True
+031748ae,False,similarity_rag_nodates,300,288,True,True,"When you just started your new role, you led a team of 4 engineers. Now, you still lead a team of five engineers, including the manager Rachel who is also attending the team outing.",True,True
+031748ae,False,rag+cr_heuristic,300,297,True,True,You lead a team of five engineers both when you just started your new role as Senior Software Engineer and currently.,False,True
+031748ae,False,rag+cr_llm,300,292,True,False,"When you just started your new role as a Senior Software Engineer, you led five engineers. You still lead the same team of five engineers now.",False,True
+031748ae,False,rag+cr_llm_nodates,300,292,True,False,"When you just started your new role as a Senior Software Engineer, you led five engineers. You still lead the same team of five engineers now.",False,True
+031748ae,False,method_full_llm,300,292,False,False,"I don't know the number of engineers you lead, as that information was not provided in the past context.",False,True
+031748ae,False,oracle_sessions_raw,0,5262,True,True,"When you first started your new role as Senior Software Engineer, you mentioned leading a team of five engineers. Now, in your current position, you are still leading the same team of five engineers.",False,True
+4d6b87c8,False,no_memory,0,0,,,I don't know. There's no information in my memory about your to-watch list.,False,False
+4d6b87c8,False,sliding_window,300,290,False,False,I don't know.,False,False
+4d6b87c8,False,similarity_rag,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+annotate_llm,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+annotate_llm_nodates,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+annotate_rich_llm,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+annotate_rich_llm_nodates,300,299,True,True,"Currently, you have 25 titles on your to-watch list.",True,False
+4d6b87c8,False,similarity_rag_nodates,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+cr_heuristic,300,299,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,rag+cr_llm,300,283,True,True,The user has 25 titles on their to-watch list.,True,False
+4d6b87c8,False,rag+cr_llm_nodates,300,283,True,True,You have 25 titles on your to-watch list.,True,False
+4d6b87c8,False,method_full_llm,300,293,False,False,"You have 4 titles on your to-watch list: The Haunting of Hill House, Russian Doll, The Good Place, and The Great British Baking Show.",False,False
+4d6b87c8,False,oracle_sessions_raw,0,6165,True,True,"Currently, you have 25 titles on your to-watch list.",True,False
+0f05491a,False,no_memory,0,0,,,"To reach the gold level on your Starbucks Rewards app, you typically need 5,000 stars.",False,False
+0f05491a,False,sliding_window,300,286,True,False,I don't know.,False,False
+0f05491a,False,similarity_rag,300,298,True,True,You need 120 stars to reach the gold level on your Starbucks Rewards app.,True,False
+0f05491a,False,rag+annotate_llm,300,298,True,True,"You need 120 stars to reach the gold level on your Starbucks Rewards app as of August 1, 2023.",True,False
+0f05491a,False,rag+annotate_llm_nodates,300,298,True,True,You need 120 stars to reach the Gold level on your Starbucks Rewards app as of now.,True,False
+0f05491a,False,rag+annotate_rich_llm,300,298,True,True,"You need 120 stars to reach the Gold level on the Starbucks Rewards app, as of July 30, 2023. The requirement has been corrected from an earlier figure of 300 stars.",True,False
+0f05491a,False,rag+annotate_rich_llm_nodates,300,298,True,True,You need 120 stars to reach the Gold level on your Starbucks Rewards app.,True,False
+0f05491a,False,similarity_rag_nodates,300,298,True,True,You need 120 stars to reach the Gold level on your Starbucks Rewards app as of now.,True,False
+0f05491a,False,rag+cr_heuristic,300,298,True,True,You need 120 stars to reach the gold level on your Starbucks Rewards app.,True,False
+0f05491a,False,rag+cr_llm,300,299,True,False,You need 120 stars to reach the Gold level on the Starbucks Rewards app.,True,False
+0f05491a,False,rag+cr_llm_nodates,300,299,True,False,You need 120 stars to reach the Gold level on the Starbucks Rewards app.,True,False
+0f05491a,False,method_full_llm,300,284,False,False,I don't know.,False,False
+0f05491a,False,oracle_sessions_raw,0,3989,True,True,"To reach the Gold level on your Starbucks Rewards app, you need to earn a total of 120 stars within a 12-month period.",True,False
+08e075c7,False,no_memory,0,0,,,"I don't know how long you've been using your Fitbit Charge 3, as there's no information in my memory about when you started using it.",False,False
+08e075c7,False,sliding_window,300,286,False,False,"I don't know when you started using your Fitbit Charge 3, as there is no information in my memory related to it.",False,False
+08e075c7,False,similarity_rag,300,287,True,True,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023. Given the current date is September 4, 2023, you have been using it for slightly more than 9 months.",True,False
+08e075c7,False,rag+annotate_llm,300,287,True,True,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023.",True,False
+08e075c7,False,rag+annotate_llm_nodates,300,287,True,True,You have been using your Fitbit Charge 3 for about 9 months as of 2023/09/02.,True,False
+08e075c7,False,rag+annotate_rich_llm,300,287,True,True,You have been using your Fitbit Charge 3 for about 9 months as of 2023/09/02.,True,False
+08e075c7,False,rag+annotate_rich_llm_nodates,300,287,True,True,You have been using your Fitbit Charge 3 for about 9 months as of 2023/09/02.,True,False
+08e075c7,False,similarity_rag_nodates,300,287,True,True,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023. Given the current date is September 4, 2023, you've been using it for slightly over 9 months.",True,False
+08e075c7,False,rag+cr_heuristic,300,299,True,False,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023, and this information was stated on that date.",True,False
+08e075c7,False,rag+cr_llm,300,292,True,False,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023. Given the current date is September 4, 2023, you've been using it for slightly more than 9 months.",True,False
+08e075c7,False,rag+cr_llm_nodates,300,292,True,False,"You have been using your Fitbit Charge 3 for about 9 months as of September 2, 2023, and it is still being used as of September 4, 2023.",True,False
+08e075c7,False,method_full_llm,300,290,True,True,"I don't know when you started using your Fitbit Charge 3, as there is no information in the provided memory about it.",False,False
+08e075c7,False,oracle_sessions_raw,0,6204,True,True,"You've been using your Fitbit Charge 3 for 9 months now, as mentioned in our conversation on 2023/09/02 (Sat) 01:13.",True,False
+f9e8c073,False,no_memory,0,0,,,I don't know.,False,False
+f9e8c073,False,sliding_window,300,300,False,False,I don't know.,False,False
+f9e8c073,False,similarity_rag,300,296,True,True,"You attended five sessions of the bereavement support group last year, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,rag+annotate_llm,300,296,True,True,"You attended five sessions of the bereavement support group last year, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,rag+annotate_llm_nodates,300,296,True,True,"You attended five sessions of the bereavement support group last year, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,rag+annotate_rich_llm,300,296,True,True,You attended a bereavement support group last year for five sessions.,True,False
+f9e8c073,False,rag+annotate_rich_llm_nodates,300,296,True,True,"You attended a bereavement support group last year for five sessions, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,similarity_rag_nodates,300,296,True,True,"You attended five sessions of the bereavement support group last year, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,rag+cr_heuristic,300,296,True,True,"You attended five sessions of the bereavement support group last year, which you found very helpful for processing emotions and feeling less alone in grief.",True,False
+f9e8c073,False,rag+cr_llm,300,298,True,False,You attended five sessions of the bereavement support group last year.,True,False
+f9e8c073,False,rag+cr_llm_nodates,300,298,True,False,You attended five sessions of the bereavement support group last year.,True,False
+f9e8c073,False,method_full_llm,300,299,False,False,I don't know.,False,False
+f9e8c073,False,oracle_sessions_raw,0,7201,True,True,"You attended five sessions of the bereavement support group, and found it really helpful in processing your emotions.",True,False
+41698283,False,no_memory,0,0,,,I don't know.,False,False
+41698283,False,sliding_window,300,300,True,False,I don't know.,False,False
+41698283,False,similarity_rag,300,296,True,True,"You purchased a 70-200mm zoom lens most recently, which you have been using for portrait and general photography.",True,False
+41698283,False,rag+annotate_llm,300,296,True,True,"You purchased a 70-200mm zoom lens most recently, which you have been using for portrait and general photography.",True,False
+41698283,False,rag+annotate_llm_nodates,300,296,True,True,"You recently bought a new 70-200mm zoom lens, which you have been getting great shots with, including at a local park.",True,False
+41698283,False,rag+annotate_rich_llm,300,296,True,True,"You purchased a 70-200mm zoom lens most recently, which you have been using for portrait and general photography.",True,False
+41698283,False,rag+annotate_rich_llm_nodates,300,296,True,True,"You recently bought a new 70-200mm zoom lens, which you have been getting great shots with, including at a local park.",True,False
+41698283,False,similarity_rag_nodates,300,296,True,True,"You recently bought a new 70-200mm zoom lens, which you have been getting great shots with, including at a local park.",True,False
+41698283,False,rag+cr_heuristic,300,296,True,True,"You purchased a 70-200mm zoom lens most recently, which you have been using for portrait and general photography.",True,False
+41698283,False,rag+cr_llm,300,296,True,True,"You purchased a 70-200mm zoom lens most recently, which you have been using for portrait and general photography.",True,False
+41698283,False,rag+cr_llm_nodates,300,296,True,True,"You recently bought a new 70-200mm zoom lens, which you have been getting great shots with, including at a local park.",True,False
+41698283,False,method_full_llm,300,296,True,False,I don't know the specific type of camera lens you purchased most recently.,False,False
+41698283,False,oracle_sessions_raw,0,7021,True,True,"You haven't mentioned purchasing any new camera lenses in this conversation. However, you have been considering a wide-angle lens like the 14-24mm or 16-35mm to complement your existing 70-200mm zoom lens for capturing landscapes and cityscapes.",False,False
+2698e78f,False,no_memory,0,0,,,"I don't know how often you see your therapist, Dr. Smith, as there's no information in my memory about your therapy schedule.",False,False
+2698e78f,False,sliding_window,300,297,True,False,I don't know.,False,False
+2698e78f,False,similarity_rag,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+annotate_llm,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+annotate_llm_nodates,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+annotate_rich_llm,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+annotate_rich_llm_nodates,300,297,True,True,"You see a therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,similarity_rag_nodates,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+cr_heuristic,300,297,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+cr_llm,300,296,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,rag+cr_llm_nodates,300,296,True,True,"You see your therapist, Dr. Smith, weekly.",True,False
+2698e78f,False,method_full_llm,300,287,True,False,I don't know.,False,False
+2698e78f,False,oracle_sessions_raw,0,6026,True,True,You see Dr. Smith every week for therapy sessions.,True,False
+b6019101,False,no_memory,0,0,,,I don't know.,False,False
+b6019101,False,sliding_window,300,290,True,False,I don't know.,False,False
+b6019101,False,similarity_rag,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+annotate_llm,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+annotate_llm_nodates,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+annotate_rich_llm,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+annotate_rich_llm_nodates,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,similarity_rag_nodates,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+cr_heuristic,300,297,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+cr_llm,300,289,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,rag+cr_llm_nodates,300,289,True,True,You watched 5 MCU films in the last 3 months.,True,False
+b6019101,False,method_full_llm,300,291,True,True,"You didn't watch any specific number of MCU films in the last 3 months. The only Marvel-related decision mentioned was choosing Spider-Man: Homecoming for a family movie night, and adding The Goonies to the family movie marathon list, but no other MCU films were explicitly stated.",False,False
+b6019101,False,oracle_sessions_raw,0,5331,True,True,"You've watched 5 MCU films in the last 3 months, as mentioned in our previous conversation on 2023/05/29 (Mon) 02:47.",True,False
+45dc21b6,False,no_memory,0,0,,,"I don't know how many of Emma's recipes you have tried out, as there is no information in my memory about this.",False,False
+45dc21b6,False,sliding_window,300,283,False,False,"I don't know. The previous conversations were about internships, cleaning preferences, and dusting routines, but there was no mention of trying out any of Emma's recipes.",False,False
+45dc21b6,False,similarity_rag,300,300,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+annotate_llm,300,300,True,True,The user has tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+annotate_llm_nodates,300,300,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+annotate_rich_llm,300,300,True,True,You have tried 3 of Emma's recipes so far and found them all amazing.,True,False
+45dc21b6,False,rag+annotate_rich_llm_nodates,300,300,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,similarity_rag_nodates,300,300,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+cr_heuristic,300,300,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+cr_llm,300,299,True,True,The user has tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,rag+cr_llm_nodates,300,299,True,True,You have tried 3 of Emma's recipes so far.,True,False
+45dc21b6,False,method_full_llm,300,292,False,False,I don't know. The information about Emma's recipes was not provided in the memory.,False,False
+45dc21b6,False,oracle_sessions_raw,0,6308,True,True,You've tried out 3 of Emma's recipes so far.,True,False
+5a4f22c0,False,no_memory,0,0,,,I don't know.,False,True
+5a4f22c0,False,sliding_window,300,289,False,False,I don't know.,False,True
+5a4f22c0,False,similarity_rag,300,299,True,True,"Rachel, your old colleague from the previous company, now works at TechCorp.",True,True
+5a4f22c0,False,rag+annotate_llm,300,299,True,True,"Rachel, your old colleague from the previous company, now works at TechCorp.",True,True
+5a4f22c0,False,rag+annotate_llm_nodates,300,299,True,True,Rachel now works at TechCorp.,True,True
+5a4f22c0,False,rag+annotate_rich_llm,300,299,True,True,"Rachel, your old colleague from the previous company, now works at TechCorp.",True,True
+5a4f22c0,False,rag+annotate_rich_llm_nodates,300,299,True,True,Rachel now works at TechCorp.,True,True
+5a4f22c0,False,similarity_rag_nodates,300,299,True,True,Rachel now works at TechCorp.,True,True
+5a4f22c0,False,rag+cr_heuristic,300,295,True,True,"Rachel, your old colleague from the previous company, now works at TechCorp.",True,True
+5a4f22c0,False,rag+cr_llm,300,299,True,True,"Rachel, your old colleague from the previous company, now works at TechCorp.",True,True
+5a4f22c0,False,rag+cr_llm_nodates,300,299,True,True,Rachel now works at TechCorp.,True,True
+5a4f22c0,False,method_full_llm,300,298,True,False,I don't know.,False,True
+5a4f22c0,False,oracle_sessions_raw,0,5832,True,True,"The current information in my memory does not specify the company Rachel, your old colleague from your previous company, is currently working at. In our last conversation on 2023/05/23 (Tue), you mentioned that Rachel works for 'Old Company,' but I don't have any more recent updates about her current employer.",False,True
+6071bd76,False,no_memory,0,0,,,I don't know.,False,False
+6071bd76,False,sliding_window,300,297,False,False,I don't know.,False,False
+6071bd76,False,similarity_rag,300,291,True,True,"You switched to using less water per tablespoon of coffee. Previously, you used a ratio of 1 tablespoon of coffee for every 6 ounces of water, but now you are using 1 tablespoon of coffee for every 5 ounces of water in your French press.",True,False
+6071bd76,False,rag+annotate_llm,300,291,True,True,"You switched to using less water per tablespoon of coffee. Previously, you used a ratio of 1 tablespoon of coffee for every 6 ounces of water, but now you are using 1 tablespoon of coffee for every 5 ounces of water in your French press.",True,False
+6071bd76,False,rag+annotate_llm_nodates,300,291,True,True,"You recently switched to using 1 tablespoon of coffee for every 5 ounces of water in your French press, which is less water per tablespoon of coffee than your previous ratio of 1 tablespoon per 6 ounces.",True,False
+6071bd76,False,rag+annotate_rich_llm,300,291,True,True,"You switched to using less water per tablespoon of coffee. Previously, you used a ratio of 1 tablespoon of coffee for every 6 ounces of water, but now you use 1 tablespoon of coffee for every 5 ounces of water in your French press.",True,False
+6071bd76,False,rag+annotate_rich_llm_nodates,300,291,True,True,"You switched to using less water per tablespoon of coffee. Previously, you used a ratio of 1 tablespoon of coffee for every 6 ounces of water, but now you are using 1 tablespoon of coffee for every 5 ounces of water in your French press.",True,False
+6071bd76,False,similarity_rag_nodates,300,291,True,True,"You recently switched to using a ratio of 1 tablespoon of coffee per 5 ounces of water, which is less water per tablespoon compared to your previous preference of 1 tablespoon per 6 ounces.",True,False
+6071bd76,False,rag+cr_heuristic,300,295,True,True,"You recently brewed coffee in a French press using a ratio of 1 tablespoon of coffee per 5 ounces of water. This is the same ratio you previously used, so there hasn't been a change in the amount of water per tablespoon of coffee.",False,False
+6071bd76,False,rag+cr_llm,300,295,True,True,"You recently brewed coffee in a French press using a ratio of 1 tablespoon of coffee per 5 ounces of water. This is the same ratio you previously used, so there hasn't been a change in the amount of water per tablespoon of coffee.",False,False
+6071bd76,False,rag+cr_llm_nodates,300,295,True,True,You recently got new coffee beans and now brew coffee in a French press using a ratio of 1 tablespoon of coffee per 5 ounces of water. This suggests you haven't changed the amount of water per tablespoon of coffee from your previous ratio.,False,False
+6071bd76,False,method_full_llm,300,287,False,False,I don't know.,False,False
+6071bd76,False,oracle_sessions_raw,0,4877,True,True,"You mentioned using a French press ratio of 1 tablespoon of coffee for every 6 ounces of water. This is your current ratio, and you haven't changed it recently based on our previous conversation.",False,False
+e493bb7c,False,no_memory,0,0,,,I don't know where the painting 'Ethereal Dreams' by Emma Taylor is currently hanging.,False,False
+e493bb7c,False,sliding_window,300,300,False,False,"I don't know where the painting 'Ethereal Dreams' by Emma Taylor is currently hanging, as there is no information related to this in my recent memory.",False,False
+e493bb7c,False,similarity_rag,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the bed in the user's bedroom.,True,False
+e493bb7c,False,rag+annotate_llm,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the bed in the user's bedroom.,True,False
+e493bb7c,False,rag+annotate_llm_nodates,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the bed in the user's bedroom.,True,False
+e493bb7c,False,rag+annotate_rich_llm,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the user's bed in their bedroom.,True,False
+e493bb7c,False,rag+annotate_rich_llm_nodates,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the user's bed in their bedroom.,True,False
+e493bb7c,False,similarity_rag_nodates,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the user's bed in their bedroom.,True,False
+e493bb7c,False,rag+cr_heuristic,300,298,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the bed in the user's bedroom.,True,False
+e493bb7c,False,rag+cr_llm,300,287,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the user's bed in their bedroom.,True,False
+e493bb7c,False,rag+cr_llm_nodates,300,287,True,True,The painting 'Ethereal Dreams' by Emma Taylor is currently hanging above the user's bed in their bedroom.,True,False
+e493bb7c,False,method_full_llm,300,287,False,False,"I don't know where the painting 'Ethereal Dreams' by Emma Taylor is currently hanging, as there is no information in my memory related to this specific piece of art.",False,False
+e493bb7c,False,oracle_sessions_raw,0,6614,True,True,"I don't know where the painting 'Ethereal Dreams' by Emma Taylor is currently hanging, as I don't have information about your physical surroundings or possessions. Our conversation is taking place in a virtual space, and I don't have access to real-world details unless you provide them.",False,False
+618f13b2,False,no_memory,0,0,,,"I don't know how many times you have worn your new black Converse Chuck Taylor All Star sneakers, as there is no information in my memory about this.",False,False
+618f13b2,False,sliding_window,300,286,False,False,"I don't know how many times you have worn your new black Converse Chuck Taylor All Star sneakers, as there is no information in the provided memory related to this topic.",False,False
+618f13b2,False,similarity_rag,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times. However, the most recent information indicates that these were the sneakers worn on a friend's birthday party and other errands on 2023/05/29, which was the sixth time they had been worn since then. Therefore, by 2023/06/18, you have likely worn them more than four times.",True,False
+618f13b2,False,rag+annotate_llm,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times. However, the information about how many times you've worn them since then is not available in my memory.",False,False
+618f13b2,False,rag+annotate_llm_nodates,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times.",False,False
+618f13b2,False,rag+annotate_rich_llm,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times. The information provided does not include any updates after that date regarding the number of wears.",False,False
+618f13b2,False,rag+annotate_rich_llm_nodates,300,298,True,True,You have worn your new black Converse Chuck Taylor All Star sneakers four times as of 2023/05/30.,False,False
+618f13b2,False,similarity_rag_nodates,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times.",False,False
+618f13b2,False,rag+cr_heuristic,300,298,True,True,"As of 2023/05/30, you had worn your new black Converse Chuck Taylor All Star sneakers four times. However, the most recent information indicates that these were the sneakers worn on a friend's birthday party and other errands on 2023/05/29, which was the sixth time they had been worn since then. Therefore, by 2023/06/18, you have likely worn them more than four times.",True,False
+618f13b2,False,rag+cr_llm,300,295,True,True,You have worn your new black Converse Chuck Taylor All Star sneakers four times as of 2023/05/30.,False,False
+618f13b2,False,rag+cr_llm_nodates,300,295,True,True,"You have worn your new black Converse Chuck Taylor All Star sneakers four times as of May 30, 2023.",False,False
+618f13b2,False,method_full_llm,300,298,False,False,"I don't know how many times you have worn your new black Converse Chuck Taylor All Star sneakers, as that information is not in my memory.",False,False
+618f13b2,False,oracle_sessions_raw,0,5891,True,True,"You've worn your new black Converse Chuck Taylor All Star sneakers four times already, including to your friend's birthday party last Saturday.",False,False
+72e3ee87,False,no_memory,0,0,,,I don't know. There's no information in my memory about how many episodes of the Science series you've completed on Crash Course.,False,False
+72e3ee87,False,sliding_window,300,299,False,False,I don't know.,False,False
+72e3ee87,False,similarity_rag,300,298,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+annotate_llm,300,298,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+annotate_llm_nodates,300,298,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+annotate_rich_llm,300,298,True,True,You have completed 50 episodes of the Crash Course Science series on YouTube.,True,False
+72e3ee87,False,rag+annotate_rich_llm_nodates,300,298,True,True,You have completed 50 episodes of the Crash Course Science series on YouTube and find it helpful for understanding science basics.,True,False
+72e3ee87,False,similarity_rag_nodates,300,298,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+cr_heuristic,300,298,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+cr_llm,300,299,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,rag+cr_llm_nodates,300,299,True,True,You have completed 50 episodes of the Crash Course Science series.,True,False
+72e3ee87,False,method_full_llm,300,294,True,False,I don't know.,False,False
+72e3ee87,False,oracle_sessions_raw,0,6314,True,True,You have completed 50 episodes of the Science series on Crash Course.,True,False
+c4ea545c,False,no_memory,0,0,,,I don't know. There's no information in my memory about your previous gym routine.,False,True
+c4ea545c,False,sliding_window,300,297,False,False,I don't know.,False,True
+c4ea545c,False,similarity_rag,300,300,True,True,"Yes, you now work out at the gym four times a week, which is an increase from the previous routine.",True,True
+c4ea545c,False,rag+annotate_llm,300,300,True,True,"Yes, you now work out at the gym four times a week, which is an increase from the previous three days per week.",True,True
+c4ea545c,False,rag+annotate_llm_nodates,300,300,True,True,"Yes, you currently work out at the gym four times a week and have been consistent with this routine, which is more frequent than your previous schedule.",True,True
+c4ea545c,False,rag+annotate_rich_llm,300,300,True,True,"Yes, you now work out at the gym four times a week, which is an increase from the previous routine.",True,True
+c4ea545c,False,rag+annotate_rich_llm_nodates,300,300,True,True,"No, you now work out at the gym four times a week consistently, which is the same frequency as before.",False,True
+c4ea545c,False,similarity_rag_nodates,300,300,True,True,"Based on the information provided, you currently work out at the gym four times a week and have been consistent with this routine. Previously, it was stated that you went to the gym on Tuesdays, Thursdays, and Saturdays, which is also four times a week. Therefore, there hasn't been an increase in frequency.",False,True
+c4ea545c,False,rag+cr_heuristic,300,300,True,True,"Yes, you now work out at the gym four times a week, which is an increase from the previous routine.",True,True
+c4ea545c,False,rag+cr_llm,300,292,True,True,"Yes, you currently work out at the gym four times a week and have been consistent with this routine.",True,True
+c4ea545c,False,rag+cr_llm_nodates,300,292,True,True,"Yes, you currently work out at the gym four times a week and have been consistent with this routine.",True,True
+c4ea545c,False,method_full_llm,300,287,True,False,I don't know.,False,True
+c4ea545c,False,oracle_sessions_raw,0,5642,True,True,"Based on your previous conversations, you currently go to the gym three times a week on Tuesdays, Thursdays, and Saturdays. You mentioned that this schedule works better for you now that it's aligned with your actual workout days.",False,True
+01493427,False,no_memory,0,0,,,I don't know. You haven't shared this information with me before.,False,False
+01493427,False,sliding_window,300,297,False,False,I don't know.,False,False
+01493427,False,similarity_rag,300,297,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,rag+annotate_llm,300,297,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,rag+annotate_llm_nodates,300,297,True,True,You have added 17 new postcards to your collection since you restarted collecting.,False,False
+01493427,False,rag+annotate_rich_llm,300,297,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,rag+annotate_rich_llm_nodates,300,297,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,similarity_rag_nodates,300,297,True,True,You have added 25 new postcards to your collection since you started collecting again.,True,False
+01493427,False,rag+cr_heuristic,300,291,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,rag+cr_llm,300,295,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,rag+cr_llm_nodates,300,295,True,True,You have added 25 new postcards to your collection since you restarted collecting.,True,False
+01493427,False,method_full_llm,300,296,False,False,I don't know.,False,False
+01493427,False,oracle_sessions_raw,0,6500,True,True,"You've added a total of 40 new postcards to your collection since you started collecting again, which includes the latest addition of 25 postcards.",False,False
+6a27ffc2,False,no_memory,0,0,,,I don't know.,False,False
+6a27ffc2,False,sliding_window,300,300,False,False,I don't know.,False,False
+6a27ffc2,False,similarity_rag,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series.,True,False
+6a27ffc2,False,rag+annotate_llm,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series and are preparing to learn NLP.,True,False
+6a27ffc2,False,rag+annotate_llm_nodates,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series and are preparing to learn NLP.,True,False
+6a27ffc2,False,rag+annotate_rich_llm,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series and are preparing to learn NLP.,True,False
+6a27ffc2,False,rag+annotate_rich_llm_nodates,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series and are preparing to learn NLP.,True,False
+6a27ffc2,False,similarity_rag_nodates,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series and are preparing to learn NLP.,True,False
+6a27ffc2,False,rag+cr_heuristic,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series.,True,False
+6a27ffc2,False,rag+cr_llm,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series.,True,False
+6a27ffc2,False,rag+cr_llm_nodates,300,294,True,True,You have completed 30 videos of Corey Schafer's Python tutorial series.,True,False
+6a27ffc2,False,method_full_llm,300,295,False,False,I don't know.,False,False
+6a27ffc2,False,oracle_sessions_raw,0,8606,True,True,You've completed 30 videos of Corey Schafer's Python programming series so far.,True,False
+2133c1b5,False,no_memory,0,0,,,"I don't know how long you've been living in your current apartment in Harajuku, as there's no information in my memory about it.",False,False
+2133c1b5,False,sliding_window,300,295,True,False,I don't know the duration of how long you've been living in your current apartment in Harajuku.,False,False
+2133c1b5,False,similarity_rag,300,300,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+annotate_llm,300,300,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+annotate_llm_nodates,300,300,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+annotate_rich_llm,300,300,True,True,You have been living in your current apartment in Harajuku for about 3 months as of 2023/10/15.,True,False
+2133c1b5,False,rag+annotate_rich_llm_nodates,300,300,True,True,You have been living in your current apartment in Harajuku for about 3 months as of 2023/10/15.,True,False
+2133c1b5,False,similarity_rag_nodates,300,300,True,True,"You have been living in your current studio apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+cr_heuristic,300,300,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+cr_llm,300,290,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,rag+cr_llm_nodates,300,290,True,True,"You have been living in your current apartment in Harajuku for about 3 months as of October 15, 2023.",True,False
+2133c1b5,False,method_full_llm,300,300,True,True,I don't know the duration of your stay in your current apartment in Harajuku.,False,False
+2133c1b5,False,oracle_sessions_raw,0,5505,True,True,"You've been living in your current apartment in Harajuku for about 3 months, based on the last conversation where you mentioned you've been there for 3 months.",True,False
+18bc8abd,False,no_memory,0,0,,,"I don't know what brand of BBQ sauce you are currently obsessed with, as there is no previous information in my memory.",False,False
+18bc8abd,False,sliding_window,300,296,True,False,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,similarity_rag,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+annotate_llm,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+annotate_llm_nodates,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+annotate_rich_llm,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+annotate_rich_llm_nodates,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,similarity_rag_nodates,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+cr_heuristic,300,279,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+cr_llm,300,300,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,rag+cr_llm_nodates,300,300,True,True,"You are currently obsessed with Kansas City Masterpiece BBQ sauce, especially on ribs and pulled pork.",True,False
+18bc8abd,False,method_full_llm,300,291,True,False,I don't know.,False,False
+18bc8abd,False,oracle_sessions_raw,0,7454,True,True,You are currently obsessed with Kansas City Masterpiece BBQ sauce on your ribs.,True,False
+db467c8c,False,no_memory,0,0,,,I don't know.,False,False
+db467c8c,False,sliding_window,300,285,False,False,"I don't know how long your parents have been staying with you in the US, as there is no information about this in my memory.",False,False
+db467c8c,False,similarity_rag,300,291,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+annotate_llm,300,291,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+annotate_llm_nodates,300,291,True,True,Your parents have been staying with you for about nine months as of October 2023.,True,False
+db467c8c,False,rag+annotate_rich_llm,300,291,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+annotate_rich_llm_nodates,300,291,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,similarity_rag_nodates,300,291,True,True,"Your parents have been staying with you for about nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+cr_heuristic,300,291,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+cr_llm,300,295,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,rag+cr_llm_nodates,300,295,True,True,"Your parents have been staying with you for nine months as of October 20, 2023.",True,False
+db467c8c,False,method_full_llm,300,282,False,False,I don't know when your parents started staying with you in the US or how long they have been there.,False,False
+db467c8c,False,oracle_sessions_raw,0,7449,True,True,Your parents have been staying with you for nine months now.,True,False
+7a87bd0c,False,no_memory,0,0,,,"I don't know how long you've been sticking to your daily tidying routine, as there's no information in my memory about when you started it.",False,False
+7a87bd0c,False,sliding_window,300,281,False,False,I don't know.,False,False
+7a87bd0c,False,similarity_rag,300,300,True,True,"You have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,rag+annotate_llm,300,300,True,True,You have been sticking to a daily tidying routine for 4 weeks as of 2023/09/30.,True,False
+7a87bd0c,False,rag+annotate_llm_nodates,300,300,True,True,"You have been sticking to a daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,rag+annotate_rich_llm,300,300,True,True,"You have been sticking to a daily tidying routine for 4 weeks as of 2023/09/30, and it has made a big difference in your apartment.",True,False
+7a87bd0c,False,rag+annotate_rich_llm_nodates,300,300,True,True,"You have been sticking to a daily tidying routine for 4 weeks as of 2023/09/30, and it has made a big difference in your apartment.",True,False
+7a87bd0c,False,similarity_rag_nodates,300,300,True,True,"You have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,rag+cr_heuristic,300,298,True,True,"You have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,rag+cr_llm,300,298,True,True,"You have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,rag+cr_llm_nodates,300,298,True,True,"You have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",True,False
+7a87bd0c,False,method_full_llm,300,283,False,False,"I don't know when you started your daily tidying routine, so I can't tell you how long you've been sticking to it.",False,False
+7a87bd0c,False,oracle_sessions_raw,0,6218,True,True,You've been sticking to your daily tidying routine for 4 weeks now.,True,False
+e61a7584,False,no_memory,0,0,,,"I don't know when you got your cat Luna, as there's no information in my memory about this.",False,False
+e61a7584,False,sliding_window,300,297,False,False,I don't know when you got your cat Luna or how long you've had her.,False,False
+e61a7584,False,similarity_rag,300,288,True,True,"You have had your cat, Luna, for about 9 months as of November 30, 2023.",True,False
+e61a7584,False,rag+annotate_llm,300,288,True,True,"You have had your cat, Luna, for about 9 months as of November 30, 2023.",True,False
+e61a7584,False,rag+annotate_llm_nodates,300,288,True,True,"You have had your cat, Luna, for about 9 months as of 2023/11/30.",True,False
+e61a7584,False,rag+annotate_rich_llm,300,288,True,True,"You have had your cat, Luna, for about 9 months as of November 30, 2023.",True,False
+e61a7584,False,rag+annotate_rich_llm_nodates,300,288,True,True,"You have had your cat, Luna, for about 9 months as of 2023/11/30.",True,False
+e61a7584,False,similarity_rag_nodates,300,288,True,True,"You have had your cat, Luna, for about 9 months as of 2023/11/30.",True,False
+e61a7584,False,rag+cr_heuristic,300,290,True,True,"You have had your cat, Luna, for about 9 months as of November 30, 2023.",True,False
+e61a7584,False,rag+cr_llm,300,290,True,True,"You have had your cat, Luna, for about 9 months as of November 30, 2023.",True,False
+e61a7584,False,rag+cr_llm_nodates,300,290,True,True,"You have had your cat, Luna, for about 9 months as of 2023/11/30.",True,False
+e61a7584,False,method_full_llm,300,300,False,False,"I don't know the duration of how long you've had your cat, Luna, based on the information provided.",False,False
+e61a7584,False,oracle_sessions_raw,0,5666,True,True,"You've had your cat, Luna, for about 9 months now.",True,False
+1cea1afa,False,no_memory,0,0,,,I don't know. My current memory doesn't contain information about your Instagram followers.,False,False
+1cea1afa,False,sliding_window,300,300,False,False,I don't know the number of your current Instagram followers.,False,False
+1cea1afa,False,similarity_rag,300,299,True,True,"As of June 14, 2023, you have over 600 Instagram followers, with the exact number not specified in my records.",False,False
+1cea1afa,False,rag+annotate_llm,300,299,True,True,"As of May 28, 2023, you had 600 Instagram followers. The exact number may have changed since then, but that is the most recent value in my memory.",True,False
+1cea1afa,False,rag+annotate_llm_nodates,300,299,True,True,"As of 2023/05/28, you had 600 Instagram followers, which you consider a milestone. The number may have changed since then, but your most recent follower count is not provided in my memory.",True,False
+1cea1afa,False,rag+annotate_rich_llm,300,299,True,True,"As of May 28, 2023, you had 600 Instagram followers, which was considered a milestone. The exact current number might have changed since then.",True,False
+1cea1afa,False,rag+annotate_rich_llm_nodates,300,299,True,True,"You currently have over 600 Instagram followers, with the most recent milestone reached as of May 28, 2023.",False,False
+1cea1afa,False,similarity_rag_nodates,300,299,True,True,"As of June 14, 2023, you have 600 Instagram followers.",True,False
+1cea1afa,False,rag+cr_heuristic,300,299,True,True,"As of June 14, 2023, you have over 600 Instagram followers, with the exact number not specified in my records.",False,False
+1cea1afa,False,rag+cr_llm,300,284,True,True,"As of the current information provided, you consider having reached 600 followers on your Instagram account as a milestone. However, without more recent data, I can't confirm if this number has changed since May 28, 2023.",True,False
+1cea1afa,False,rag+cr_llm_nodates,300,284,True,True,"As of the last known update in 2023/05/28, you had 600 followers on your Instagram account. The current number may have changed since then.",True,False
+1cea1afa,False,method_full_llm,300,300,True,False,I don't know the current number of your Instagram followers.,False,False
+1cea1afa,False,oracle_sessions_raw,0,6655,True,True,"You currently have 600 followers on Instagram, which is a nice milestone!",True,False
+ed4ddc30,False,no_memory,0,0,,,I don't know.,False,False
+ed4ddc30,False,sliding_window,300,283,False,False,I don't know.,False,False
+ed4ddc30,False,similarity_rag,300,287,True,True,We currently have 20 dozen fresh eggs stocked up in the refrigerator.,True,False
+ed4ddc30,False,rag+annotate_llm,300,287,True,True,"We currently have 20 dozen fresh eggs stocked up in the refrigerator as of March 15, 2023. The information is current as of the last update on March 15, 2023.",True,False
+ed4ddc30,False,rag+annotate_llm_nodates,300,287,True,True,We currently have 20 dozen fresh eggs stocked up in the refrigerator.,True,False
+ed4ddc30,False,rag+annotate_rich_llm,300,287,True,True,We currently have 20 dozen fresh eggs from the coop stocked in the refrigerator.,True,False
+ed4ddc30,False,rag+annotate_rich_llm_nodates,300,287,True,True,We currently have 20 dozen fresh eggs from the coop stocked in the fridge.,True,False
+ed4ddc30,False,similarity_rag_nodates,300,287,True,True,We currently have 20 dozen fresh eggs stocked up in the refrigerator.,True,False
+ed4ddc30,False,rag+cr_heuristic,300,294,True,True,We currently have 20 dozen fresh eggs stocked in the fridge.,True,False
+ed4ddc30,False,rag+cr_llm,300,294,True,True,We currently have 20 dozen fresh eggs stocked in the fridge.,True,False
+ed4ddc30,False,rag+cr_llm_nodates,300,294,True,True,We currently have 20 dozen fresh eggs stocked in the fridge.,True,False
+ed4ddc30,False,method_full_llm,300,299,True,False,I don't know.,False,False
+ed4ddc30,False,oracle_sessions_raw,0,7722,True,True,We currently have 20 dozen eggs stocked up in the fridge.,True,False
+8fb83627,False,no_memory,0,0,,,"I don't know how many issues of National Geographic you have finished reading, as there is no information in my memory about this topic.",False,False
+8fb83627,False,sliding_window,300,292,True,False,I don't know.,False,False
+8fb83627,False,similarity_rag,300,286,True,True,You have finished reading five issues of National Geographic.,True,False
+8fb83627,False,rag+annotate_llm,300,286,True,True,You have finished reading five issues of National Geographic.,True,False
+8fb83627,False,rag+annotate_llm_nodates,300,286,True,True,You have finished five issues of National Geographic that featured articles on the Amazon rainforest and its indigenous communities.,True,False
+8fb83627,False,rag+annotate_rich_llm,300,286,True,True,You have finished reading five issues of National Geographic that featured articles on the Amazon rainforest and its indigenous communities.,True,False
+8fb83627,False,rag+annotate_rich_llm_nodates,300,286,True,True,You have finished five issues of National Geographic that featured articles on the Amazon rainforest and its indigenous communities.,True,False
+8fb83627,False,similarity_rag_nodates,300,286,True,True,You have finished five issues of National Geographic.,True,False
+8fb83627,False,rag+cr_heuristic,300,286,True,True,You have finished reading five issues of National Geographic.,True,False
+8fb83627,False,rag+cr_llm,300,293,True,True,You have finished five issues of National Geographic.,True,False
+8fb83627,False,rag+cr_llm_nodates,300,293,True,True,You have finished five issues of National Geographic.,True,False
+8fb83627,False,method_full_llm,300,292,False,False,I don't know.,False,False
+8fb83627,False,oracle_sessions_raw,0,5244,True,True,You have finished reading five issues of National Geographic so far.,True,False
+b01defab,False,no_memory,0,0,,,I don't know. There's no information in my memory about whether you finished reading 'The Nightingale' by Kristin Hannah.,False,False
+b01defab,False,sliding_window,300,295,True,False,"Based on the information provided, you valued the sisterly bond between Vianne and Isabelle in 'The Nightingale' and found it portrayed wartime sacrifices and hope. However, there is no mention of whether you finished reading the book.",False,False
+b01defab,False,similarity_rag,300,297,True,True,"Yes, you recently finished reading 'The Nightingale' by Kristin Hannah and loved it, according to your preferences stated on 2023-03-30.",True,False
+b01defab,False,rag+annotate_llm,300,297,True,True,"Based on the information provided, you have finished reading both 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' by Kristin Hannah.",True,False
+b01defab,False,rag+annotate_llm_nodates,300,297,True,True,"No, you put down 'The Nightingale' because it became too emotional and plan to resume reading it, possibly on your daily commute.",False,False
+b01defab,False,rag+annotate_rich_llm,300,297,True,True,"Yes, you recently finished reading 'The Nightingale' and 'The Seven Husbands of Evelyn Hugo', according to the information from March 30, 2023.",True,False
+b01defab,False,rag+annotate_rich_llm_nodates,300,297,True,True,"Yes, you recently finished reading 'The Nightingale' by Kristin Hannah and loved it.",True,False
+b01defab,False,similarity_rag_nodates,300,297,True,True,"Based on your recent preferences, you finished reading 'The Nightingale' by Kristin Hannah and found it amazing with a strong focus on the sisterly bond between Vianne and Isabelle.",True,False
+b01defab,False,rag+cr_heuristic,300,297,True,True,"Yes, you recently finished reading 'The Nightingale' by Kristin Hannah and loved it, according to your preferences stated on 2023-03-30.",True,False
+b01defab,False,rag+cr_llm,300,284,True,True,"Yes, you finished reading 'The Nightingale' by Kristin Hannah on 2023-03-30.",True,False
+b01defab,False,rag+cr_llm_nodates,300,284,True,True,"Yes, you finished reading 'The Nightingale' by Kristin Hannah and loved it, especially valuing the sisterly bond between Vianne and Isabelle.",True,False
+b01defab,False,method_full_llm,300,300,True,False,"Based on your recent decisions, you decided to use Goodreads and the Book Lover's Journal to track your reading progress. While it's not explicitly stated whether you finished 'The Nightingale,' you might want to check your tracking tools to confirm.",False,False
+b01defab,False,oracle_sessions_raw,0,5219,True,True,"Yes, you mentioned that you finished reading 'The Nightingale' by Kristin Hannah recently and found it to be a powerful and emotional read. You enjoyed the sisterly bond between Vianne and Isabelle and appreciated how the novel highlighted the daily struggles and sacrifices of ordinary people during wartime.",True,False
+22d2cb42,False,no_memory,0,0,,,I don't know where you got your guitar serviced. Do you have any more information or a specific place in mind?,False,False
+22d2cb42,False,sliding_window,300,295,False,False,I don't know where you got your guitar serviced.,False,False
+22d2cb42,False,similarity_rag,300,287,True,True,"Your guitar was serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+annotate_llm,300,287,True,True,"Your guitar was serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+annotate_llm_nodates,300,287,True,True,"You had your acoustic guitar serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+annotate_rich_llm,300,287,True,True,"Your guitar was serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+annotate_rich_llm_nodates,300,287,True,True,"You got your guitar serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,similarity_rag_nodates,300,287,True,True,"Your guitar was serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+cr_heuristic,300,287,True,True,"Your guitar was serviced at a music shop on Main St, which you consider very good for guitar maintenance.",True,False
+22d2cb42,False,rag+cr_llm,300,286,True,True,"The user's guitar was serviced at a music shop on Main St, which the user considers very good for guitar maintenance.",True,False
+22d2cb42,False,rag+cr_llm_nodates,300,286,True,True,"The user's guitar was serviced at a music shop on Main St, which the user considers very good for guitar maintenance.",True,False
+22d2cb42,False,method_full_llm,300,290,False,False,I don't know where you got your guitar serviced.,False,False
+22d2cb42,False,oracle_sessions_raw,0,5151,True,True,"You mentioned that you got your acoustic guitar serviced at a music shop on Main St, specifically Rhythm Central, before the music festival.",True,False
+0e4e4c46,False,no_memory,0,0,,,I don't know your current highest score in Ticket to Ride as I have no previous information about your game scores.,False,False
+0e4e4c46,False,sliding_window,300,299,True,False,Your highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,similarity_rag,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+annotate_llm,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+annotate_llm_nodates,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+annotate_rich_llm,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+annotate_rich_llm_nodates,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,similarity_rag_nodates,300,296,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+cr_heuristic,300,287,True,True,Your highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+cr_llm,300,287,True,True,Your highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,rag+cr_llm_nodates,300,287,True,True,Your highest score in Ticket to Ride is 132 points.,True,False
+0e4e4c46,False,method_full_llm,300,284,True,True,I don't know your current highest score in Ticket to Ride.,False,False
+0e4e4c46,False,oracle_sessions_raw,0,6643,True,True,Your current highest score in Ticket to Ride is 132 points.,True,False
+4b24c848,False,no_memory,0,0,,,I don't know.,False,False
+4b24c848,False,sliding_window,300,300,False,False,I don't know.,False,False
+4b24c848,False,similarity_rag,300,297,True,True,You have already owned five tops bought from H&M and are considering buying a few more.,True,False
+4b24c848,False,rag+annotate_llm,300,297,True,True,You have already owned five tops bought from H&M and are considering buying a few more.,True,False
+4b24c848,False,rag+annotate_llm_nodates,300,297,True,True,You have already bought five tops from H&M and are considering buying a few more this weekend.,True,False
+4b24c848,False,rag+annotate_rich_llm,300,297,True,True,You have bought five tops from H&M so far.,True,False
+4b24c848,False,rag+annotate_rich_llm_nodates,300,297,True,True,You have already bought five tops from H&M so far and are considering buying more this weekend or in the future.,True,False
+4b24c848,False,similarity_rag_nodates,300,297,True,True,You have already bought five tops from H&M and are considering buying a few more.,True,False
+4b24c848,False,rag+cr_heuristic,300,296,True,True,You have bought five tops from H&M so far.,True,False
+4b24c848,False,rag+cr_llm,300,296,True,True,You have bought five tops from H&M so far.,True,False
+4b24c848,False,rag+cr_llm_nodates,300,296,True,True,You have bought five tops from H&M so far.,True,False
+4b24c848,False,method_full_llm,300,284,False,False,I don't know.,False,False
+4b24c848,False,oracle_sessions_raw,0,4590,True,True,"You've already bought three tops from H&M, and you're planning to buy more.",False,False
+7e974930,False,no_memory,0,0,,,I don't know. There's no information in my memory about your earnings at the Downtown Farmers Market.,False,False
+7e974930,False,sliding_window,300,288,True,False,I don't know.,False,False
+7e974930,False,similarity_rag,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+annotate_llm,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+annotate_llm_nodates,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+annotate_rich_llm,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+annotate_rich_llm_nodates,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,similarity_rag_nodates,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+cr_heuristic,300,297,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+cr_llm,300,285,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,rag+cr_llm_nodates,300,285,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+7e974930,False,method_full_llm,300,299,True,False,I don't know.,False,False
+7e974930,False,oracle_sessions_raw,0,4475,True,True,You earned $420 at the Downtown Farmers Market on your most recent visit.,True,False
+603deb26,False,no_memory,0,0,,,I don't know. There's no information in my memory about how many times you've tried making a Negroni at home.,False,False
+603deb26,False,sliding_window,300,295,False,False,I don't know.,False,False
+603deb26,False,similarity_rag,300,290,True,True,You have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+603deb26,False,rag+annotate_llm,300,290,True,True,You have tried making the Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+603deb26,False,rag+annotate_llm_nodates,300,290,True,True,"Since your friend Emma showed you how to make it, you have tried making the Negroni at home 10 times.",True,False
+603deb26,False,rag+annotate_rich_llm,300,290,True,True,You have tried making a Negroni at home 10 times and have been perfecting it since your friend Emma showed you how to make it.,True,False
+603deb26,False,rag+annotate_rich_llm_nodates,300,290,True,True,You have tried making a Negroni at home 10 times and have been perfecting the recipe.,True,False
+603deb26,False,similarity_rag_nodates,300,290,True,True,"Since your friend Emma showed you how to make it, you have tried making the Negroni at home 10 times.",True,False
+603deb26,False,rag+cr_heuristic,300,292,True,True,You have tried making Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+603deb26,False,rag+cr_llm,300,292,True,True,You have tried making Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+603deb26,False,rag+cr_llm_nodates,300,292,True,True,You have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+603deb26,False,method_full_llm,300,286,False,False,I don't know.,False,False
+603deb26,False,oracle_sessions_raw,0,6729,True,True,You've tried making a Negroni at home 10 times since your friend Emma showed you how to make it.,True,False
+59524333,False,no_memory,0,0,,,I don't know when you usually go to the gym.,False,False
+59524333,False,sliding_window,300,286,False,False,I don't know your usual gym time.,False,False
+59524333,False,similarity_rag,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+annotate_llm,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+annotate_llm_nodates,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+annotate_rich_llm,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+annotate_rich_llm_nodates,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,similarity_rag_nodates,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+cr_heuristic,300,285,True,True,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+cr_llm,300,297,True,False,"You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",True,False
+59524333,False,rag+cr_llm_nodates,300,297,True,False,You usually go to the gym at 6:00 pm.,True,False
+59524333,False,method_full_llm,300,299,True,False,You usually finish preparing meeting files with the potential client by 6:00 pm before going to the gym.,False,False
+59524333,False,oracle_sessions_raw,0,5152,True,True,"You usually go to the gym on Mondays, Wednesdays, and Fridays at 7:00 pm.",False,False
+5831f84d,False,no_memory,0,0,,,I don't know. There's no information about the number of Crash Course videos you've watched in the past few weeks in my memory.,False,False
+5831f84d,False,sliding_window,300,300,False,False,I don't know.,False,False
+5831f84d,False,similarity_rag,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+annotate_llm,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+annotate_llm_nodates,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+annotate_rich_llm,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+annotate_rich_llm_nodates,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,similarity_rag_nodates,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+cr_heuristic,300,295,True,True,"You have watched 15 Crash Course videos in the past few weeks as part of a learning streak, while learning about natural language processing (NLP).",True,False
+5831f84d,False,rag+cr_llm,300,284,True,True,You have watched 15 Crash Course videos in the past few weeks.,True,False
+5831f84d,False,rag+cr_llm_nodates,300,284,True,True,You have watched 15 Crash Course videos in the past few weeks.,True,False
+5831f84d,False,method_full_llm,300,290,False,False,I don't know. The user's previous decisions and plans did not include watching Crash Course videos.,False,False
+5831f84d,False,oracle_sessions_raw,0,6336,True,True,You've watched 15 Crash Course videos in the past few weeks.,True,False
+eace081b,False,no_memory,0,0,,,I don't know where you are planning to stay for your birthday trip to Hawaii.,False,False
+eace081b,False,sliding_window,300,299,False,False,"I don't know where you are planning to stay for your birthday trip to Hawaii, as there is no information related to that in the provided memory.",False,False
+eace081b,False,similarity_rag,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+annotate_llm,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+annotate_llm_nodates,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+annotate_rich_llm,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii in October 2023.,True,False
+eace081b,False,rag+annotate_rich_llm_nodates,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii in October 2023.,True,False
+eace081b,False,similarity_rag_nodates,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+cr_heuristic,300,287,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+cr_llm,300,289,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,rag+cr_llm_nodates,300,289,True,True,"You are planning to stay on Oahu for your birthday trip to Hawaii in October 2023, but the specific hotel is not mentioned.",True,False
+eace081b,False,method_full_llm,300,284,True,False,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+eace081b,False,oracle_sessions_raw,0,6585,True,True,You are planning to stay on Oahu for your birthday trip to Hawaii.,True,False
+affe2881,False,no_memory,0,0,,,I don't know. You haven't shared any information about the number of bird species you've seen in your local park.,False,False
+affe2881,False,sliding_window,300,295,False,False,I don't know.,False,False
+affe2881,False,similarity_rag,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+annotate_llm,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+annotate_llm_nodates,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+annotate_rich_llm,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+annotate_rich_llm_nodates,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,similarity_rag_nodates,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+cr_heuristic,300,293,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+cr_llm,300,290,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,rag+cr_llm_nodates,300,290,True,True,You have seen 32 different species of birds in your local park.,True,False
+affe2881,False,method_full_llm,300,299,False,False,I don't know.,False,False
+affe2881,False,oracle_sessions_raw,0,6301,True,True,You've managed to spot 32 different species of birds in your local park so far.,True,False
+50635ada,False,no_memory,0,0,,,I don't know your previous frequent flyer status on United Airlines.,False,True
+50635ada,False,sliding_window,300,295,False,False,I don't know.,False,True
+50635ada,False,similarity_rag,300,298,True,True,"Before reaching Premier Gold status, you were Premier Silver status as stated in your travel arrangements from Washington DC to Los Angeles using United MileagePlus miles on 2022-09-16.",True,True
+50635ada,False,rag+annotate_llm,300,298,True,True,"Before reaching Premier Gold status, you were Premier Silver status on United Airlines as of 2022-09-16.",True,True
+50635ada,False,rag+annotate_llm_nodates,300,298,True,True,"Before reaching Premier Gold status, you were Premier Silver status on United Airlines.",True,True
+50635ada,False,rag+annotate_rich_llm,300,298,True,True,"Before reaching Premier Gold status, you had Premier Silver status with United Airlines MileagePlus.",True,True
+50635ada,False,rag+annotate_rich_llm_nodates,300,298,True,True,"Before reaching Premier Gold status, you had Premier Silver status on United Airlines MileagePlus.",True,True
+50635ada,False,similarity_rag_nodates,300,298,True,True,"Before reaching Premier Gold status, you had Premier Silver status on United Airlines.",True,True
+50635ada,False,rag+cr_heuristic,300,296,True,True,"Before reaching Premier Gold status, your previous frequent flyer status on United Airlines was not mentioned in the provided memory.",False,True
+50635ada,False,rag+cr_llm,300,296,True,True,"Before reaching Premier Gold status, your previous frequent flyer status on United Airlines was not mentioned in the provided memory.",False,True
+50635ada,False,rag+cr_llm_nodates,300,296,True,True,"Your previous frequent flyer status on United Airlines before reaching Premier Gold was not specified in the memory, but it's implied that you have advanced from a lower status to Premier Gold.",False,True
+50635ada,False,method_full_llm,300,294,True,False,I don't know your previous frequent flyer status on United Airlines before you got your current status.,False,True
+50635ada,False,oracle_sessions_raw,0,5742,True,True,"Before reaching Premier Silver status, your previous frequent flyer status on United Airlines was likely at a lower level. Since you mentioned hitting 20,000 miles and earning Premier Silver status, it's reasonable to assume that prior to this, you were either a Basic or no status at all.",False,True
+e66b632c,False,no_memory,0,0,,,"I don't know your previous personal best time for the charity 5K run, as there is no memory of it in my records.",False,True
+e66b632c,False,sliding_window,300,298,False,False,"I don't know your previous personal best time for the charity 5K run, as that information is not included in the provided memory.",False,True
+e66b632c,False,similarity_rag,300,296,True,True,"Your previous personal best time for the charity 5K run was 27 minutes and 45 seconds, which you achieved recently before July 30, 2023.",True,True
+e66b632c,False,rag+annotate_llm,300,296,True,True,"Your previous personal best time for the charity 5K run was 27 minutes and 45 seconds, which you achieved recently before July 30, 2023. However, this has since been updated to a faster time of 26:30.",True,True
+e66b632c,False,rag+annotate_llm_nodates,300,296,True,True,"Your previous personal best time for the charity 5K run was 26:30, which you achieved before July 30, 2023.",False,True
+e66b632c,False,rag+annotate_rich_llm,300,296,True,True,"Your previous personal best time for the charity 5K run is 26 minutes and 30 seconds, which you achieved in the week before July 30, 2023.",False,True
+e66b632c,False,rag+annotate_rich_llm_nodates,300,296,True,True,"Your previous personal best time for the charity 5K run is 26 minutes and 30 seconds, which you achieved in the week before July 30, 2023.",False,True
+e66b632c,False,similarity_rag_nodates,300,296,True,True,"Your previous personal best time for the charity 5K run is 26:30, which you achieved before July 30, 2023.",False,True
+e66b632c,False,rag+cr_heuristic,300,296,True,True,"Your previous personal best time for the charity 5K run was 27 minutes and 45 seconds, which you achieved recently before July 30, 2023.",True,True
+e66b632c,False,rag+cr_llm,300,298,True,True,Your personal best time for the charity 5K run is 26:30.,False,True
+e66b632c,False,rag+cr_llm_nodates,300,298,True,True,"Your previous personal best time for the charity 5K run was 26:30, which you achieved in the week before July 30, 2023. This beat your previous record by about 1.5 minutes.",False,True
+e66b632c,False,method_full_llm,300,296,True,True,"Your previous personal best time for the charity 5K run was 26:30, based on your decision to follow an aggressive 10K training plan.",False,True
+e66b632c,False,oracle_sessions_raw,0,6499,True,True,Your previous personal best time for the charity 5K run was 26 minutes and 30 seconds.,False,True
+0ddfec37,False,no_memory,0,0,,,I don't know. You haven't provided any information about your autographed baseball collection or how many you've added so far.,False,True
+0ddfec37,False,sliding_window,300,300,False,False,I don't know.,False,True
+0ddfec37,False,similarity_rag,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, as you started collecting around April 2023 and by July 2023 you had 15, with 20 by December 2023.",False,True
+0ddfec37,False,rag+annotate_llm,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, as you started collecting around April 2023 and by July 2023 had 15 total, with 20 by December 2023.",False,True
+0ddfec37,False,rag+annotate_llm_nodates,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, from April to June 2023.",False,True
+0ddfec37,False,rag+annotate_rich_llm,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, as you started collecting around April 2023 and by July 2023 you had 15, with 20 added more recently.",False,True
+0ddfec37,False,rag+annotate_rich_llm_nodates,300,297,True,True,"You added 15 autographed baseballs to your collection in the first few months, starting around April 2023.",True,True
+0ddfec37,False,similarity_rag_nodates,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, as you started collecting around April 2023 and had 15 by July 2023.",False,True
+0ddfec37,False,rag+cr_heuristic,300,297,True,True,"You added 5 autographed baseballs to your collection in the first three months, as you started collecting around April 2023 and by July 2023 you had 15, with 20 by December 2023.",False,True
+0ddfec37,False,rag+cr_llm,300,299,True,True,"In the past few months, you have added 20 autographed baseballs to your sports memorabilia collection. Since the last update on December 30, 2023, there hasn't been any additional information about adding more autographed baseballs.",False,True
+0ddfec37,False,rag+cr_llm_nodates,300,299,True,True,"In the past few months, you have added 20 autographed baseballs to your sports memorabilia collection. Since the current date is closer to when you added these items than to the last update about selling some of them, we can assume this number has not changed for the first three months of collection.",False,True
+0ddfec37,False,method_full_llm,300,300,False,False,I don't know.,False,True
+0ddfec37,False,oracle_sessions_raw,0,5527,True,True,"In the first three months of your collection, you mentioned adding 15 autographed baseballs since you started collecting three months ago. Since then, you've also added more, bringing the total to at least 20 autographed baseballs.",False,True
+f685340e,False,no_memory,0,0,,,"I don't know how often you played tennis with your friends at the local park in the past or currently, as there is no information available in my memory.",False,True
+f685340e,False,sliding_window,300,298,True,False,"You used to play tennis with your friends at the local park every other week, including this Sunday. Currently, you still plan to play there on a regular basis according to your recent decision.",False,True
+f685340e,False,similarity_rag,300,300,True,True,"Previously, you played tennis with your friends at the local park weekly. Now, you play every other week, including this Sunday.",True,True
+f685340e,False,rag+annotate_llm,300,300,True,True,"Previously, you played tennis weekly with friends at the local park. Now, you play every other week, including this Sunday.",True,True
+f685340e,False,rag+annotate_llm_nodates,300,300,True,True,"Previously, you played tennis with your friends at the local park every other week. Now, you play weekly.",False,True
+f685340e,False,rag+annotate_rich_llm,300,300,True,True,"Previously, you played tennis with friends at the local park weekly. Now, you play every other week, including this Sunday (2023-07-30).",True,True
+f685340e,False,rag+annotate_rich_llm_nodates,300,300,True,True,"You used to play tennis with your friends at the local park weekly, but now you play every other week, including this Sunday (2023-07-30).",True,True
+f685340e,False,similarity_rag_nodates,300,300,True,True,"Previously, you played tennis with your friends at the local park every other week. Now, you plan to play this Sunday (2023-07-30), so it's more frequent.",False,True
+f685340e,False,rag+cr_heuristic,300,300,True,True,"Previously, you played tennis with your friends at the local park weekly. Now, you play every other week, including this Sunday.",True,True
+f685340e,False,rag+cr_llm,300,299,True,True,"Previously, you played tennis with your friends at the local park every other week. Now, as of July 30, 2023, you plan to play there on Sunday.",False,True
+f685340e,False,rag+cr_llm_nodates,300,299,True,True,"You used to play tennis with your friends at the local park every other week, including this Sunday. Now, you plan to continue playing on Sunday.",False,True
+f685340e,False,method_full_llm,300,298,True,False,"I don't know how often you play tennis with your friends at the local park, as there is no information in my memory regarding your tennis playing habits.",False,True
+f685340e,False,oracle_sessions_raw,0,4823,True,True,"Based on our previous conversations, you and your friends typically play tennis together weekly. You mentioned playing tennis with your friends at the local park every other week in a past conversation, but more recently, we discussed plans to play this Sunday, indicating a shift to a more frequent schedule.",False,True
+cc5ded98,False,no_memory,0,0,,,I don't know how much time you dedicate to coding exercises each day.,False,False
+cc5ded98,False,sliding_window,300,285,False,False,I don't know the specific amount of time you dedicate to coding exercises each day.,False,False
+cc5ded98,False,similarity_rag,300,294,True,True,"You have been dedicating about two hours each day to coding exercises, as of May 29, 2023.",True,False
+cc5ded98,False,rag+annotate_llm,300,294,True,True,"You have been dedicating about two hours each day to coding exercises, as of May 29, 2023.",True,False
+cc5ded98,False,rag+annotate_llm_nodates,300,294,True,True,"You are dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,rag+annotate_rich_llm,300,294,True,True,"You have been dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,rag+annotate_rich_llm_nodates,300,294,True,True,"You are dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,similarity_rag_nodates,300,294,True,True,"You are dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,rag+cr_heuristic,300,294,True,True,"You have been dedicating about two hours each day to coding exercises, as of May 29, 2023.",True,False
+cc5ded98,False,rag+cr_llm,300,293,True,True,"You have been dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,rag+cr_llm_nodates,300,293,True,True,"You have been dedicating about two hours each day to coding exercises, focused on improving data structures, algorithms, and Python problem-solving skills.",True,False
+cc5ded98,False,method_full_llm,300,284,False,False,"I don't know. The previous topics discussed included travel plans, photography, and budget tracking, but there was no mention of your daily routine or time dedicated to coding exercises.",False,False
+cc5ded98,False,oracle_sessions_raw,0,6180,True,True,"You've been dedicating about two hours each day to coding exercises, which is a great amount of time for consistent practice and skill improvement.",True,False
+dfde3500,False,no_memory,0,0,,,"I don't know when you met with your previous language exchange tutor Juan, so I cannot determine the day of the week.",False,True
+dfde3500,False,sliding_window,300,294,False,False,I don't know when you met with your previous language exchange tutor Juan.,False,True
+dfde3500,False,similarity_rag,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+annotate_llm,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+annotate_llm_nodates,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+annotate_rich_llm,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+annotate_rich_llm_nodates,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,similarity_rag_nodates,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+cr_heuristic,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+cr_llm,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,rag+cr_llm_nodates,300,297,True,True,You met with your previous language exchange tutor Juan on Wednesday evenings.,True,True
+dfde3500,False,method_full_llm,300,298,False,True,I don't know when you met with your previous language exchange tutor Juan.,False,True
+dfde3500,False,oracle_sessions_raw,0,4900,True,True,"Based on our past conversation, you remember that you have a language exchange class with Juan every Wednesday evening.",False,True
+69fee5aa,False,no_memory,0,0,,,I don't know. You didn't provide information about the number of pre-1920 American coins in your collection.,False,False
+69fee5aa,False,sliding_window,300,287,False,False,I don't know.,False,False
+69fee5aa,False,similarity_rag,300,300,True,True,"You have 38 pre-1920 American coins in your collection, including the recently added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+annotate_llm,300,300,True,True,"You currently have 38 pre-1920 American coins in your collection, including the recently added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+annotate_llm_nodates,300,300,True,True,"You have 38 pre-1920 American coins in your collection, including the recently added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+annotate_rich_llm,300,300,True,True,"You currently have 38 pre-1920 American coins in your collection, including the added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+annotate_rich_llm_nodates,300,300,True,True,"You have 38 pre-1920 American coins in your collection, including the added 1915-S Barber quarter.",True,False
+69fee5aa,False,similarity_rag_nodates,300,300,True,True,"You have 38 pre-1920 American coins in your collection, including the recently added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+cr_heuristic,300,300,True,True,"You have 38 pre-1920 American coins in your collection, including the recently added 1915-S Barber quarter.",True,False
+69fee5aa,False,rag+cr_llm,300,287,True,True,"You currently have at least one pre-1920 American coin in your collection, specifically a 1915-S Barber quarter.",False,False
+69fee5aa,False,rag+cr_llm_nodates,300,287,True,True,"You have at least one pre-1920 American coin in your collection, specifically a 1915-S Barber quarter.",False,False
+69fee5aa,False,method_full_llm,300,299,False,False,I don't know.,False,False
+69fee5aa,False,oracle_sessions_raw,0,6123,True,True,You have a total of 37 pre-1920 American coins in your collection.,False,False
+7401057b,False,no_memory,0,0,,,"I don't know the specific number of free night's stays you can redeem with your accumulated points at any Hilton property. This information would depend on Hilton's current rewards program policies, which could change over time.",False,False
+7401057b,False,sliding_window,300,293,False,False,I don't know.,False,False
+7401057b,False,similarity_rag,300,290,True,True,You can redeem for two free night stays at any Hilton property with your accumulated points.,True,False
+7401057b,False,rag+annotate_llm,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,rag+annotate_llm_nodates,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,rag+annotate_rich_llm,300,290,True,True,You can redeem for two free night stays at any Hilton property with your accumulated points.,True,False
+7401057b,False,rag+annotate_rich_llm_nodates,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,similarity_rag_nodates,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,rag+cr_heuristic,300,290,True,True,You can redeem for two free night stays at any Hilton property with your accumulated points.,True,False
+7401057b,False,rag+cr_llm,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,rag+cr_llm_nodates,300,290,True,True,You have accumulated enough Hilton points for two free night stays at any Hilton property.,True,False
+7401057b,False,method_full_llm,300,287,True,False,I don't know.,False,False
+7401057b,False,oracle_sessions_raw,0,6821,True,True,"You have enough Hilton Honors points to redeem for two free nights' stays at any Hilton property. As a Category 7 hotel, the Hilton Paris Eiffel Tower requires around 50,000-60,000 points per night, depending on the time of year and room type.",True,False
+cf22b7bf,False,no_memory,0,0,,,I don't know. There's no information in my memory about your weight or gym routine.,False,False
+cf22b7bf,False,sliding_window,300,295,True,False,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds.",True,False
+cf22b7bf,False,similarity_rag,300,298,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds as of June 21, 2023.",True,False
+cf22b7bf,False,rag+annotate_llm,300,298,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds as of June 21, 2023.",True,False
+cf22b7bf,False,rag+annotate_llm_nodates,300,298,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds (as of 2023/06/21).",True,False
+cf22b7bf,False,rag+annotate_rich_llm,300,298,True,True,You have lost 10 pounds since starting to go consistently to the gym about 3 months ago.,True,False
+cf22b7bf,False,rag+annotate_rich_llm_nodates,300,298,True,True,You have lost 10 pounds since starting to go consistently to the gym about 3 months ago (as of 2023/06/21).,True,False
+cf22b7bf,False,similarity_rag_nodates,300,298,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds (as of 2023/06/21).",True,False
+cf22b7bf,False,rag+cr_heuristic,300,298,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds as of June 21, 2023.",True,False
+cf22b7bf,False,rag+cr_llm,300,289,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds.",True,False
+cf22b7bf,False,rag+cr_llm_nodates,300,289,True,True,"Since starting to go consistently to the gym about 3 months ago, you have lost 10 pounds.",True,False
+cf22b7bf,False,method_full_llm,300,279,False,False,I don't know.,False,False
+cf22b7bf,False,oracle_sessions_raw,0,7546,True,True,"You've lost 10 pounds since you started going to the gym consistently about 3 months ago, as mentioned in your conversation on June 21, 2023.",True,False
+a2f3aa27,False,no_memory,0,0,,,I don't know. My current memory doesn't contain information about your Instagram followers.,False,False
+a2f3aa27,False,sliding_window,300,296,False,False,I don't know the number of your Instagram followers.,False,False
+a2f3aa27,False,similarity_rag,300,298,True,True,"As of 2023/05/25, your Instagram follower count is approximately 1300. The exact number may have changed since then, but the most recent information available is around 1300 followers.",True,False
+a2f3aa27,False,rag+annotate_llm,300,298,True,True,"Your Instagram follower count is approximately 1300 as of May 25, 2023. The exact number may have changed since then, but this is the most recent information available.",True,False
+a2f3aa27,False,rag+annotate_llm_nodates,300,298,True,True,"Your Instagram follower count is approximately 1300 as of 2023/05/25, and you plan to reach out to content creator Ashley Gaida for a guest blog post. The most recent information available does not provide an updated follower count.",True,False
+a2f3aa27,False,rag+annotate_rich_llm,300,298,True,True,"Your Instagram follower count is approximately 1300, as of May 25, 2023. The user thinks they are close to 1300.",True,False
+a2f3aa27,False,rag+annotate_rich_llm_nodates,300,298,True,True,"Your Instagram follower count is approximately 1300, as of May 25, 2023. The user thinks they are close to this number.",True,False
+a2f3aa27,False,similarity_rag_nodates,300,298,True,True,"As of 2023/05/25, your Instagram follower count is approximately 1300. Since then, it's possible the number has changed slightly, but without recent data, we can't provide an exact current count.",True,False
+a2f3aa27,False,rag+cr_heuristic,300,297,True,True,"Your Instagram follower count is approximately 1300, as of May 25, 2023. The number hasn't been updated in the information I have.",True,False
+a2f3aa27,False,rag+cr_llm,300,297,True,True,"Your Instagram follower count is approximately 1300, as of May 25, 2023. The number hasn't been updated in the information I have.",True,False
+a2f3aa27,False,rag+cr_llm_nodates,300,297,True,True,Your Instagram follower count is approximately 1300.,True,False
+a2f3aa27,False,method_full_llm,300,297,False,False,I don't know the current number of your Instagram followers.,False,False
+a2f3aa27,False,oracle_sessions_raw,0,5331,True,True,"You mentioned reaching 1300 followers recently. If there have been no significant changes since then, you likely have around 1300 followers on Instagram now.",True,False
+c7dc5443,False,no_memory,0,0,,,I don't know your current record in the recreational volleyball league as there's no information available in my memory.,False,False
+c7dc5443,False,sliding_window,300,288,False,False,I don't know your current record in the recreational volleyball league as there's no information about it in our conversation history.,False,False
+c7dc5443,False,similarity_rag,300,292,True,True,"As of June 30, 2023, your volleyball team had a 5-2 record. Since then, I don't have any updates on your team's performance.",True,False
+c7dc5443,False,rag+annotate_llm,300,292,True,True,"Your volleyball team, the Net Ninjas, had a 5-2 record as of June 30, 2023. Since then, I don't have any updates on your record.",True,False
+c7dc5443,False,rag+annotate_llm_nodates,300,292,True,True,"Your volleyball team, the Net Ninjas, had a 5-2 record as of June 30, 2023. Since then, there have been no updates provided about your team's performance.",True,False
+c7dc5443,False,rag+annotate_rich_llm,300,292,True,True,"Your volleyball team, the Net Ninjas, had a 5-2 record as of June 30, 2023. Since then, there's no specific update on your record.",True,False
+c7dc5443,False,rag+annotate_rich_llm_nodates,300,292,True,True,"Your volleyball team, the Net Ninjas, had a 5-2 record as of June 30, 2023.",True,False
+c7dc5443,False,similarity_rag_nodates,300,292,True,True,"As of June 30, 2023, your volleyball team had a 5-2 record. The most recent information available does not provide an updated record.",True,False
+c7dc5443,False,rag+cr_heuristic,300,292,True,True,"As of June 30, 2023, your volleyball team had a 5-2 record. Since then, I don't have any updates on your team's performance.",True,False
+c7dc5443,False,rag+cr_llm,300,288,True,True,"As of June 30, 2023, your volleyball team, the Net Ninjas, had a 5-2 record. However, I don't have more recent information about your performance.",True,False
+c7dc5443,False,rag+cr_llm_nodates,300,288,True,True,"As of 2023/06/30, your volleyball team, the Net Ninjas, had a 5-2 record.",True,False
+c7dc5443,False,method_full_llm,300,300,True,True,I don't know your current record in the recreational volleyball league.,False,False
+c7dc5443,False,oracle_sessions_raw,0,6877,True,True,Your current record in the recreational volleyball league is 5-2.,True,False
+06db6396,False,no_memory,0,0,,,I don't know. There's no information in my memory about the number of projects you've completed since starting painting classes.,False,False
+06db6396,False,sliding_window,300,299,False,False,I don't know.,False,False
+06db6396,False,similarity_rag,300,294,True,True,The user has completed 5 painting projects since starting painting classes.,True,False
+06db6396,False,rag+annotate_llm,300,294,True,True,The user has finished 5 painting projects since starting painting classes.,True,False
+06db6396,False,rag+annotate_llm_nodates,300,294,True,True,The user has completed 5 painting projects since starting painting classes and feels accomplished about it.,True,False
+06db6396,False,rag+annotate_rich_llm,300,294,True,True,The user has just finished their 5th painting project since starting painting classes and feels accomplished about it.,True,False
+06db6396,False,rag+annotate_rich_llm_nodates,300,294,True,True,You have completed 5 painting projects since starting painting classes and feel accomplished about it.,True,False
+06db6396,False,similarity_rag_nodates,300,294,True,True,The user has completed 5 painting projects since starting painting classes.,True,False
+06db6396,False,rag+cr_heuristic,300,300,True,True,You have completed 5 painting projects since starting your painting classes.,True,False
+06db6396,False,rag+cr_llm,300,300,True,True,You have completed 5 painting projects since starting your painting classes.,True,False
+06db6396,False,rag+cr_llm_nodates,300,300,True,True,You have completed 5 painting projects since starting your painting classes.,True,False
+06db6396,False,method_full_llm,300,286,False,False,I don't know. The user's past decisions and plans related to painting classes are not included in the provided memory.,False,False
+06db6396,False,oracle_sessions_raw,0,7090,True,True,You have completed 5 projects since starting painting classes.,True,False
+3ba21379,False,no_memory,0,0,,,"I don't know what type of vehicle model you are currently working on, as there is no prior information in my memory.",False,False
+3ba21379,False,sliding_window,300,292,False,False,"I don't know what type of vehicle model you are currently working on, as that information wasn't provided in the memory.",False,False
+3ba21379,False,similarity_rag,300,294,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+annotate_llm,300,294,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+annotate_llm_nodates,300,294,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+annotate_rich_llm,300,294,True,True,You are currently working on building a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+annotate_rich_llm_nodates,300,294,True,True,You are currently working on building a Ford F-150 pickup truck model and plan to add decals to it.,True,False
+3ba21379,False,similarity_rag_nodates,300,294,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+cr_heuristic,300,294,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+cr_llm,300,300,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+3ba21379,False,rag+cr_llm_nodates,300,300,True,True,"You are currently working on a Ford F-150 pickup truck model and plan to add decals and weathering effects, such as realistic dirty underside details, to it.",True,False
+3ba21379,False,method_full_llm,300,297,False,False,I don't know what type of vehicle model you are currently working on.,False,False
+3ba21379,False,oracle_sessions_raw,0,9131,True,True,You are currently working on a Ford F-150 pickup truck model.,True,False
+9bbe84a2,False,no_memory,0,0,,,"I don't know your previous goal for your Apex Legends level, as there is no memory of it in my records.",False,True
+9bbe84a2,False,sliding_window,300,296,False,False,"I don't know your previous goal for your Apex Legends level, as there is no information in the provided memory related to that topic.",False,True
+9bbe84a2,False,similarity_rag,300,288,True,True,"Your previous goal was to reach level 100 in Apex Legends before the end of 2023, as stated on 2023-06-16.",True,True
+9bbe84a2,False,rag+annotate_llm,300,288,True,True,"Your previous goal was to reach level 100 in Apex Legends before the end of 2023, but you later updated your goal to aim for level 150.",True,True
+9bbe84a2,False,rag+annotate_llm_nodates,300,288,True,True,Your previous goal was to reach level 100 in Apex Legends before the end of 2023.,True,True
+9bbe84a2,False,rag+annotate_rich_llm,300,288,True,True,"Before updating your goal, you previously wanted to reach level 100 in Apex Legends by the end of 2023.",True,True
+9bbe84a2,False,rag+annotate_rich_llm_nodates,300,288,True,True,Your previous goal was to reach level 100 in Apex Legends before the end of 2023.,True,True
+9bbe84a2,False,similarity_rag_nodates,300,288,True,True,Your previous goal was to reach level 100 in Apex Legends before the end of 2023.,True,True
+9bbe84a2,False,rag+cr_heuristic,300,288,True,True,"Your previous goal was to reach level 100 in Apex Legends before the end of 2023, as stated on 2023-06-16.",True,True
+9bbe84a2,False,rag+cr_llm,300,291,True,False,"Before updating your goal, you planned to reach level 150 in Apex Legends eventually, though it was not the main focus for the weekend of 2023/09/30. You intended to complete daily and weekly challenges to earn experience points and level up faster.",False,True
+9bbe84a2,False,rag+cr_llm_nodates,300,291,True,False,"Before updating your goal, you planned to complete daily and weekly challenges in Apex Legends to earn experience points and level up faster.",False,True
+9bbe84a2,False,method_full_llm,300,300,False,False,"I don't know. The previous goals you set were about practicing yoga, staying flexible while traveling, adjusting bus times for a meeting, playing the Berserk text adventure game, and planning a trip to Japan. There was no mention of a goal related to Apex Legends.",False,True
+9bbe84a2,False,oracle_sessions_raw,0,6048,True,True,"Your previous goal in Apex Legends was to reach level 100 before the end of the year, as mentioned in our conversation on 2023/06/16. You then updated your goal to level 150 after our conversation on 2023/09/30.",True,True
+10e09553,False,no_memory,0,0,,,I don't know.,False,True
+10e09553,False,sliding_window,300,291,False,False,I don't know. The information about catching largemouth bass with Alex on a specific trip to Lake Michigan was not provided in the memory.,False,True
+10e09553,False,similarity_rag,300,294,True,True,"On the earlier fishing trip to Lake Michigan with Alex, you caught 7 largemouth bass on July 10.",True,True
+10e09553,False,rag+annotate_llm,300,294,True,True,"On the earlier fishing trip to Lake Michigan with Alex, you caught 7 largemouth bass on July 10.",True,True
+10e09553,False,rag+annotate_llm_nodates,300,294,True,True,"On the fishing trip to Lake Michigan with Alex before the 7/22 trip, you caught 7 largemouth bass.",True,True
+10e09553,False,rag+annotate_rich_llm,300,294,True,True,"On the earlier fishing trip to Lake Michigan with Alex, you caught 7 largemouth bass on July 10.",True,True
+10e09553,False,rag+annotate_rich_llm_nodates,300,294,True,True,"On the fishing trip to Lake Michigan with Alex before the 7/22 trip, you caught 7 largemouth bass.",True,True
+10e09553,False,similarity_rag_nodates,300,294,True,True,"On the fishing trip to Lake Michigan with Alex before the 7/22 trip, you caught 7 largemouth bass.",True,True
+10e09553,False,rag+cr_heuristic,300,294,True,True,"On the earlier fishing trip to Lake Michigan with Alex, you caught 7 largemouth bass on July 10.",True,True
+10e09553,False,rag+cr_llm,300,294,True,True,"On the earlier fishing trip to Lake Michigan with Alex, you caught 7 largemouth bass on July 10.",True,True
+10e09553,False,rag+cr_llm_nodates,300,294,True,True,"On the fishing trip to Lake Michigan with Alex before the 7/22 trip, you caught 7 largemouth bass.",True,True
+10e09553,False,method_full_llm,300,295,False,False,I don't know.,False,True
+10e09553,False,oracle_sessions_raw,0,5402,True,True,"You mentioned catching 9 largemouth bass during a fishing trip to Lake Michigan with Alex, but specifically noted that it was on July 10th, not July 22nd. So, you caught 9 largemouth bass with Alex on the earlier trip.",False,True
+dad224aa,False,no_memory,0,0,,,I don't know what time you wake up on Saturday mornings.,False,False
+dad224aa,False,sliding_window,300,290,False,False,I don't know the specific time you wake up on Saturday mornings.,False,False
+dad224aa,False,similarity_rag,300,292,True,True,"You typically wake up around 7:30 am on Saturdays. This has been your pattern recently, even though your target wake-up time is 8:00 am on weekends.",True,False
+dad224aa,False,rag+annotate_llm,300,292,True,True,"You typically wake up around 7:30 am on Saturdays now, which is later than your previous weekend wake-up times.",True,False
+dad224aa,False,rag+annotate_llm_nodates,300,292,True,True,You typically wake up around 7:30 am on Saturdays.,True,False
+dad224aa,False,rag+annotate_rich_llm,300,292,True,True,You usually wake up at 7:30 am on Saturdays in the downtown area.,True,False
+dad224aa,False,rag+annotate_rich_llm_nodates,300,292,True,True,You usually wake up at 7:30 am on Saturday mornings.,True,False
+dad224aa,False,similarity_rag_nodates,300,292,True,True,You typically wake up around 8:30 am on Saturdays. ,False,False
+dad224aa,False,rag+cr_heuristic,300,292,True,True,"You typically wake up around 7:30 am on Saturdays. This has been your pattern recently, even though your target wake-up time is 8:00 am on weekends.",True,False
+dad224aa,False,rag+cr_llm,300,296,True,True,"You typically wake up at around 7:30 am on Saturdays. However, you are trying to build a more consistent weekend morning routine and might vary the wake-up time slightly.",True,False
+dad224aa,False,rag+cr_llm_nodates,300,296,True,True,"You typically wake up at around 9:30 am on Saturday mornings, but you're trying to build a more consistent weekend routine to sleep in a bit later.",False,False
+dad224aa,False,method_full_llm,300,290,False,False,"You wake up at 8:00 am on Saturdays, according to the user's target wake-up times provided in their constraints.",False,False
+dad224aa,False,oracle_sessions_raw,0,5732,True,True,You like to wake up at 7:30 am on Saturdays.,True,False
+ba61f0b9,False,no_memory,0,0,,,I don't know.,False,False
+ba61f0b9,False,sliding_window,300,283,False,False,I don't know.,False,False
+ba61f0b9,False,similarity_rag,300,287,True,True,"According to the information provided, your former manager Rachel is leading a team of 10 people, with 6 of them being women.",True,False
+ba61f0b9,False,rag+annotate_llm,300,287,True,True,"According to the most recent information, Rachel's team consists of 6 women.",True,False
+ba61f0b9,False,rag+annotate_llm_nodates,300,287,True,True,There are 6 women on the team led by your former manager Rachel.,True,False
+ba61f0b9,False,rag+annotate_rich_llm,300,287,True,True,"The team led by your former manager Rachel has 6 women out of 10 people, which is considered a good example of diversity according to what you've shared.",True,False
+ba61f0b9,False,rag+annotate_rich_llm_nodates,300,287,True,True,There are 6 women on the team of 10 people that was led by your former manager Rachel.,True,False
+ba61f0b9,False,similarity_rag_nodates,300,287,True,True,There are 5 women on the team led by your former manager Rachel.,False,False
+ba61f0b9,False,rag+cr_heuristic,300,282,True,True,There were 6 women on the team of 10 people that Rachel led.,True,False
+ba61f0b9,False,rag+cr_llm,300,282,True,True,There were 6 women on the team of 10 people that Rachel led.,True,False
+ba61f0b9,False,rag+cr_llm_nodates,300,282,True,True,There were 6 women on the team led by your former manager Rachel.,True,False
+ba61f0b9,False,method_full_llm,300,300,False,False,I don't know.,False,False
+ba61f0b9,False,oracle_sessions_raw,0,6196,True,True,There are 5 women on the team of 10 people led by your former manager Rachel.,False,False
+42ec0761,False,no_memory,0,0,,,I don't know. My records don't contain any information about your current tools or possessions.,False,False
+42ec0761,False,sliding_window,300,295,True,True,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk.",True,False
+42ec0761,False,similarity_rag,300,300,True,True,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk.",True,False
+42ec0761,False,rag+annotate_llm,300,300,True,True,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk.",True,False
+42ec0761,False,rag+annotate_llm_nodates,300,300,True,True,"Yes, you have a spare screwdriver that you picked up when you organized your computer desk and plan to use it to clean the fans in your laptop.",True,False
+42ec0761,False,rag+annotate_rich_llm,300,300,True,True,"Yes, you have a spare screwdriver you picked up when you organized your computer desk.",True,False
+42ec0761,False,rag+annotate_rich_llm_nodates,300,300,True,True,"Yes, you have a spare screwdriver you picked up when you organized your computer desk.",True,False
+42ec0761,False,similarity_rag_nodates,300,300,True,True,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk and plan to use it to clean the fans in your laptop.",True,False
+42ec0761,False,rag+cr_heuristic,300,300,True,True,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk.",True,False
+42ec0761,False,rag+cr_llm,300,296,True,False,"Yes, you have a spare screwdriver that you picked up when organizing your computer desk.",True,False
+42ec0761,False,rag+cr_llm_nodates,300,296,True,False,"Yes, you have a spare screwdriver that you picked up when you organized your computer desk.",True,False
+42ec0761,False,method_full_llm,300,294,True,False,I don't know.,False,False
+42ec0761,False,oracle_sessions_raw,0,5829,True,True,"Yes, you mentioned that you picked up a spare screwdriver when organizing your computer desk a while back, so you should be all set for opening up your laptop to clean the fans.",True,False
+5c40ec5b,False,no_memory,0,0,,,"I don't know how many times you have met up with Alex from Germany, as there is no information in my memory about your meetings.",False,False
+5c40ec5b,False,sliding_window,300,283,True,False,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,similarity_rag,300,282,True,True,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,rag+annotate_llm,300,282,True,True,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,rag+annotate_llm_nodates,300,282,True,True,"You have met up with Alex from Germany twice so far, and you plan to meet him again while in Berlin.",True,False
+5c40ec5b,False,rag+annotate_rich_llm,300,282,True,True,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,rag+annotate_rich_llm_nodates,300,282,True,True,"You have met up with Alex from Germany twice so far, and you plan to meet him again while in Berlin.",True,False
+5c40ec5b,False,similarity_rag_nodates,300,282,True,True,"You have met up with Alex from Germany twice so far, and you plan to meet him again while in Berlin.",True,False
+5c40ec5b,False,rag+cr_heuristic,300,282,True,True,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,rag+cr_llm,300,282,True,True,You have met up with Alex from Germany twice so far.,True,False
+5c40ec5b,False,rag+cr_llm_nodates,300,282,True,True,"You have met up with Alex from Germany twice so far, and you plan to meet him again while in Berlin.",True,False
+5c40ec5b,False,method_full_llm,300,289,False,False,I don't know.,False,False
+5c40ec5b,False,oracle_sessions_raw,0,4834,True,True,"You mentioned that you've met up with Alex from Germany twice already, but are planning to meet him again during your trip to Berlin. So far, you've met up with him three times in total.",False,False
+c6853660,False,no_memory,0,0,,,I don't know.,False,False
+c6853660,False,sliding_window,300,300,False,False,I don't know.,False,False
+c6853660,False,similarity_rag,300,285,True,True,You have increased the limit on the number of morning coffee cups from one to two.,True,False
+c6853660,False,rag+annotate_llm,300,285,True,True,You have increased the limit on the number of cups of coffee in the morning to two cups.,True,False
+c6853660,False,rag+annotate_llm_nodates,300,285,True,True,You have increased the limit on the number of cups of coffee in the morning to two cups.,True,False
+c6853660,False,rag+annotate_rich_llm,300,285,True,True,You have increased the limit on the number of morning coffee cups to two.,True,False
+c6853660,False,rag+annotate_rich_llm_nodates,300,285,True,True,You have increased the limit on the number of morning coffee cups to two.,True,False
+c6853660,False,similarity_rag_nodates,300,285,True,True,You have increased the limit on the number of cups of coffee in the morning to two cups.,True,False
+c6853660,False,rag+cr_heuristic,300,285,True,True,You have increased the limit on the number of morning coffee cups from one to two.,True,False
+c6853660,False,rag+cr_llm,300,299,True,False,"You have increased the limit on the number of morning coffee cups to two, as stated on 2023-05-26.",True,False
+c6853660,False,rag+cr_llm_nodates,300,299,True,False,You have increased the limit on the number of cups of coffee in the morning to two cups.,True,False
+c6853660,False,method_full_llm,300,296,False,False,I don't know.,False,False
+c6853660,False,oracle_sessions_raw,0,5460,True,True,"You recently increased the limit on the number of cups of coffee in the morning to two cups, as mentioned in our conversation from May 26, 2023.",True,False
+26bdc477,False,no_memory,0,0,,,"I don't know how many trips you've taken with your Canon EOS 80D camera, as there's no information in my memory about this.",False,False
+26bdc477,False,sliding_window,300,300,False,False,I don't know the number of trips you have taken with your Canon EOS 80D camera.,False,False
+26bdc477,False,similarity_rag,300,297,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+annotate_llm,300,297,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+annotate_llm_nodates,300,297,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+annotate_rich_llm,300,297,True,True,The user has taken their Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+annotate_rich_llm_nodates,300,297,True,True,You have taken your Canon EOS 80D camera on five trips so far and describe it as a beast.,True,False
+26bdc477,False,similarity_rag_nodates,300,297,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+cr_heuristic,300,292,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+cr_llm,300,292,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,rag+cr_llm_nodates,300,292,True,True,You have taken your Canon EOS 80D camera on five trips so far.,True,False
+26bdc477,False,method_full_llm,300,283,False,False,I don't know the number of trips you have taken your Canon EOS 80D camera on.,False,False
+26bdc477,False,oracle_sessions_raw,0,6562,True,True,"You've taken your Canon EOS 80D camera on five trips so far, including visits to Yellowstone, Yosemite, and the Grand Canyon.",True,False
+0977f2af,False,no_memory,0,0,,,I don't know what new kitchen gadget you invested in before getting the Air Fryer.,False,True
+0977f2af,False,sliding_window,300,297,False,False,I don't know.,False,True
+0977f2af,False,similarity_rag,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker.",True,True
+0977f2af,False,rag+annotate_llm,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker.",True,True
+0977f2af,False,rag+annotate_llm_nodates,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker that you plan to use for soups and stews.",True,True
+0977f2af,False,rag+annotate_rich_llm,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker.",True,True
+0977f2af,False,rag+annotate_rich_llm_nodates,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker that you plan to use for soups and stews.",True,True
+0977f2af,False,similarity_rag_nodates,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker that you plan to use for soups and stews.",True,True
+0977f2af,False,rag+cr_heuristic,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker.",True,True
+0977f2af,False,rag+cr_llm,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker.",True,True
+0977f2af,False,rag+cr_llm_nodates,300,294,True,True,"You got an Instant Pot on 2023-05-20, which is a new electric pressure cooker that you plan to use for soups and stews.",True,True
+0977f2af,False,method_full_llm,300,294,True,False,You didn't invest in any new kitchen gadgets before getting the Air Fryer. The most recent decision was to buy rubber floor mats for your car.,False,True
+0977f2af,False,oracle_sessions_raw,0,5867,True,True,"You mentioned getting an Air Fryer yesterday, so based on that information, it seems you didn't acquire any other new kitchen gadgets recently. The last kitchen gadget you invested in was the Air Fryer.",False,True
+6aeb4375_abs,True,no_memory,0,0,,,I don't know how many Italian restaurants you have tried in your city.,True,False
+6aeb4375_abs,True,sliding_window,300,293,False,False,I don't know.,True,False
+6aeb4375_abs,True,similarity_rag,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+annotate_llm,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+annotate_llm_nodates,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+annotate_rich_llm,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+annotate_rich_llm_nodates,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,similarity_rag_nodates,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+cr_heuristic,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+cr_llm,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,rag+cr_llm_nodates,300,297,True,True,I don't know.,True,False
+6aeb4375_abs,True,method_full_llm,300,296,False,False,I don't know.,True,False
+6aeb4375_abs,True,oracle_sessions_raw,0,5182,True,True,"I don't have specific information about how many Italian restaurants you've tried in your city. You didn't mention trying any Italian restaurants in our previous conversations, so I don't have that data stored. If you'd like to share more details or ask for recommendations, I'd be happy to help!",True,False
+031748ae_abs,True,no_memory,0,0,,,I don't know how many engineers you lead since that information wasn't provided.,True,True
+031748ae_abs,True,sliding_window,300,300,False,False,I don't know the number of engineers you are leading in your new role as Software Engineer Manager.,True,True
+031748ae_abs,True,similarity_rag,300,284,True,True,You are leading a team of five engineers in your new role as Software Engineer Manager.,False,True
+031748ae_abs,True,rag+annotate_llm,300,284,True,True,You are leading a team of five engineers in your new role as Software Engineer Manager.,False,True
+031748ae_abs,True,rag+annotate_llm_nodates,300,284,True,True,You lead a team of five engineers in your new role as Software Engineer Manager.,False,True
+031748ae_abs,True,rag+annotate_rich_llm,300,284,True,True,You lead a team of five engineers when you just started your new role as Software Engineer Manager.,False,True
+031748ae_abs,True,rag+annotate_rich_llm_nodates,300,284,True,True,You lead a team of five engineers in your new role.,False,True
+031748ae_abs,True,similarity_rag_nodates,300,284,True,True,You lead a team of five engineers in your new role.,False,True
+031748ae_abs,True,rag+cr_heuristic,300,286,True,True,You lead a team of five engineers in your current role as Senior Software Engineer Manager.,False,True
+031748ae_abs,True,rag+cr_llm,300,284,True,False,You lead a team of five engineers when you just started your new role as Software Engineer Manager.,False,True
+031748ae_abs,True,rag+cr_llm_nodates,300,284,True,False,You lead a team of five engineers.,False,True
+031748ae_abs,True,method_full_llm,300,284,True,False,I don't know the number of engineers you are leading as it was not mentioned in the provided constraints.,True,True
+031748ae_abs,True,oracle_sessions_raw,0,5254,True,True,"When you started your new role as Software Engineer Manager, you mentioned leading a team of five engineers. However, it's important to note that the number of engineers you lead can change over time as the team grows or changes.",False,True
+2698e78f_abs,True,no_memory,0,0,,,"I don't know how often you see Dr. Johnson, as there's no information in my memory about your appointments with him.",True,False
+2698e78f_abs,True,sliding_window,300,299,False,False,"I don't know when you see Dr. Johnson, as there is no information about your appointments with them in my memory.",True,False
+2698e78f_abs,True,similarity_rag,300,284,True,True,"You see Dr. Smith weekly, not Dr. Johnson. You have a therapy session with Dr. Smith every week and are working with her on setting healthy boundaries.",False,False
+2698e78f_abs,True,rag+annotate_llm,300,284,True,True,"You see Dr. Smith weekly, not Dr. Johnson, as you have been having therapy sessions with Dr. Smith every week since May 21, 2023.",False,False
+2698e78f_abs,True,rag+annotate_llm_nodates,300,284,True,True,"You see Dr. Smith weekly, not Dr. Johnson. You have a therapy session with Dr. Smith every week and are working on setting healthy boundaries.",False,False
+2698e78f_abs,True,rag+annotate_rich_llm,300,284,True,True,You are seeing a therapist named Dr. Smith weekly and are working with her on setting healthy boundaries.,False,False
+2698e78f_abs,True,rag+annotate_rich_llm_nodates,300,284,True,True,You are seeing a therapist named Dr. Smith weekly and are working with her on setting healthy boundaries.,False,False
+2698e78f_abs,True,similarity_rag_nodates,300,284,True,True,You see Dr. Smith weekly.,False,False
+2698e78f_abs,True,rag+cr_heuristic,300,284,True,True,"You see Dr. Smith weekly, not Dr. Johnson. You have a therapy session with Dr. Smith every week and are working with her on setting healthy boundaries.",False,False
+2698e78f_abs,True,rag+cr_llm,300,293,True,True,"You are seeing Dr. Smith weekly, not Dr. Johnson.",False,False
+2698e78f_abs,True,rag+cr_llm_nodates,300,293,True,True,"You are seeing Dr. Smith weekly, not Dr. Johnson.",False,False
+2698e78f_abs,True,method_full_llm,300,297,False,False,I don't know when you see Dr. Johnson based on the information provided.,True,False
+2698e78f_abs,True,oracle_sessions_raw,0,6023,True,True,"You see Dr. Smith every week, as mentioned in our previous conversation on 2023/05/24.",False,False
+2133c1b5_abs,True,no_memory,0,0,,,"I don't know how long you've been living in your current apartment in Shinjuku, as there's no information in my memory about when you moved there.",True,False
+2133c1b5_abs,True,sliding_window,300,298,False,False,I don't know the duration of your stay in your current apartment in Shinjuku.,True,False
+2133c1b5_abs,True,similarity_rag,300,279,True,True,"You moved to your current apartment in March 2023, and it has been about 7 months since then as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+annotate_llm,300,279,True,True,"You moved to your current apartment in March 2023, and it has been about 7 months since then as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+annotate_llm_nodates,300,279,True,True,"You moved to your current apartment in March 2023, so you've been living there for about 7 months as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+annotate_rich_llm,300,279,True,True,"You moved to your current apartment in March 2023, and it has taken about 7 months to settle in as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+annotate_rich_llm_nodates,300,279,True,True,You have been living in your current apartment in Harajuku for about 3 months as of 2023/10/15.,False,False
+2133c1b5_abs,True,similarity_rag_nodates,300,279,True,True,You have been living in your current apartment in Harajuku for about 3 months as of 2023/10/15.,False,False
+2133c1b5_abs,True,rag+cr_heuristic,300,279,True,True,"You moved to your current apartment in March 2023, and it has been about 7 months since then as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+cr_llm,300,296,True,True,"You moved into your current apartment in March 2023, so you have been living there for about 7 months as of October 15, 2023.",False,False
+2133c1b5_abs,True,rag+cr_llm_nodates,300,296,True,True,"You moved to your current apartment in March 2023, so you've been living there for about 7 months as of October 15, 2023.",False,False
+2133c1b5_abs,True,method_full_llm,300,300,False,False,I don't know the duration of your stay in your current apartment in Shinjuku.,True,False
+2133c1b5_abs,True,oracle_sessions_raw,0,5505,True,True,"You mentioned that you've been living in your studio apartment in Harajuku for 3 months, not in Shinjuku. If you're asking about the time you've lived in Shinjuku, I don't have specific information on that from our previous conversations.",True,False
+0ddfec37_abs,True,no_memory,0,0,,,I don't know. There's no information about your autographed football collection in my memory.,True,True
+0ddfec37_abs,True,sliding_window,300,288,False,False,I don't know.,True,True
+0ddfec37_abs,True,similarity_rag,300,298,True,True,I don't know. The information provided does not mention any autographed footballs or their addition to the collection.,True,True
+0ddfec37_abs,True,rag+annotate_llm,300,298,True,True,I don't know. The information provided does not mention any autographed footballs or their addition to the collection.,True,True
+0ddfec37_abs,True,rag+annotate_llm_nodates,300,298,True,True,I don't know. The information provided does not mention any autographed footballs or additions to a football collection.,True,True
+0ddfec37_abs,True,rag+annotate_rich_llm,300,298,True,True,I don't know. The information provided does not mention any autographed footballs being added to the collection.,True,True
+0ddfec37_abs,True,rag+annotate_rich_llm_nodates,300,298,True,True,I don't know. The information provided does not mention any autographed footballs or additions to a football collection.,True,True
+0ddfec37_abs,True,similarity_rag_nodates,300,298,True,True,I don't know. The information provided does not mention any autographed footballs in your collection.,True,True
+0ddfec37_abs,True,rag+cr_heuristic,300,298,True,True,I don't know. The information provided does not mention any autographed footballs or their addition to the collection.,True,True
+0ddfec37_abs,True,rag+cr_llm,300,296,True,True,I don't know. The information provided does not mention any autographed footballs being added to the collection.,True,True
+0ddfec37_abs,True,rag+cr_llm_nodates,300,296,True,True,I don't know.,True,True
+0ddfec37_abs,True,method_full_llm,300,288,False,False,I don't know.,True,True
+0ddfec37_abs,True,oracle_sessions_raw,0,5526,True,True,"You mentioned adding 15 autographed baseballs to your collection since you started collecting three months ago. However, there was no specific mention of autographed footballs in that collection. If you're asking about autographed footballs separately, I don't have the exact number from your previous conversations.",True,True
+f685340e_abs,True,no_memory,0,0,,,I don't know how often you play table tennis with your friends at the local park.,True,False
+f685340e_abs,True,sliding_window,300,285,False,False,I don't know how often you play table tennis with your friends at the local park.,True,False
+f685340e_abs,True,similarity_rag,300,300,True,True,"You play tennis weekly with friends at the local park, but not specifically table tennis. Your activities include playing tennis for fun and recently signing up for swim lessons.",False,False
+f685340e_abs,True,rag+annotate_llm,300,300,True,True,"You play tennis with your friends every other week, including this Sunday (May 28, 2023), according to the information provided.",False,False
+f685340e_abs,True,rag+annotate_llm_nodates,300,300,True,True,You don't play table tennis; you play tennis weekly with friends at the local park.,False,False
+f685340e_abs,True,rag+annotate_rich_llm,300,300,True,True,"You play tennis with friends at the local park every other week, including this Sunday (May 28, 2023). However, since that information was stated on May 23, 2023, and there's no update, it's best to check your current schedule as habits might have changed.",False,False
+f685340e_abs,True,rag+annotate_rich_llm_nodates,300,300,True,True,I don't know.,True,False
+f685340e_abs,True,similarity_rag_nodates,300,300,True,True,I don't know.,True,False
+f685340e_abs,True,rag+cr_heuristic,300,300,True,True,"You play tennis weekly with friends at the local park, but not specifically table tennis. Your activities include playing tennis for fun and recently signing up for swim lessons.",False,False
+f685340e_abs,True,rag+cr_llm,300,297,True,True,"You play tennis with friends at the local park every other week, including this Sunday (May 28, 2023). However, since it's now June 19, 2023, you would have played last time around May 14, 2023.",False,False
+f685340e_abs,True,rag+cr_llm_nodates,300,297,True,True,"You play tennis with friends at the local park every other week, including this Sunday (May 28, 2023).",False,False
+f685340e_abs,True,method_full_llm,300,293,False,False,"I don't know how often you play table tennis with your friends at the local park, as that information is not included in my recent memory.",True,False
+f685340e_abs,True,oracle_sessions_raw,0,4816,True,True,"Based on our previous conversation, you and your friends have a weekly tennis session at the local park. However, there is no specific mention of playing table tennis together. If you're interested in starting to play table tennis with your friends, it would be great to plan that as well!",True,False
+89941a94,False,no_memory,0,0,,,I don't know. There is no information in my memory about any bikes you owned before purchasing the gravel bike.,False,True
+89941a94,False,sliding_window,300,290,False,False,"Based on the information provided, you don't mention having any bikes besides the mountain bike and the commuter bike.",False,True
+89941a94,False,similarity_rag,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+annotate_llm,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+annotate_llm_nodates,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+annotate_rich_llm,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+annotate_rich_llm_nodates,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,similarity_rag_nodates,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+cr_heuristic,300,300,True,True,"Yes, before purchasing the gravel bike, you also had a road bike in addition to your mountain bike and commuter bike.",True,True
+89941a94,False,rag+cr_llm,300,288,True,True,"Yes, you also own a road bike and a new hybrid bike.",False,True
+89941a94,False,rag+cr_llm_nodates,300,288,True,True,"Yes, you also own a road bike and a new hybrid bike.",False,True
+89941a94,False,method_full_llm,300,287,True,False,"Based on the information provided, you currently have a mountain bike and a commuter bike. There is no mention of having another bike besides these two.",False,True
+89941a94,False,oracle_sessions_raw,0,7045,True,True,"Based on our previous conversations, you mentioned having three bikes before purchasing a new one. These were your road bike, mountain bike, and commuter bike. You did not mention owning a gravel bike prior to that.",True,True
+07741c45,False,no_memory,0,0,,,"I don't know where you currently keep your old sneakers, as there is no information in my memory about this.",False,False
+07741c45,False,sliding_window,300,296,False,False,I don't know where you currently keep your old sneakers.,False,False
+07741c45,False,similarity_rag,300,294,True,True,You decided to store your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+annotate_llm,300,294,True,True,You decided to store your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+annotate_llm_nodates,300,294,True,True,You are currently storing your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+annotate_rich_llm,300,294,True,True,You decided to store your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+annotate_rich_llm_nodates,300,294,True,True,You are currently storing your old sneakers in a shoe rack.,True,False
+07741c45,False,similarity_rag_nodates,300,294,True,True,You are currently storing your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+cr_heuristic,300,294,True,True,You decided to store your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+cr_llm,300,294,True,True,You decided to store your old sneakers in a shoe rack.,True,False
+07741c45,False,rag+cr_llm_nodates,300,294,True,True,You are currently storing your old sneakers in a shoe rack.,True,False
+07741c45,False,method_full_llm,300,291,False,False,I don't know where you currently keep your old sneakers.,False,False
+07741c45,False,oracle_sessions_raw,0,5668,True,True,"You mentioned that your old sneakers are currently taking up space in your closet, and you're planning to store them in a shoe rack during your weekend organization project.",False,False

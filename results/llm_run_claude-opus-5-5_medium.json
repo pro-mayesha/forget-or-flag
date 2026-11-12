@@ -1,0 +1,9 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "n_scenarios": 4,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "calls": 0,
+ "refusals": 0
+}

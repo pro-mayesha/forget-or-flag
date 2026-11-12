@@ -1,0 +1,633 @@
+69 questions, 56 need memory built
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 14305.55it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10513.58it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A
+
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A[A
+
+
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A[A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 8417.70it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6219.33it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7871.68it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5736.85it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5895.86it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4662.70it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/vector_stores/qdrant.py:115: UserWarning: Payload indexes have no effect in the local Qdrant, except text indexes with `scoring`, which enable text queries. Please use server Qdrant if you need payload indexes.
+  self.client.create_payload_index(
+Error processing memory action: {'id': '25', 'text': 'Recently went on a 10-day island-hopping trip to Hawaii with family and explored the islands together', 'event': 'UPDATE', 'old_memory': 'Recently went on a 10-day island-hopping trip to Hawaii with family'}, Error: '25'
+  852ce960_hist: 50 memories retrieved; usage so far {'input_tokens': 2293034, 'output_tokens': 605032, 'calls': 557}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8360.36it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  6a1eabeb_hist: 50 memories retrieved; usage so far {'input_tokens': 2678139, 'output_tokens': 729999, 'calls': 653}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8669.22it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  830ce83f_hist: 50 memories retrieved; usage so far {'input_tokens': 2830760, 'output_tokens': 772189, 'calls': 689}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7054.32it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  89941a93_hist: 50 memories retrieved; usage so far {'input_tokens': 2910898, 'output_tokens': 791749, 'calls': 710}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14453.92it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  6aeb4375_hist: 50 memories retrieved; usage so far {'input_tokens': 2925470, 'output_tokens': 797013, 'calls': 714}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16647.91it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  71315a70_hist: 50 memories retrieved; usage so far {'input_tokens': 3005332, 'output_tokens': 812547, 'calls': 734}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16783.08it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  d7c942c3_hist: 50 memories retrieved; usage so far {'input_tokens': 3036590, 'output_tokens': 820530, 'calls': 742}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 19949.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  945e3d21_hist: 50 memories retrieved; usage so far {'input_tokens': 3210809, 'output_tokens': 860026, 'calls': 790}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9405.29it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  ce6d2d27_hist: 50 memories retrieved; usage so far {'input_tokens': 5441887, 'output_tokens': 1487517, 'calls': 1337}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 43209.97it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  a1eacc2a_hist: 50 memories retrieved; usage so far {'input_tokens': 5661868, 'output_tokens': 1555206, 'calls': 1388}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 21467.57it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  184da446_hist: 50 memories retrieved; usage so far {'input_tokens': 5674656, 'output_tokens': 1564831, 'calls': 1392}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 22102.39it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  0f05491a_hist: 50 memories retrieved; usage so far {'input_tokens': 5701641, 'output_tokens': 1569545, 'calls': 1397}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11583.68it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  08e075c7_hist: 50 memories retrieved; usage so far {'input_tokens': 5792005, 'output_tokens': 1588066, 'calls': 1420}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14686.84it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  4d6b87c8_hist: 50 memories retrieved; usage so far {'input_tokens': 5928833, 'output_tokens': 1623322, 'calls': 1452}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18741.63it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  9ea5eabc_hist: 50 memories retrieved; usage so far {'input_tokens': 5993925, 'output_tokens': 1638335, 'calls': 1470}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12381.09it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  f9e8c073_hist: 50 memories retrieved; usage so far {'input_tokens': 6251184, 'output_tokens': 1700941, 'calls': 1537}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12923.31it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  41698283_hist: 50 memories retrieved; usage so far {'input_tokens': 8285208, 'output_tokens': 2264466, 'calls': 2043}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9191.58it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  6071bd76_hist: 50 memories retrieved; usage so far {'input_tokens': 8444755, 'output_tokens': 2309770, 'calls': 2082}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18191.57it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  618f13b2_hist: 50 memories retrieved; usage so far {'input_tokens': 8528808, 'output_tokens': 2330813, 'calls': 2105}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18696.21it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  2698e78f_hist: 50 memories retrieved; usage so far {'input_tokens': 8605795, 'output_tokens': 2347122, 'calls': 2122}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 21980.94it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  b6019101_hist: 50 memories retrieved; usage so far {'input_tokens': 8748132, 'output_tokens': 2383827, 'calls': 2158}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 20617.22it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  45dc21b6_hist: 50 memories retrieved; usage so far {'input_tokens': 8770153, 'output_tokens': 2391571, 'calls': 2165}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18185.44it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Error processing memory action: {'id': '27', 'text': 'Is organizing a charity fun run similar to "Run for the Kids"', 'event': 'UPDATE', 'old_memory': 'Is considering organizing a charity event, such as a bake sale or a fun run'}, Error: '27'
+  e493bb7c_hist: 50 memories retrieved; usage so far {'input_tokens': 9136098, 'output_tokens': 2478579, 'calls': 2258}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5611.22it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  72e3ee87_hist: 50 memories retrieved; usage so far {'input_tokens': 9366777, 'output_tokens': 2533119, 'calls': 2315}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 18844.64it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Error processing memory action: {'id': '28', 'text': 'Is a member of the Page & Co. loyalty program and is checking their email for the latest statement to find their points balance', 'event': 'UPDATE', 'old_memory': 'Is a member of the Page & Co. loyalty program and wants to check their points balance'}, Error: '28'
+  01493427_hist: 50 memories retrieved; usage so far {'input_tokens': 11314049, 'output_tokens': 3064420, 'calls': 2793}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9401.20it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  6a27ffc2_hist: 50 memories retrieved; usage so far {'input_tokens': 11357666, 'output_tokens': 3077889, 'calls': 2804}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14417.26it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  18bc8abd_hist: 50 memories retrieved; usage so far {'input_tokens': 11360704, 'output_tokens': 3080660, 'calls': 2805}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 33848.88it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  2133c1b5_hist: 50 memories retrieved; usage so far {'input_tokens': 11427403, 'output_tokens': 3097061, 'calls': 2822}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 35384.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Error processing memory action: {'id': '2', 'text': 'Is considering going back to school for a graduate degree in engineering and is weighing the pros and cons', 'event': 'UPDATE', 'old_memory': 'Is considering going back to school for a graduate degree and is weighing the pros and cons'}, Error: '2'
+  db467c8c_hist: 50 memories retrieved; usage so far {'input_tokens': 11571023, 'output_tokens': 3131994, 'calls': 2854}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 22406.17it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  7a87bd0c_hist: 50 memories retrieved; usage so far {'input_tokens': 11905985, 'output_tokens': 3224448, 'calls': 2941}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 21422.86it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  e61a7584_hist: 50 memories retrieved; usage so far {'input_tokens': 11933384, 'output_tokens': 3229707, 'calls': 2947}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14951.66it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  1cea1afa_hist: 50 memories retrieved; usage so far {'input_tokens': 12095945, 'output_tokens': 3269313, 'calls': 2985}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 72026.23it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Error processing memory action: {'id': '21', 'text': 'Is considering the Garmin Edge 130 as a gift for a friend and values its navigation features for the friend', 'event': 'UPDATE', 'old_memory': 'Is considering the Garmin Edge 130 as a gift for a friend'}, Error: '21'
+Error processing memory action: {'id': '35', 'text': 'Is considering buying a good quality white shirt from Everlane for the capsule wardrobe', 'event': 'UPDATE', 'old_memory': 'Is considering buying a good quality white shirt for the capsule wardrobe'}, Error: '35'
+Error processing memory action: {'id': '23', 'text': "Visited Watson's Bistro in Conwy yesterday and enjoyed the fresh seafood and castle view", 'event': 'UPDATE', 'old_memory': "Wants to visit Watson's Bistro in Conwy for seafood and a view of the castle"}, Error: '23'
+  ed4ddc30_hist: 50 memories retrieved; usage so far {'input_tokens': 13975837, 'output_tokens': 3792005, 'calls': 3444}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9118.24it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  8fb83627_hist: 50 memories retrieved; usage so far {'input_tokens': 14311827, 'output_tokens': 3884317, 'calls': 3525}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 21570.47it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  0e4e4c46_hist: 50 memories retrieved; usage so far {'input_tokens': 14319482, 'output_tokens': 3885892, 'calls': 3527}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 25108.29it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  b01defab_hist: 50 memories retrieved; usage so far {'input_tokens': 14440260, 'output_tokens': 3912724, 'calls': 3559}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14968.76it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  59524333_hist: 50 memories retrieved; usage so far {'input_tokens': 14563898, 'output_tokens': 3943219, 'calls': 3590}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 35627.03it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  7e974930_hist: 50 memories retrieved; usage so far {'input_tokens': 14779036, 'output_tokens': 3997093, 'calls': 3643}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 32511.54it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  4b24c848_hist: 50 memories retrieved; usage so far {'input_tokens': 14817664, 'output_tokens': 4005066, 'calls': 3652}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 25393.13it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  603deb26_hist: 50 memories retrieved; usage so far {'input_tokens': 15185448, 'output_tokens': 4097609, 'calls': 3742}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9829.88it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  5831f84d_hist: 50 memories retrieved; usage so far {'input_tokens': 16611564, 'output_tokens': 4488552, 'calls': 4089}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9842.42it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  affe2881_hist: 50 memories retrieved; usage so far {'input_tokens': 17162089, 'output_tokens': 4644621, 'calls': 4223}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9617.18it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  69fee5aa_hist: 50 memories retrieved; usage so far {'input_tokens': 17238443, 'output_tokens': 4663498, 'calls': 4242}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17585.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  cc5ded98_hist: 50 memories retrieved; usage so far {'input_tokens': 17263950, 'output_tokens': 4668277, 'calls': 4247}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 69600.98it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  7401057b_hist: 50 memories retrieved; usage so far {'input_tokens': 17288795, 'output_tokens': 4679621, 'calls': 4254}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11642.05it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  cf22b7bf_hist: 50 memories retrieved; usage so far {'input_tokens': 17596463, 'output_tokens': 4751005, 'calls': 4331}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17709.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  a2f3aa27_hist: 50 memories retrieved; usage so far {'input_tokens': 17802403, 'output_tokens': 4801506, 'calls': 4386}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 36710.85it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  c7dc5443_hist: 50 memories retrieved; usage so far {'input_tokens': 18272218, 'output_tokens': 4927789, 'calls': 4504}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10660.41it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  06db6396_hist: 50 memories retrieved; usage so far {'input_tokens': 19191447, 'output_tokens': 5178556, 'calls': 4727}
+  3ba21379_hist: 50 memories retrieved; usage so far {'input_tokens': 19662448, 'output_tokens': 5316258, 'calls': 4844}
+  ba61f0b9_hist: 50 memories retrieved; usage so far {'input_tokens': 20002704, 'output_tokens': 5418812, 'calls': 4923}
+  42ec0761_hist: 50 memories retrieved; usage so far {'input_tokens': 20011899, 'output_tokens': 5422436, 'calls': 4926}
+  dad224aa_hist: 50 memories retrieved; usage so far {'input_tokens': 20060939, 'output_tokens': 5439540, 'calls': 4937}
+  26bdc477_hist: 50 memories retrieved; usage so far {'input_tokens': 20150796, 'output_tokens': 5467575, 'calls': 4960}
+  c6853660_hist: 50 memories retrieved; usage so far {'input_tokens': 20160014, 'output_tokens': 5471053, 'calls': 4963}
+  07741c45_hist: 50 memories retrieved; usage so far {'input_tokens': 20202147, 'output_tokens': 5482829, 'calls': 4974}
+mem0 build usage: {'input_tokens': 20202147, 'output_tokens': 5482829, 'calls': 4974}
+        correct  context_tokens
+budget                         
+300       0.232         298.203
+1000      0.217         670.667

@@ -1,0 +1,55 @@
+78 knowledge-update questions (6 abstention)
+extract: {'input_tokens': 4491917, 'output_tokens': 1093296, 'calls': 3706, 'refusals': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8088.62it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+link: {'input_tokens': 5709995, 'output_tokens': 342460, 'calls': 2681, 'refusals': 0}
+Traceback (most recent call last):
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/run_longmemeval.py", line 181, in <module>
+    main()
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/run_longmemeval.py", line 124, in main
+    answers = [r.get("answer", "") for r in reader.run([p[4] for p in plan], lme.READ_SYSTEM, lme.READ_SCHEMA)]
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 139, in run
+    res = dict(zip(uniq, ex.map(lambda p: self._call(p, system, schema), uniq)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 139, in <lambda>
+    res = dict(zip(uniq, ex.map(lambda p: self._call(p, system, schema), uniq)))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 101, in _call
+    resp = self.client.beta.messages.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/resources/beta/messages/messages.py", line 1266, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1679, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1230, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1333, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 2,000,000 input tokens per minute (org: 745315d8-5041-4ef7-93d2-7dee1e1c11d9, model: claude-haiku-5-5). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011Cgh4wfBWyNHDmxzRiDTBy'}

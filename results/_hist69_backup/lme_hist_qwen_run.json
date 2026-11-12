@@ -1,0 +1,37 @@
+{
+ "model": "claude-haiku-5-5",
+ "reader_model": "ollama:qwen2.5:7b",
+ "judge_model": "claude-haiku-5-5",
+ "questions": 69,
+ "sessions_extracted": 3278,
+ "items_per_question": 136.33333333333334,
+ "llm_links_per_question": 2.753623188405797,
+ "heuristic_links_per_question": 0.7101449275362319,
+ "usage": {
+  "extract": {
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "calls": 0,
+   "refusals": 0
+  },
+  "link": {
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "calls": 0,
+   "refusals": 0
+  },
+  "read": {
+   "input_tokens": 53296,
+   "output_tokens": 3997,
+   "calls": 108,
+   "refusals": 0
+  },
+  "judge": {
+   "input_tokens": 23360,
+   "output_tokens": 549,
+   "calls": 61,
+   "refusals": 0
+  }
+ },
+ "usd_this_run": 0.0
+}

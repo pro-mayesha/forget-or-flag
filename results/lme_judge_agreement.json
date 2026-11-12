@@ -1,0 +1,80 @@
+{
+ "second_judge_model": "claude-sonnet-5-5",
+ "n": 858,
+ "agreement": 0.9871794871794872,
+ "kappa": 0.9698121173738654,
+ "accuracy_by_judge": [
+  {
+   "condition": "full_history_raw",
+   "budget": 0,
+   "haiku_judge": 0.846,
+   "second_judge": 0.859
+  },
+  {
+   "condition": "method_full_llm",
+   "budget": 300,
+   "haiku_judge": 0.115,
+   "second_judge": 0.115
+  },
+  {
+   "condition": "no_memory",
+   "budget": 0,
+   "haiku_judge": 0.077,
+   "second_judge": 0.077
+  },
+  {
+   "condition": "oracle_sessions_raw",
+   "budget": 0,
+   "haiku_judge": 0.936,
+   "second_judge": 0.936
+  },
+  {
+   "condition": "rag+annotate_llm",
+   "budget": 300,
+   "haiku_judge": 0.962,
+   "second_judge": 0.962
+  },
+  {
+   "condition": "rag+cr_heuristic",
+   "budget": 300,
+   "haiku_judge": 0.962,
+   "second_judge": 0.974
+  },
+  {
+   "condition": "rag+cr_llm",
+   "budget": 300,
+   "haiku_judge": 0.846,
+   "second_judge": 0.846
+  },
+  {
+   "condition": "rag+cr_llm_nodates",
+   "budget": 300,
+   "haiku_judge": 0.833,
+   "second_judge": 0.821
+  },
+  {
+   "condition": "similarity_rag",
+   "budget": 300,
+   "haiku_judge": 0.974,
+   "second_judge": 0.974
+  },
+  {
+   "condition": "similarity_rag_nodates",
+   "budget": 300,
+   "haiku_judge": 0.872,
+   "second_judge": 0.897
+  },
+  {
+   "condition": "sliding_window",
+   "budget": 300,
+   "haiku_judge": 0.192,
+   "second_judge": 0.192
+  }
+ ],
+ "usage": {
+  "input_tokens": 285098,
+  "output_tokens": 6498,
+  "calls": 722,
+  "refusals": 0
+ }
+}

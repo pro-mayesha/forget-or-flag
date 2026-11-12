@@ -1,0 +1,599 @@
+69 questions, 52 need memory built
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4389.93it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 19814.40it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A
+
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A[A
+
+
+
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][A[A[A[A[A[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5300.00it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5212.58it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4453.65it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5543.04it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5754.50it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4474.97it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Failed to load spaCy lemma model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+Failed to load spaCy full model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  71315a70_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10876.47it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  184da446_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8845.66it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  a1eacc2a_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10303.20it/s]
+  945e3d21_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2968.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  ce6d2d27_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2947.31it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  d7c942c3_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12641.21it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  9ea5eabc_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7958.68it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  89941a93_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15325.06it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  4d6b87c8_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4784.25it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  0f05491a_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11166.60it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  08e075c7_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8761.35it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  f9e8c073_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11186.84it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  41698283_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10768.30it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  2698e78f_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17770.28it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  b6019101_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8444.19it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  45dc21b6_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 20043.30it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  618f13b2_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11587.10it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  e493bb7c_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7191.71it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  72e3ee87_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9408.98it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  01493427_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8122.99it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  6071bd76_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8899.23it/s]
+  6a27ffc2_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9969.15it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  2133c1b5_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17498.21it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  18bc8abd_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11381.35it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  7a87bd0c_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Exception ignored in: <function QdrantClient.__del__ at 0x112bdc680>
+Traceback (most recent call last):
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/qdrant_client.py", line 172, in __del__
+    self.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/qdrant_client.py", line 181, in close
+    self._client.close(grpc_grace=grpc_grace, **kwargs)
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/qdrant_local.py", line 102, in close
+    collection.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/local_collection.py", line 293, in close
+    self.storage.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/persistence.py", line 77, in close
+    self.storage.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 6209417216 and this is thread id 6293549056.
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 20346.32it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  db467c8c_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9537.98it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  e61a7584_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10119.78it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  1cea1afa_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8845.84it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  ed4ddc30_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8794.52it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  8fb83627_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7281.16it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  b01defab_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14539.54it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  0e4e4c46_hist: 31 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14365.49it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  4b24c848_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 20756.90it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  7e974930_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17267.41it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  603deb26_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5675.87it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  59524333_hist: 48 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8202.58it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  5831f84d_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12170.42it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  affe2881_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7194.71it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+  cc5ded98_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8312.58it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  69fee5aa_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 15109.06it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  7401057b_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9037.37it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  cf22b7bf_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10236.31it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  a2f3aa27_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9218.84it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  c7dc5443_hist: 30 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9835.92it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+  06db6396_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+  3ba21379_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+  dad224aa_hist: 48 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:29: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  ba61f0b9_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  42ec0761_hist: 13 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  c6853660_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+  07741c45_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+  26bdc477_hist: 50 memories retrieved; usage so far {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+Exception ignored in: <function QdrantClient.__del__ at 0x112bdc680>
+Traceback (most recent call last):
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/qdrant_client.py", line 172, in __del__
+    self.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/qdrant_client.py", line 181, in close
+    self._client.close(grpc_grace=grpc_grace, **kwargs)
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/qdrant_local.py", line 102, in close
+    collection.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/local_collection.py", line 293, in close
+    self.storage.close()
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/qdrant_client/local/persistence.py", line 77, in close
+    self.storage.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 6243069952 and this is thread id 6428160000.
+mem0 build usage: {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+        correct  context_tokens
+budget                         
+300       0.957         293.043
+1000      0.928         986.638

@@ -1,0 +1,9 @@
+{
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "n_scenarios": 200,
+ "input_tokens": 2608300,
+ "output_tokens": 175445,
+ "calls": 1199,
+ "refusals": 0
+}

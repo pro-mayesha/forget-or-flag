@@ -1,0 +1,73 @@
+{
+ "n": 828,
+ "agreement": 0.9794685990338164,
+ "kappa": 0.9586855452240068,
+ "usage": {
+  "input_tokens": 231437,
+  "output_tokens": 5747,
+  "calls": 588,
+  "refusals": 0
+ },
+ "by_condition": [
+  {
+   "condition": "full_history_raw",
+   "correct": 0.841,
+   "second": 0.841
+  },
+  {
+   "condition": "method_full_llm",
+   "correct": 0.0,
+   "second": 0.0
+  },
+  {
+   "condition": "no_memory",
+   "correct": 0.0,
+   "second": 0.0
+  },
+  {
+   "condition": "oracle_sessions_raw",
+   "correct": 0.899,
+   "second": 0.899
+  },
+  {
+   "condition": "rag+annotate_llm",
+   "correct": 0.942,
+   "second": 0.928
+  },
+  {
+   "condition": "rag+annotate_llm_nodates",
+   "correct": 0.899,
+   "second": 0.884
+  },
+  {
+   "condition": "rag+cr_heuristic",
+   "correct": 0.725,
+   "second": 0.725
+  },
+  {
+   "condition": "rag+cr_llm",
+   "correct": 0.159,
+   "second": 0.159
+  },
+  {
+   "condition": "rag+cr_llm_nodates",
+   "correct": 0.174,
+   "second": 0.13
+  },
+  {
+   "condition": "similarity_rag",
+   "correct": 0.957,
+   "second": 0.942
+  },
+  {
+   "condition": "similarity_rag_nodates",
+   "correct": 0.913,
+   "second": 0.899
+  },
+  {
+   "condition": "sliding_window",
+   "correct": 0.014,
+   "second": 0.014
+  }
+ ]
+}

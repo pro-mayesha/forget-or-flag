@@ -1,0 +1,29 @@
+2 questions, 2 need memory built
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 103/103 [00:00<00:00, 6049.51it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7157.75it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/embeddings/huggingface.py:27: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.config.embedding_dims = self.config.embedding_dims or self.model.get_sentence_embedding_dimension()
+/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/.venv-mem0v1/lib/python3.11/site-packages/mem0/vector_stores/qdrant.py:115: UserWarning: Payload indexes have no effect in the local Qdrant, except text indexes with `scoring`, which enable text queries. Please use server Qdrant if you need payload indexes.
+  self.client.create_payload_index(
+  6a1eabeb: 50 memories retrieved; usage so far {'input_tokens': 645482, 'output_tokens': 173788, 'calls': 152}
+  6aeb4375: 50 memories retrieved; usage so far {'input_tokens': 689103, 'output_tokens': 186066, 'calls': 162}
+mem0 build usage: {'input_tokens': 689103, 'output_tokens': 186066, 'calls': 162}
+        correct  context_tokens
+budget                         
+300         1.0           296.5
+1000        1.0           610.5

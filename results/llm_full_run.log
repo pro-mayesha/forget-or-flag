@@ -1,0 +1,45 @@
+200 scenarios, 1199 calls, ~2,116,983 in / ~71,940 out tokens, estimated ~$9.91 on claude-opus-5-5 (before caching)
+Traceback (most recent call last):
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/run_llm_links.py", line 95, in <module>
+    main()
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/run_llm_links.py", line 48, in main
+    llm = linker.predict(scs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 127, in predict
+    results = list(ex.map(lambda j: self._call(j[1][1]), jobs))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 127, in <lambda>
+    results = list(ex.map(lambda j: self._call(j[1][1]), jobs))
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/Desktop/constraint-aware-memory/cam/llm_links.py", line 95, in _call
+    resp = self.client.beta.messages.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/resources/beta/messages/messages.py", line 1266, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1679, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1230, in request
+    return self._request(cast_to, options, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mayeshamalihaproma/.pyenv/versions/3.11.12/lib/python3.11/site-packages/anthropic/_base_client.py", line 1333, in _request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggDd28MxHWmbbx6jD66S'}

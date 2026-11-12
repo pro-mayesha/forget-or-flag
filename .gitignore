@@ -1,0 +1,7 @@
+.env
+.env.*
+__pycache__/
+# LongMemEval is 287 MB; download it with the command in README.md
+data/longmemeval/
+data/locomo/
+.venv-mem0v1/

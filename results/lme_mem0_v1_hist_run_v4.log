@@ -1,0 +1,6 @@
+66 questions, 0 need memory built
+mem0 build usage: {'input_tokens': 0, 'output_tokens': 0, 'calls': 0}
+        correct  context_tokens
+budget                         
+300       0.242         298.227
+1000      0.227         671.439

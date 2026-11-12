@@ -1,0 +1,30 @@
+200 scenarios, 1199 calls, ~2,116,983 in / ~71,940 out tokens, estimated ~$0.25 on claude-haiku-5-5 (before caching)
+usage this run: {'input_tokens': 2608300, 'output_tokens': 175445, 'calls': 1199, 'refusals': 0}
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8276.91it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+                   detector  precision  recall    f1  n_pred  n_gold           kind
+             heuristic@0.80      1.000   0.286 0.445   326.0   804.0            NaN
+llm:claude-haiku-5-5_medium      0.994   0.999 0.997   900.0   804.0            NaN
+             heuristic@0.80        NaN   0.640   NaN     NaN     NaN          chain
+             heuristic@0.80        NaN   0.000   NaN     NaN     NaN     correction
+             heuristic@0.80        NaN   0.438   NaN     NaN     NaN deadline_shift
+             heuristic@0.80        NaN   0.000   NaN     NaN     NaN       implicit
+             heuristic@0.80        NaN   0.463   NaN     NaN     NaN  policy_update
+             heuristic@0.80        NaN   0.000   NaN     NaN     NaN       reversal
+llm:claude-haiku-5-5_medium        NaN   0.995   NaN     NaN     NaN          chain
+llm:claude-haiku-5-5_medium        NaN   1.000   NaN     NaN     NaN     correction
+llm:claude-haiku-5-5_medium        NaN   1.000   NaN     NaN     NaN deadline_shift
+llm:claude-haiku-5-5_medium        NaN   1.000   NaN     NaN     NaN       implicit
+llm:claude-haiku-5-5_medium        NaN   1.000   NaN     NaN     NaN  policy_update
+llm:claude-haiku-5-5_medium        NaN   1.000   NaN     NaN     NaN       reversal
+               method   CSR  Contradiction  StaleRate  DeadlineRecall  RelevantRecall
+     method_full_gold 0.996          0.000      0.000           1.000           0.920
+method_full_heuristic 0.287          0.893      0.066           1.000           0.915
+      method_full_llm 0.995          0.001      0.000           0.996           0.920
+       similarity_rag 0.001          0.937      0.083           0.919           0.990

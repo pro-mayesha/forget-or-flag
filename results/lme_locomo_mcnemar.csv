@@ -1,0 +1,17 @@
+budget,a,b,a_only_correct,b_only_correct,p_mcnemar
+300,rag+cr_llm,similarity_rag,1,0,1.0
+300,method_full_llm,rag+cr_llm,0,9,0.00390625
+300,rag+cr_llm,rag+cr_heuristic,1,0,1.0
+300,rag+annotate_llm,similarity_rag,1,0,1.0
+300,rag+annotate_llm,rag+cr_llm,1,1,1.0
+300,rag+cr_llm_nodates,similarity_rag_nodates,1,1,1.0
+300,rag+annotate_llm_nodates,similarity_rag_nodates,0,1,1.0
+300,rag+annotate_llm_nodates,rag+cr_llm_nodates,1,2,1.0
+1000,rag+cr_llm,similarity_rag,0,0,1.0
+1000,method_full_llm,rag+cr_llm,0,5,0.0625
+1000,rag+cr_llm,rag+cr_heuristic,0,0,1.0
+1000,rag+annotate_llm,similarity_rag,0,0,1.0
+1000,rag+annotate_llm,rag+cr_llm,0,0,1.0
+1000,rag+cr_llm_nodates,similarity_rag_nodates,0,1,1.0
+1000,rag+annotate_llm_nodates,similarity_rag_nodates,0,0,1.0
+1000,rag+annotate_llm_nodates,rag+cr_llm_nodates,1,0,1.0

@@ -1,0 +1,19 @@
+{
+ "build_usage": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "calls": 0
+ },
+ "read": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "calls": 0,
+  "refusals": 0
+ },
+ "judge": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "calls": 0,
+  "refusals": 0
+ }
+}

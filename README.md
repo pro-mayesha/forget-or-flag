@@ -1,71 +1,102 @@
-# Constraint-Aware Memory for Long-Horizon AI Assistants
+# Forget or Flag? Handling Superseded Facts in Long-Term Memory for AI Assistants
 
-Code and benchmark for *Constraint-Aware Memory for Long-Horizon AI Assistants:
-Structured Retrieval and Conflict Resolution under Fixed Context Budgets*
-(Mayesha Maliha Proma, undergraduate thesis, Tokyo International University, 2025).
+Code, data and results for the manuscript *Forget or Flag? Handling Superseded Facts in Long-Term
+Memory for AI Assistants* (Mayesha Maliha Proma, in preparation for ACL 2027), which extends the
+undergraduate thesis *Constraint-Aware Memory for Long-Horizon AI Assistants* (Tokyo International
+University, 2025; advisors Prof. Parag Kulkarni and Prof. Fatih Ozaydin).
 
-The system selects which memory items enter an LLM's context window. It combines:
+When a user changes their plans ("I'm applying to Canada now, not Germany"), what should an
+assistant's long-term memory do with the old fact? It can **keep** it, **delete** it, or **flag** it
+as outdated. This repository compares the three on a controlled benchmark and on real chat
+histories from LongMemEval, and checks the result in the open-source memory library Mem0.
 
-1. **Typed memory items** (constraint, deadline, decision, progress, preference) with provenance.
-2. **Supersedes-based conflict resolution**: items replaced by a newer item are filtered out.
-3. **Must-include rules**: active constraints, decisions and deadlines due within 45 days are protected.
-4. **Multi-factor scoring** (similarity, recency, salience, decay) and **budget-aware packing**.
+## Main results
 
-The original thesis code was lost; this is a clean re-implementation from the thesis text.
+**Deleting outdated facts breaks questions about the past.** On 66 questions that ask for an
+earlier value ("What was my personal best *before* the one I hoped to beat?"), at a 300-token
+memory budget:
 
-## Quick start
+| Reader | Keep (RAG) | Flag as outdated | Delete |
+|---|---|---|---|
+| Claude Haiku 5.5 | 0.955 | 0.939 | 0.152 |
+| Claude Sonnet 5.5 | 0.955 | 0.939 | 0.136 |
+| Qwen2.5-7B (open weights) | 0.727 | 0.727 | 0.182 |
+
+Flag vs. delete: 52–0, 53–0 and 37–1 discordant answers (exact McNemar, all p < 1e-9).
+
+**The same failure appears in Mem0.** On the same 66 questions, Mem0 1.x, whose LLM step updates or
+deletes memories, scored **0.24**; Mem0 2.x, which keeps everything, scored **0.95** (48–1, p < 1e-12).
+
+**Compact, dated memory beats long context.** On 78 LongMemEval knowledge-update questions,
+300 tokens of extracted, dated memory items reached 0.97 accuracy, against 0.85 for the full
+~105k-token chat history (about 360× fewer tokens).
+
+**Detecting updates needs an LLM.** On a 200-scenario synthetic benchmark of user updates
+(corrections, implicit changes, reversals, deadline shifts, policy updates, chains), an embedding
+similarity heuristic found 29% of update links; Claude Haiku 5.5 found 100% at 0.99 precision.
+
+**Negative results we report.** Hard "must-include" rules that help in a narrow domain collapse
+on open-domain memory (0.12 vs. 0.85), and the thesis's multi-factor scoring lowered relevant-item
+recall compared with similarity alone. The synthetic benchmark is easy for an LLM: many updates are
+signalled explicitly.
+
+**Evaluation checks.** A second LLM judge agrees with the first on 98.7% of 858 verdicts
+(κ = 0.97); the author graded 60 answers blind, including all judge disagreements
+(`human_check.csv`). Hand-checked derived questions are in `history_check.csv`.
+
+Full tables with 95% bootstrap confidence intervals: [`results/tables.md`](results/tables.md).
+Figures: [`figures/`](figures/).
+
+## Quick start (synthetic benchmark, no API key)
 
 ```bash
 pip install -r requirements.txt
-python run_benchmark.py        # ~20 s on a laptop; writes results/ and data/
+python run_benchmark.py        # ~20 s on a laptop; writes data/ and results/
 python make_report.py          # writes results/tables.md and figures/
 ```
 
-### LLM link detector (needs an Anthropic API key)
+All synthetic runs are deterministic (seed 42).
+
+## Experiments that call an LLM
+
+Put an Anthropic API key in the environment (`export ANTHROPIC_API_KEY=...`) or in a `.env` file
+(`scripts/set_key.sh` asks for it with hidden input). `.env` is in `.gitignore`. Every call is cached
+under `results/`, so re-running with the cached files costs nothing.
 
 ```bash
-export ANTHROPIC_API_KEY=...                # your key; never commit it
+# LLM link detector on the synthetic benchmark
 python run_llm_links.py --dry-run --n 100   # cost estimate, no API calls
-python run_llm_links.py --n 100             # Claude Opus 5.5 on all 200 scenarios
-python make_report.py
-```
+python run_llm_links.py --n 100
 
-Claude reads the memory stored so far plus each session's new items and returns, as structured JSON,
-which earlier items each new item replaces. Responses are cached in `results/llm_cache.json`, so
-re-runs cost nothing. `--model` and `--effort` select other models and effort levels.
-
-### LongMemEval (real chat histories)
-
-```bash
+# LongMemEval knowledge-update questions (about $3 on Haiku 5.5)
 mkdir -p data/longmemeval && curl -L -o data/longmemeval/longmemeval_s_cleaned.json \
   https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/main/longmemeval_s_cleaned.json
-python run_longmemeval.py --dry-run          # cost estimate
-python run_longmemeval.py                    # 78 knowledge-update questions, about $3 on Haiku 5.5
-python make_report.py
-```
+python run_longmemeval.py --dry-run
+python run_longmemeval.py
 
-Claude extracts typed, dated memory items from each session, links updates (retrieve-then-verify),
-answers each question from the selected memory, and a judge grades the answer. Outputs:
-`results/lme_rows.csv` (every answer), `lme_summary.csv`, `lme_mcnemar.csv`, `lme_run.json`.
-Calls are cached in `results/lme_*_cache.json`.
-
-More runs used in the paper:
-
-```bash
+# Other readers and question types
 python run_longmemeval.py --reader-model claude-sonnet-5-5 --budgets 300 --no-full-history --tag _sonnet
 python run_longmemeval.py --reader-model ollama:qwen2.5:7b --budgets 300 --no-full-history --tag _qwen   # needs Ollama
 python run_longmemeval.py --types temporal-reasoning multi-session --no-full-history --tag _tm
 
-python make_history_questions.py                 # 56 derived "what was it before?" questions
-python run_longmemeval.py --history --tag _hist  # the 69 earlier-value questions
+# The 66 earlier-value questions (13 from LongMemEval + 53 derived and checked by hand)
+python make_history_questions.py
+python run_longmemeval.py --history --tag _hist
 
-python run_mem0.py                               # Mem0 2.x (additive)
+# Mem0 2.x (additive) and Mem0 1.x (LLM update/delete step); needs mem0ai and qdrant-client
+python run_mem0.py
 python -m venv --system-site-packages .venv-mem0v1 && .venv-mem0v1/bin/pip install mem0ai==1.0.11
-.venv-mem0v1/bin/python run_mem0.py --v1         # Mem0 1.x (LLM update/delete step)
+.venv-mem0v1/bin/python run_mem0.py --v1
 python run_mem0.py --history; .venv-mem0v1/bin/python run_mem0.py --v1 --history
 
 # LoCoMo: download locomo10.json from github.com/snap-research/locomo into data/locomo/
 python make_locomo_updates.py && python run_longmemeval.py --data data/locomo_updates.json --tag _locomo
+
+# Link quality and judge agreement
+python analyze_links.py
+python judge_agreement.py --score human_check.csv
+
+python make_report.py
 ```
 
 ## Layout
@@ -73,31 +104,40 @@ python make_locomo_updates.py && python run_longmemeval.py --data data/locomo_up
 | Path | Contents |
 |---|---|
 | `cam/schema.py` | Memory items, sessions, scenarios, gold-label helpers |
-| `cam/llm_links.py` | Claude-based supersedes-link detector (incremental, cached) |
-| `cam/memory.py` | `assemble_context`, all method/baseline configs, heuristic link predictor |
-| `cam/generator.py` | Template generator (2 domains, 6 update kinds, distractors) |
-| `cam/paper_scenarios.py` | Re-creations of thesis scenarios s01–s03 |
+| `cam/memory.py` | Context assembly, all methods and baselines, heuristic link predictor |
+| `cam/llm_links.py` | LLM update-link detector (incremental, cached) |
 | `cam/longmemeval.py` | LongMemEval adapter: extraction, linking, reader and judge prompts |
-| `cam/metrics.py` | CSR, contradiction, stale rate, must-include, deadline/relevant recall, bootstrap CIs |
-| `data/` | Generated scenarios as JSON |
-| `results/` | Session-level traces (`sessions_*.csv`), summaries, sweeps, `tables.md` |
+| `cam/generator.py` | Synthetic scenario generator (2 domains, 6 update kinds, distractors) |
+| `cam/metrics.py` | Metrics and bootstrap confidence intervals |
+| `data/` | Generated benchmark, derived earlier-value questions, LoCoMo updates |
+| `results/` | Per-answer rows, summaries, McNemar tests, run logs, `tables.md` |
+| `figures/` | Plots used in the paper |
+| `paper/` | LaTeX source and PDF of the manuscript |
 
 ## Methods compared
 
-`no_memory`, `full_history` (ignores the budget), `sliding_window`, `summary_truncated`
-(lossy per-item truncation), `similarity_rag` (vector retrieval), `method_full_gold`
-(supersedes links from gold labels, an upper bound), `method_full_heuristic` (links predicted
-from embedding similarity, no gold labels), plus ablations without must-include, without conflict
-resolution, and with similarity-only scoring.
+`no_memory`, `full_history` (ignores the budget), `sliding_window`, `summary_truncated`,
+`similarity_rag` (keep), `rag+annotate_llm` (flag), `rag+cr_llm` (delete), versions with and
+without dates, the full thesis method, and ablations.
 
-## Benchmark
+## Note on the code
 
-200 generated scenarios (100 study-abroad, 100 project-planning), 6 sessions each, ~50 memory
-items (~470 tokens) per scenario including 30 distractors, 3 update events per scenario drawn from
-`correction`, `implicit`, `reversal`, `deadline_shift`, `policy_update`, `chain`. Budgets:
-150 / 300 / 500 / 1000 tokens. The data is synthetic and template-based.
+The original thesis code was not preserved. This repository re-implements the thesis method from
+the thesis text and adds the LongMemEval, Mem0 and LoCoMo experiments reported in the manuscript.
+One model family (Claude) fills most roles; the Qwen2.5-7B reader is the exception.
 
-Embeddings: `sentence-transformers/all-MiniLM-L6-v2`. Tokens: `tiktoken` `cl100k_base`.
-All runs are deterministic (seed 42).
+## Data credits
 
-See [FINDINGS.md](FINDINGS.md) for a summary of results.
+LongMemEval (Wu et al., 2025), LoCoMo (Maharana et al., 2024) and Mem0 belong to their authors and
+are used under their licenses. The large source files are not included; the commands above download them.
+
+## Citation
+
+```bibtex
+@unpublished{proma2026forget,
+  author = {Proma, Mayesha Maliha},
+  title  = {Forget or Flag? Handling Superseded Facts in Long-Term Memory for AI Assistants},
+  note   = {Manuscript in preparation},
+  year   = {2026}
+}
+```

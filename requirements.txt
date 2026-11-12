@@ -1,7 +1,9 @@
 numpy
 pandas
+scipy
 scikit-learn
 matplotlib
 tiktoken
 sentence-transformers
 anthropic>=2.0
+# Optional, only for run_mem0.py: mem0ai, qdrant-client

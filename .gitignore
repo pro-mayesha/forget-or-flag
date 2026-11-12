@@ -5,3 +5,15 @@ __pycache__/
 data/longmemeval/
 data/locomo/
 .venv-mem0v1/
+
+# LaTeX build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+
+# Working notes (kept locally, not published)
+FINDINGS.md

@@ -197,7 +197,7 @@ Values are pooled means with 95% bootstrap CIs over scenarios. full_history igno
 
 ## LongMemEval_S knowledge-update (78 questions; reader, extractor, linker and judge: claude-haiku-5-5)
 
-136 extracted items per question; 2.7 LLM links and 0.7 heuristic links per question. acc_history_q: questions about an earlier value (15); acc_current_q: questions about the current value (57).
+136 extracted items per question; 2.7 LLM links and 0.7 heuristic links per question. acc_history_q: questions about an earlier value (13 original + 2 abstention = 15); acc_current_q: questions about the current value (57).
 
 | condition | budget | accuracy | ci_lo | ci_hi | acc_current_q | acc_history_q | acc_abstention | context_tokens |
 |---|---|---|---|---|---|---|---|---|
@@ -205,6 +205,9 @@ Values are pooled means with 95% bootstrap CIs over scenarios. full_history igno
 | sliding_window | 300 | 0.192 | 0.103 | 0.282 | 0.153 | 0.133 | 1.0 | 293.744 |
 | similarity_rag | 300 | 0.974 | 0.936 | 1.0 | 0.983 | 0.933 | 0.833 | 293.679 |
 | rag+annotate_llm | 300 | 0.962 | 0.91 | 1.0 | 0.983 | 0.867 | 0.833 | 293.679 |
+| rag+annotate_llm_nodates | 300 | 0.949 | 0.897 | 0.987 | 0.966 | 0.867 | 0.833 | 293.679 |
+| rag+annotate_rich_llm | 300 | 0.974 | 0.936 | 1.0 | 0.983 | 0.933 | 0.833 | 293.679 |
+| rag+annotate_rich_llm_nodates | 300 | 0.949 | 0.897 | 0.987 | 0.966 | 0.867 | 0.833 | 293.679 |
 | similarity_rag_nodates | 300 | 0.872 | 0.795 | 0.949 | 0.898 | 0.8 | 0.667 | 293.679 |
 | rag+cr_heuristic | 300 | 0.962 | 0.923 | 1.0 | 0.983 | 0.867 | 1.0 | 294.064 |
 | rag+cr_llm | 300 | 0.846 | 0.769 | 0.923 | 0.932 | 0.467 | 0.833 | 292.782 |
@@ -213,6 +216,9 @@ Values are pooled means with 95% bootstrap CIs over scenarios. full_history igno
 | sliding_window | 1000 | 0.423 | 0.321 | 0.538 | 0.458 | 0.133 | 0.833 | 993.808 |
 | similarity_rag | 1000 | 0.936 | 0.872 | 0.987 | 0.949 | 0.867 | 0.833 | 993.603 |
 | rag+annotate_llm | 1000 | 0.949 | 0.897 | 0.987 | 0.949 | 0.933 | 0.833 | 993.603 |
+| rag+annotate_llm_nodates | 1000 | 0.923 | 0.859 | 0.974 | 0.949 | 0.867 | 0.667 | 993.603 |
+| rag+annotate_rich_llm | 1000 | 0.962 | 0.923 | 1.0 | 0.983 | 0.933 | 0.667 | 993.603 |
+| rag+annotate_rich_llm_nodates | 1000 | 0.949 | 0.897 | 0.987 | 0.966 | 0.867 | 0.833 | 993.603 |
 | similarity_rag_nodates | 1000 | 0.936 | 0.872 | 0.987 | 0.932 | 0.933 | 0.833 | 993.603 |
 | rag+cr_heuristic | 1000 | 0.923 | 0.859 | 0.974 | 0.966 | 0.733 | 0.833 | 993.577 |
 | rag+cr_llm | 1000 | 0.821 | 0.731 | 0.897 | 0.881 | 0.533 | 0.833 | 993.846 |
@@ -229,9 +235,21 @@ Values are pooled means with 95% bootstrap CIs over scenarios. full_history igno
 | 300 | method_full_llm | rag+cr_llm | 1 | 58 | 0.0 |
 | 300 | rag+cr_llm | rag+cr_heuristic | 1 | 10 | 0.0117 |
 | 300 | rag+annotate_llm | similarity_rag | 1 | 2 | 1.0 |
+| 300 | rag+annotate_llm | rag+cr_llm | 9 | 0 | 0.0039 |
+| 300 | rag+annotate_rich_llm | rag+annotate_llm | 1 | 0 | 1.0 |
+| 300 | rag+annotate_rich_llm_nodates | rag+annotate_llm_nodates | 1 | 1 | 1.0 |
+| 300 | rag+annotate_rich_llm_nodates | similarity_rag_nodates | 6 | 0 | 0.0312 |
 | 300 | rag+cr_llm_nodates | similarity_rag_nodates | 5 | 8 | 0.5811 |
+| 300 | rag+annotate_llm_nodates | similarity_rag_nodates | 7 | 1 | 0.0703 |
+| 300 | rag+annotate_llm_nodates | rag+cr_llm_nodates | 9 | 0 | 0.0039 |
 | 1000 | rag+cr_llm | similarity_rag | 1 | 10 | 0.0117 |
 | 1000 | method_full_llm | rag+cr_llm | 1 | 48 | 0.0 |
 | 1000 | rag+cr_llm | rag+cr_heuristic | 1 | 9 | 0.0215 |
 | 1000 | rag+annotate_llm | similarity_rag | 1 | 0 | 1.0 |
+| 1000 | rag+annotate_llm | rag+cr_llm | 10 | 0 | 0.002 |
+| 1000 | rag+annotate_rich_llm | rag+annotate_llm | 2 | 1 | 1.0 |
+| 1000 | rag+annotate_rich_llm_nodates | rag+annotate_llm_nodates | 2 | 0 | 0.5 |
+| 1000 | rag+annotate_rich_llm_nodates | similarity_rag_nodates | 2 | 1 | 1.0 |
 | 1000 | rag+cr_llm_nodates | similarity_rag_nodates | 2 | 11 | 0.0225 |
+| 1000 | rag+annotate_llm_nodates | similarity_rag_nodates | 2 | 3 | 1.0 |
+| 1000 | rag+annotate_llm_nodates | rag+cr_llm_nodates | 11 | 3 | 0.0574 |
